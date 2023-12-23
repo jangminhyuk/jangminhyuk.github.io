@@ -1,6 +1,6 @@
 ---
 title: "A Practical Implementation of Model Predictive Path Integral(MPPI) Control Using MuJoCo MPC(MJPC) framework"
-excerpt: "MPPI-MJPC <br/><img src='/images//portfolio_img/MPPIMJPC_quad.jpg' alt="drawing" width="200">"
+excerpt: "MPPI-MJPC <br/><img src='/images//portfolio_img/MPPIMJPC_quad.jpg' alt="drawing" width="80">"
 collection: portfolio
 ---
 
