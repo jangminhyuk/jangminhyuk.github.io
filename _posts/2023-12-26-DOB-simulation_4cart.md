@@ -60,13 +60,14 @@ For the true system,
 - $m_2 \ddot{y} = k(x_1-y)$
 
 Obtaining transfer function of this true system are slightly complicated. We finally get the transfer function $P(s)$
-<img src='/images/Blog_img/DOB_post/DOB_4cart_tf.jpg' width='300'/>
+
+<img src='/images/Blog_img/DOB_post/DOB_4cart_tf.jpg' width='500'/>
 where
-<img src='/images/Blog_img/DOB_post/DOB_4cart_tf_D.jpg' width='500'/>
+<img src='/images/Blog_img/DOB_post/DOB_4cart_tf_D.jpg' width='800'/>
 
 For the true system, Relative degree = 8-4 = 4. We observe that both the true system and the nominal system share the same relative degree of 4. 
 
-While in real-world applications, calculating the true transfer function as demonstrated above may not always be feasible. However, if the "relative position" between input and output remains the same, we can reasonably "claim" that the relative degree remains the same.
+While in real-world applications, calculating the true transfer function as demonstrated above may not be possible. However, if the "relative position" between input and output remains the same, we can reasonably "claim" that the relative degree remains the same.
 
 As we have established that the relative degree is consistent for this 4-cart system, let's now see how DOB can be used in this context.
 
@@ -74,7 +75,7 @@ As we have established that the relative degree is consistent for this 4-cart sy
 
 As the relative degree of the system = 4, let's use the Q-filter with degree=4.
 
-$Q(s)=\frac{a_0}{\tau^4s^4+a_3\tau^3s^3+a_2\tau^2s^2+a_1\tau+a_0}$
+<font size="4">$Q(s)=\frac{a_0}{\tau^4s^4+a_3\tau^3s^3+a_2\tau^2s^2+a_1\tau+a_0}$</font>
 
 where $a_3=3$, $a_2=3$, $a_1=1$, $a_0=0.2$. If the DOB has been successfully applied, the system will "behave" just like the nominal 2-cart model.
 
@@ -89,11 +90,11 @@ Now, let's check the power of the DOB
 <img src='/images/Blog_img/DOB_post/DOB_2cart_4cart_m4_5_tau_0.025.jpg' width='500' height='300' />
 <img src='/images/Blog_img/DOB_post/DOB_2cart_4cart_m4_5_tau_0.01.jpg' width='500' height='300' />
 
-The red line illustrates the output y(position of the second cart) in the ideal scenario when the controller is applied to the nominal system(2-cart). The blue line represents the output y of the true 4-cart system. Notably, the output y is effectively stabilized at the desired position y = 1m. Additionally, you can observe that the blue line is getting closer to the red line with a smaller $\tau=0.01$. It is well-known established fact that the performance of the DOB improves as we decrease $\tau$. However, is is crucial to be careful for choosing excessively small $\tau$ since this can ampligy the impact of unmodeled fast-dynamics. In real-world implementations, determining proper $\tau$ and Q-filter coefficientsrequires a careful process of trial and error.
+The red line illustrates the output y(position of the second cart) in the ideal scenario when the controller is applied to the nominal system(2-cart). The blue line represents the output y of the true 4-cart system. Notably, the output y is effectively stabilized at the desired position y = 1m. Additionally, you can observe that the blue line is getting closer to the red line with a smaller $\tau=0.01$. It is well-known established fact that the performance of the DOB improves as we decrease $\tau$. However, you need to be careful for choosing excessively small $\tau$ since this can amplify the impact of unmodeled fast-dynamics. In real-world implementations, determining proper $\tau$ and Q-filter coefficients requires a careful process of trial and error.
 
 ## Conclusion
 
-Throughout this post, I've showcased simulation results demonstrating the effectiveness of using DOB to control a 4-cart system with a nominal 2-cart model. The surprising outcome is the stabilization of a system contaminated by parametric uncertainties, unmodeled dynamics, and external disturbances. Imagine you are trying to stabilize a mass-spring cart being unaware of an extra cart attached with unknown parameters and external disturbances. It would be extremely challenging, wouldn't it? 
+Throughout this post, I've showcased simulation results demonstrating the effectiveness of using DOB to control a 4-cart system with a nominal 2-cart model. The surprising outcome is the stabilization of a system contaminated by parametric uncertainties, unmodeled dynamics, and external disturbances. **Imagine you are trying to stabilize a mass-spring cart being unaware of an extra cart attached with unknown parameters and external disturbances. It would be extremely challenging, wouldn't it?**
 
 I hope this magic-like-example has captured your interest. In the next post, I'll dive into more complicated simulation involving quadrotor-delivery dynamics with MPC. Stay tuned for the upcoming post!
 
