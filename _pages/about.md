@@ -17,13 +17,13 @@ Education
 
 Work experience
 ======
-* Mar 2023 - Present : Undergraduate Reseracher
-  * Control and Optimization Research (CORE) Lab, SNU / Advisor : Prof. Insoon Yang
+* Mar 2023 - Present : Control and Optimization Research (CORE) Lab, SNU
+  * Undergraduate Researcher / Advisor : Prof. Insoon Yang
   * Conducted research on extending theory of Wasserstein Distributionally Robust Control(WDRC) Problem using Distributionally Robust Kalman Filtering(DRKF) in partially observable linear stochastic systems
   * Implemented DRKF into the system and evaluated its performanace improvement compared to the original WDRC and Linear Quadratic Gaussian (LQG) control methods
 
-* Jan 2024 - Feb 2024: Full-time Research Intern
-  * [NEARTHLAB](https://www.nearthlab.com/)
+* Jan 2024 - Feb 2024: [NEARTHLAB](https://www.nearthlab.com/)
+  * Full-time Research Intern
   * Product Development Division, Aerospace Department
   * Conducted Resarch on autonomous flight of quadrotor (will be added later)
   
