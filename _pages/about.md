@@ -12,7 +12,7 @@ I am a senior student majoring in Mechanical Engineering and Artificial Intellig
 
 Education
 ======
-* B.S. in Mechanical Engineering and Artificial Intelligence, Seoul National University University, 2024 Feb (Expected)
+* B.S. in Mechanical Engineering and Artificial Intelligence, Seoul National University University, 2025 Feb (Expected)
   * GPA : 4.19 / 4.30
 
 Work experience
