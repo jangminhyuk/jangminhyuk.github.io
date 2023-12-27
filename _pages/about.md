@@ -12,13 +12,13 @@ I am a senior student majoring in Mechanical Engineering and Artificial Intellig
 
 Education
 ======
-* B.S. in Mechanical Engineering and Artificial Intelligence, Seoul National University University, 2024 FEB(Expected)
+* B.S. in Mechanical Engineering and Artificial Intelligence, Seoul National University University, 2024 Feb (Expected)
   * GPA : 4.19 / 4.30
 
 Work experience
 ======
 * Mar 2023 - Present : Undergraduate Reseracher
-  * Control and Optimization Research (CORE) Lab, SNU | Advisor : Prof. Insoon Yang
+  * Control and Optimization Research (CORE) Lab, SNU / Advisor : Prof. Insoon Yang
   * Conducted research on extending theory of Wasserstein Distributionally Robust Control(WDRC) Problem using Distributionally Robust Kalman Filtering(DRKF) in partially observable linear stochastic systems
   * Implemented DRKF into the system and evaluated its performanace improvement compared to the original WDRC and Linear Quadratic Gaussian (LQG) control methods
 
@@ -36,7 +36,7 @@ Skills
 * Languagues
   * Korean, English (TOEFL 106 : R:30 / L:30 / S:23 / W:23)
 
-Publications
+Publications (Not updated yet)
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
