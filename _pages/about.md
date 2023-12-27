@@ -29,12 +29,9 @@ Work experience
   
 Skills
 ======
-* Programming
-  * C/C++, Python, MATLAB, JAVA
-* Libraries/Softwares
-  * SolidWorks, MuJoCo, PyTorch, LaTeX
-* Languagues
-  * Korean, English (TOEFL 106 : R:30 / L:30 / S:23 / W:23)
+* Programming : C/C++, Python, MATLAB, JAVA
+* Libraries/Softwares : SolidWorks, MuJoCo, PyTorch, LaTeX
+* Languagues : Korean, English (TOEFL 106 : R:30 / L:30 / S:23 / W:23)
 
 Publications (Not updated yet)
 ======
