@@ -13,7 +13,7 @@ I am a senior student majoring in Mechanical Engineering and Artificial Intellig
 Education
 ======
 * B.S. in Mechanical Engineering and Artificial Intelligence, Seoul National University University, 2025 Feb (Expected)
-  * GPA : 4.19 / 4.30
+  * GPA : 4.18 / 4.30
 
 Work experience
 ======
@@ -23,7 +23,7 @@ Work experience
   * Implemented DRKF into the system and evaluated its performanace improvement compared to the original WDRC and Linear Quadratic Gaussian (LQG) control methods
 
 * Jan 2024 - Feb 2024: [NEARTHLAB](https://www.nearthlab.com/)
-  * Full-time Research Intern
+  * Aerospace Engineering Intern
   * Product Development Division, Aerospace Department
   * Conducted Resarch on autonomous flight of quadrotor (will be added later)
   
