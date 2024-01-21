@@ -24,8 +24,8 @@ Work experience
 
 * Jan 2024 - Feb 2024: [NEARTHLAB](https://www.nearthlab.com/)
   * Aerospace Engineering Intern
-  * Product Development Division, Aerospace Department
-  * Conducted Resarch on autonomous flight of quadrotor (will be added later)
+  * GNC Team
+  * Conducted Resarch on autonomous flight of quadrotor
   
 Skills
 ======
