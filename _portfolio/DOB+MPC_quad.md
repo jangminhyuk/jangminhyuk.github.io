@@ -4,7 +4,7 @@ excerpt: DOB+MPC <br/><img src='/images/portfolio_img/tau_0.001_ani.gif' width='
 collection: portfolio
 ---
 
-# DOB+MPC
+# DOB + MPC for quadrotor dynamics, including unmodeled dynamics.
 
 **Project Duration : NOV '23 - DEC '23**
 
