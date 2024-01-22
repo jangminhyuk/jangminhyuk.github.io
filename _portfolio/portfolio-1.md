@@ -1,6 +1,6 @@
 ---
 title: "A Practical Implementation of Model Predictive Path Integral(MPPI) Control Using MuJoCo MPC(MJPC) framework"
-excerpt: MPPI-MJPC for complex robotic tasks <br/><img src='/images/portfolio_img/MPPIMJPC_quad.jpg' width='500' height='300'> #"MPPI-MJPC for complex robotic tasks <br/><img src='/images/portfolio_img/MPPIMJPC_quad.jpg' width="200" height="150" >"
+excerpt: MPPI-MJPC for complex robotic tasks <br/><img src='/images/portfolio_img/0.005_MPPI_MJPC.gif' width='500' height='300'> #"MPPI-MJPC for complex robotic tasks <br/><img src='/images/portfolio_img/MPPIMJPC_quad.jpg' width="200" height="150" >"
 collection: portfolio
 ---
 
@@ -20,5 +20,5 @@ The Model Predictive Path Integral(MPPI) control method has evolved significantl
 
 An open source framework named MuJoCo MPC [(MJPC)](https://github.com/google-deepmind/mujoco_mpc) offers various tasks and provides a user-friendly environment for testing sampling based control algorithms. MJPC supports controllers based on trivial sampling-based methods, generating samples and computing costs using the dynamic model of the MuJoCo environment. This approach streamlines the controller design process and simplifies the computation of multiple trajectories in a single-CPU environment, without using GPU resources. The sampling controller provided in MJPC is straightforward, by selecting the lowest-cost policy. **However, due to the lack of a robust theoretical background and some undesired fluctuations with this lowest-cost selection method, we decided to incorporate the Information-Theoretic approach of MPPI into the MJPC framework.**
 
-### MPPI-MJPC
+### MPPI-MJPC (will be updated later)
 
