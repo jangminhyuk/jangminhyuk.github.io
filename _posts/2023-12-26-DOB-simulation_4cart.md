@@ -12,7 +12,7 @@ tags:
   - 4 cart system
 ---
 
-# DOB simulation (4-cart system)
+## DOB simulation of 4-cart(mass-spring) system
 
 For this post, I'll introduce simulation results of 4-cart system. If you are not familiar with DOB, please check this [post](https://jangminhyuk.github.io/posts/2023/12/blog-post-2/) for a comprehensive overview.
 
