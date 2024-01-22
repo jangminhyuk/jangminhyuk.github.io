@@ -1,6 +1,6 @@
 ---
 title: "Utilizing DOB(Disuturbance Observer) and MPC(Model Predictive Control) on Quadrotor-Delivery application"
-excerpt: DOB+MPC <br/><img src='/images/portfolio_img/tau_0.001_ani.gif' width='500' height='300'> #"MPPI-MJPC for complex robotic tasks <br/><img src='/images/portfolio_img/MPPIMJPC_quad.jpg' width="200" height="150" >"
+excerpt: DOB+MPC for quadrotor dynamics, including unmodeled dynamics <br/><img src='/images/portfolio_img/tau_0.001_ani.gif' width='500' height='300'> 
 collection: portfolio
 ---
 
