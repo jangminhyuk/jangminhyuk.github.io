@@ -1,6 +1,6 @@
 ---
 title: 'DOB simulations (4-Cart System)'
-excerpt: Disturbance Observer <br/><img src='/images/Blog_img/DOB_post/DOB_4cart.jpg' width='500'/>
+excerpt: 4-Cart System (mass-spring) <br/><img src='/images/Blog_img/DOB_post/DOB_4cart.jpg' width='500'/>
 date: 2023-12-26
 permalink: /posts/2023/12/DOB/simulation_4cart
 tags:
