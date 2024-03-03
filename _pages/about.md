@@ -25,7 +25,7 @@ Work experience
 * Jan 2024 - Feb 2024: [NEARTHLAB](https://www.nearthlab.com/)
   * Aerospace Engineering Intern
   * GNC Team
-  * Implemented Position/Velocity Controller using Disturbance Observer(DOB) for the Quadrotor offboard control mission
+  * Developed and implemented a Position/Velocity Controller utilizing Disturbance Observer (DOB) for offboard flight control missions of quadrotor.
   
 Skills
 ======
