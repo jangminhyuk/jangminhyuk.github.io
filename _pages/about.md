@@ -25,12 +25,12 @@ Work experience
 * Jan 2024 - Feb 2024: [NEARTHLAB](https://www.nearthlab.com/)
   * Aerospace Engineering Intern
   * GNC Team
-  * Conducted Resarch on autonomous flight of quadrotor
+  * Implemented Position/Velocity Controller using Disturbance Observer(DOB) for the Quadrotor offboard control mission
   
 Skills
 ======
 * Programming : C/C++, Python, MATLAB, JAVA
-* Libraries/Softwares : SolidWorks, MuJoCo, PyTorch, LaTeX
+* Libraries/Softwares : PX4-Autopilot, SolidWorks, MuJoCo, PyTorch, LaTeX
 * Languagues : Korean, English (TOEFL 106 : R:30 / L:30 / S:23 / W:23)
 
 Publications (Not updated yet)
