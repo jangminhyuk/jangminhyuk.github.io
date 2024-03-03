@@ -61,5 +61,5 @@ Service and leadership
 
 Honors & Awards
 ======
-* Kwanjeong Scholarship (2021~) : Recipient of a full tuition scholarship along with a stipend for two years, in recognition of outstanding academic achievement.
+* Kwanjeong Scholarship : Recipient of a full tuition scholarship along with a stipend for two years, in recognition of outstanding academic achievement.
 * ARCOM(Army Commendation Medal) : United States Department of the Army
