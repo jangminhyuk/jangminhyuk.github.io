@@ -14,6 +14,7 @@ Education
 ======
 * B.S. in Mechanical Engineering and Artificial Intelligence, Seoul National University University, 2025 Feb
   * GPA : 4.18 / 4.30
+
 Research Interest
 ======
 * Control Theory (Robust Control, Optimal Control, Nonlinear Control and its Applications)
@@ -21,8 +22,12 @@ Research Interest
 
 Publications
 ======
-* **Minhyuk Jang**, Astghik Hakobyan, and Insoon Yang. *Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems*, Advances in Neural Information Processing Systems (NeurIPS), 2024 (submitted)
-* **Minhyuk Jang**. *Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems*, Institute of Control, Robotics and Systems (ICROS, Domestic Conference), 2024 (submitted)
+* **Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems** 
+  * **Minhyuk Jang**, Astghik Hakobyan, and Insoon Yang
+  * Advances in Neural Information Processing Systems (NeurIPS), 2024. (submitted)
+* **Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems**
+  * **Minhyuk Jang**
+  * Institute of Control, Robotics and Systems (ICROS, Domestic Conference), 2024. (submitted)
 
 Experience
 ======
