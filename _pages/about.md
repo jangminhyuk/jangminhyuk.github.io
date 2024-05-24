@@ -18,11 +18,7 @@ Education
 ======
 * B.S. in Mechanical Engineering and Artificial Intelligence, Seoul National University University, 2025 Feb
   * GPA : 4.18 / 4.30
-<!-- 
-Research Interest
-======
-* Control Theory (Robust Control, Optimal Control, Nonlinear Control and its Applications)
-* UAV Control and System Design (Multirotor, VTOL) -->
+
 
 Publications
 ======
