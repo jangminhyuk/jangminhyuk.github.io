@@ -17,7 +17,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 Education
 ======
 * B.S. in Mechanical Engineering and Artificial Intelligence, Seoul National University University, 2025 Feb
-  * GPA : 4.18 / 4.30
+  * __GPA : 4.18 / 4.30__
 
 
 Publications
@@ -38,7 +38,7 @@ Experience
 
 * Jan 2024 - Feb 2024: [NEARTHLAB](https://www.nearthlab.com/)
   * Aerospace Engineering Intern, GNC Team
-  * Developed DOB and LQR based position/velocity controllers in C++ \& ROS2 and tested through Gazebo simulation
+  * Developed DOB and LQR based position/velocity controllers in C++ & ROS2 and tested through Gazebo simulation
   * Integrated the flight controller with a companion computer for offboard flight control of quadrotors, implemented DOB+LQR and DOB+PID controllers, and conducted extensive outdoor flight experiments
 
 Leadership / Extracurricular
