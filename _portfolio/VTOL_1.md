@@ -1,6 +1,6 @@
 ---
 title: "VTOL Project (1)"
-excerpt: <br/><img src='/images/portfolio_img/VTOL.jpg' width='500' height='500'> 
+excerpt: First VTOL Project<br/><img src='/images/portfolio_img/VTOL.jpg' width='500' height='500'> 
 collection: portfolio
 ---
 

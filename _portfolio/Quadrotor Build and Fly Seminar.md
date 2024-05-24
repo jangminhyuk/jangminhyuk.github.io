@@ -1,6 +1,6 @@
 ---
 title: "Quadrotor Build and Fly Seminar"
-excerpt: <br/><img src='/images/portfolio_img/drone_seminar.gif' width='500' height='500'> 
+excerpt: Quadrotor Build and Fly Seminar <br/><img src='/images/portfolio_img/drone_seminar.gif' width='500' height='500'> 
 collection: portfolio
 ---
 
@@ -11,7 +11,7 @@ collection: portfolio
   <figcaption>Quadrotor Build and Fly Seminar</figcaption>
 </center>
 
-## I Designed and conducted Quadrotor Build and Fly seminars (3+) covering sensor calibrations, hardware knowledge, building quadrotors, usage of Ground Control Station, and flight log analysis
+### I Designed and conducted Quadrotor Build and Fly seminars (3+) covering sensor calibrations, hardware knowledge, building quadrotors, usage of Ground Control Station, and flight log analysis
 
 The seminar was designed to enhance **hands-on experience**.
 
