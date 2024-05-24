@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a student majoring in Mechanical Engineering and Artificial Intelligence at Seoul National University. My interests include Control Theory (Robust Control, Optimal Control, Nonlinear Control and its Applications) and UAV Control and System Design (Multirotor, VTOL).
+I am a student majoring in Mechanical Engineering and Artificial Intelligence at Seoul National University. My interests include Control Theory (Robust Control, Optimal Control, Nonlinear Control and its Applications), UAV Control and System Design (Multirotor, VTOL).
 
 <center>
   <img src='/images/portfolio_img/VTOL.jpg' width='500' height='500' />
