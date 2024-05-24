@@ -8,36 +8,53 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior student majoring in Mechanical Engineering and Artificial Intelligence at Seoul National University. My academic journey has led me to a deep interest in fields such as Robust Control, Optimal Control, Nonlinear Control, and its Applications for real-world problems. I'm passionate about utilizing these control theories to solve complex problems and wish to make a meaningful impact for the future.
+I am a student majoring in Mechanical Engineering and Artificial Intelligence at Seoul National University.
 
 Education
 ======
-* B.S. in Mechanical Engineering and Artificial Intelligence, Seoul National University University, 2025 Feb (Expected)
+* B.S. in Mechanical Engineering and Artificial Intelligence, Seoul National University University, 2025 Feb
   * GPA : 4.18 / 4.30
+Research Interest
+======
+* Control Theory (Robust Control, Optimal Control, Nonlinear Control and its Applications)
+* UAV Control and System Design (Multirotor, VTOL)
 
-Work experience
+Publications
+======
+* **Minhyuk Jang**, Astghik Hakobyan, and Insoon Yang. *Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems*, Advances in Neural Information Processing Systems (NeurIPS), 2024 (submitted)
+* **Minhyuk Jang**. *Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems*, Institute of Control, Robotics and Systems (ICROS, Domestic Conference), 2024 (submitted)
+
+Experience
 ======
 * Mar 2023 - Present : Control and Optimization Research ([CORE](http://coregroup.snu.ac.kr/)) Lab, SNU
-  * Undergraduate Researcher / Advisor : Prof. Insoon Yang
-  * Conducted research on extending theory of Wasserstein Distributionally Robust Control(WDRC) Problem using Distributionally Robust Kalman Filtering(DRKF) in partially observable linear stochastic systems
-  * Implemented DRKF into the system and evaluated its performanace improvement compared to the original WDRC and Linear Quadratic Gaussian (LQG) control methods
+  * Research Intern - Advisor : Prof. Insoon Yang
+  * Developed unified algorithm for Wasserstein Distributionally Robust Control and State Estimation in partially observable linear stochastic systems, where the probability distributions of disturbances and measurement noises are unknown
+  * Formulated a tractable semidefinite programming problem that iteratively determines the worst-case covariance matrices of all uncertainties, significantly enhancing the scalability and efficiency of the proposed algorithm
 
 * Jan 2024 - Feb 2024: [NEARTHLAB](https://www.nearthlab.com/)
-  * Aerospace Engineering Intern
-  * GNC Team
-  * Developed and implemented a Position/Velocity Controller utilizing Disturbance Observer (DOB) for offboard flight control missions of quadrotor.
+  * Aerospace Engineering Intern, GNC Team
+  * Developed DOB and LQR based position/velocity controllers in C++ \& ROS2 and tested through Gazebo simulation
+  * Integrated the flight controller with a companion computer for offboard flight control of quadrotors, implemented DOB+LQR and DOB+PID controllers, and conducted extensive outdoor flight experiments
+
+Leadership / Extracurricular
+======
+* Sep 2023 - Present : **Bulnabi** - SNU Drone Club
+  * Hardware / Control Team Leader
+    * Designed and conducted Quadrotor Build and Fly seminars (3+) covering sensor calibrations, hardware knowledge, building quadrotors, usage of Ground Control Station, and flight log analysis
+    * Directed the preparation for the Korea Robot Aircraft Competition, focusing on system design of VTOL and autonomous flight missions. Conducted numerous outdoor flight experiments to stabilize fixed wing phase, quadrotor phase, transition, and back transition phases
+* Sep 2021 -- Mar 2023
+  * Senior KATUSA(Korean Augmentation to the United States Army)
+    * Led and managed a 10-solider squad, ensuring their training, well-being, and mission preparedness
+    * Operated within a U.S. Army office, collaborating extensively with American colleagues on a daily basis
+    * Applied language proficiency to deliver crucial translation and interpretation support during Combined Exercises, promoting cross-cultural comprehension and enhancing mission achievements
   
 Skills
 ======
-* Programming : C/C++, Python, MATLAB, JAVA
-* Libraries/Softwares : PX4-Autopilot, SolidWorks, MuJoCo, PyTorch, LaTeX
+* Programming : C/C++, Python, MATLAB
+* Libraries/Softwares : PX4-Autopilot, ROS2, SolidWorks, MuJoCo, PyTorch, LaTeX
 * Languagues : Korean, English (TOEFL 106 : R:30 / L:30 / S:23 / W:23)
 
-Publications (Not updated yet)
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
   
 <!-- Talks
 ======
@@ -51,14 +68,6 @@ Publications (Not updated yet)
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
   
-Service and leadership
-======
-* Sep 2021 - Mar 2023 : Senior KATUSA (Korean Augmentation to the United States Army)
-  * Sergeant, 8th Army, Camp Humphreys
-  * Led and managed a 10-solider squad, ensuring their training, well-being, and mission preparedness
-  * Operated within a U.S. Army office, collaborating extensively with American colleagues on a daily basis
-  * Applied language proficiency to deliver crucial translation and interpretation support during Combined Exercises, promoting cross-cultural comprehension and enhancing mission achievements
-
 Honors & Awards
 ======
 * Kwanjeong Scholarship : Recipient of a full tuition scholarship along with a stipend for two years, in recognition of outstanding academic achievement.
