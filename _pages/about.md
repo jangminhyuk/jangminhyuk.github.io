@@ -8,25 +8,29 @@ redirect_from:
   - /about.html
 ---
 
-I am a student majoring in Mechanical Engineering and Artificial Intelligence at Seoul National University.
+I am a student majoring in Mechanical Engineering and Artificial Intelligence at Seoul National University. My interests include Control Theory (Robust Control, Optimal Control, Nonlinear Control and its Applications) and UAV Control and System Design (Multirotor, VTOL).
+
+<center>
+  <img src='/images/portfolio_img/VTOL.jpg' width='500' height='500' />
+</center>
 
 Education
 ======
 * B.S. in Mechanical Engineering and Artificial Intelligence, Seoul National University University, 2025 Feb
   * GPA : 4.18 / 4.30
-
+<!-- 
 Research Interest
 ======
 * Control Theory (Robust Control, Optimal Control, Nonlinear Control and its Applications)
-* UAV Control and System Design (Multirotor, VTOL)
+* UAV Control and System Design (Multirotor, VTOL) -->
 
 Publications
 ======
 * **Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems** 
-  * **Minhyuk Jang**, Astghik Hakobyan, and Insoon Yang
+  * *Minhyuk Jang*, Astghik Hakobyan, and Insoon Yang
   * Advances in Neural Information Processing Systems (NeurIPS), 2024. (submitted)
 * **Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems**
-  * **Minhyuk Jang**
+  * *Minhyuk Jang*
   * Institute of Control, Robotics and Systems (ICROS, Domestic Conference), 2024. (submitted)
 
 Experience
@@ -43,7 +47,7 @@ Experience
 
 Leadership / Extracurricular
 ======
-* Sep 2023 - Present : **Bulnabi** - SNU Drone Club
+* Sep 2023 - Present : Bulnabi - SNU Drone Club
   * Hardware / Control Team Leader
     * Designed and conducted Quadrotor Build and Fly seminars (3+) covering sensor calibrations, hardware knowledge, building quadrotors, usage of Ground Control Station, and flight log analysis
     * Directed the preparation for the Korea Robot Aircraft Competition, focusing on system design of VTOL and autonomous flight missions. Conducted numerous outdoor flight experiments to stabilize fixed wing phase, quadrotor phase, transition, and back transition phases

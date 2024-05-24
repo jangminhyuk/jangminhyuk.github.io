@@ -4,8 +4,6 @@ excerpt: <br/><img src='/images/portfolio_img/drone_seminar.gif' width='500' hei
 collection: portfolio
 ---
 
-# Quadrotor Build and Fly Seminar
-
 **Duration : MAR '24 - PRESENT**
 
 <center>
@@ -13,9 +11,9 @@ collection: portfolio
   <figcaption>Quadrotor Build and Fly Seminar</figcaption>
 </center>
 
-The seminar was designed to enhance **hands-on experience**.
+## I Designed and conducted Quadrotor Build and Fly seminars (3+) covering sensor calibrations, hardware knowledge, building quadrotors, usage of Ground Control Station, and flight log analysis
 
-Lecture materials can be found here 
+The seminar was designed to enhance **hands-on experience**.
 
 Lecture materials can be found [HERE](https://jangminhyuk.github.io/files/KOR_Drone_seminar_240322updated.pdf).
 (Korean version only)

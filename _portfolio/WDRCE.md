@@ -1,10 +1,8 @@
 ---
 title: "Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems"
-excerpt: <br/><img src='/images/portfolio_img/params_quadratic_quadratic_nonzeromean.pdf' width='500' height='500'> 
+excerpt: <br/><img src='/images/portfolio_img/WDRCE_qq.jpg' width='500' height='500'> 
 collection: portfolio
 ---
-
-# Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems
 
 **Duration : MAR '23 - Present**
 
