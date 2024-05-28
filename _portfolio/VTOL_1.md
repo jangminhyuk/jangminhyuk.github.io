@@ -20,8 +20,8 @@ Transition phase
 </center>
 
 ### Specification
-
+- All parts are handmade (Wing material : Foamboard) & 3D-printed
 - A-tailed Standard VTOL with 4 lift motors and 1 pusher motor
 - Wingspan : 1.5m
 - Flight Controller : Pixhawk 6X
-- Firmware : PX4-AutoPilot v1.14
+- Firmware : PX4-Autopilot v1.14
