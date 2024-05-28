@@ -16,12 +16,10 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 
 ## Check my Portfolio [HERE](https://jangminhyuk.github.io/portfolio/)
 
-<br/>
 Education
 ======
 * B.S. in Mechanical Engineering and Artificial Intelligence, Seoul National University University, 2025 Feb
   * __GPA : 4.18 / 4.30__
-
 
 Publications
 ======
