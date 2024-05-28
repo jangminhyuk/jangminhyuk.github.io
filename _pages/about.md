@@ -8,11 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a student majoring in Mechanical Engineering and Artificial Intelligence at Seoul National University. My interests include Control Theory (Robust Control, Optimal Control, Nonlinear Control and its Applications), UAV Control and System Design (Multirotor, VTOL).
+I am a student majoring in Mechanical Engineering and Artificial Intelligence at Seoul National University. My interests include __Control Theory__ (Robust Control, Optimal Control, Nonlinear Control and its Applications), __UAV Control and System Design__ (Multirotor, VTOL).
 
 <center>
-  <img src='/images/portfolio_img/VTOL.jpg' width='500' height='500' />
+  <img src='/images/portfolio_img/Foamboard_transition.gif' width='500'/>
 </center>
+
+Check my Porfolio [HERE](https://jangminhyuk.github.io/portfolio/)
+======
 
 Education
 ======
