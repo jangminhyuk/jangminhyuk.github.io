@@ -18,3 +18,10 @@ Transition phase
   <img src='/images/portfolio_img/Foamboard_transition.gif' width='800' />
   <figcaption>Transition phase</figcaption>
 </center>
+
+### Specification
+
+- A-tailed Standard VTOL with 4 lift motors and 1 pusher motor
+- Wingspan : 1.5m
+- Flight Controller : Pixhawk 6X
+- Firmware : PX4-AutoPilot v1.14
