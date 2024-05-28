@@ -14,7 +14,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
   <img src='/images/portfolio_img/Foamboard_transition.gif' width='500'/>
 </center>
 
-## Check my Porfolio [HERE](https://jangminhyuk.github.io/portfolio/)
+## Check my Portfolio [HERE](https://jangminhyuk.github.io/portfolio/)
 
 <br/>
 Education
