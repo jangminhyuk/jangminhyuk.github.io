@@ -37,7 +37,7 @@ First, let's see the impact of $\lambda$ to the control performance.
   <figcaption>Z position with different inverse temperature</figcaption>
 </center>
 
-The above figures demonstrates the importance of selecting proper $\lambda$.
+The above figures demonstrates the importance of selecting proper $\lambda$. ($\lambda=0.005$ shows small cost with small fluctuation in this case.)
 
 Now, let's see the effect of our $\lambda$ tuning algorithm.
 
