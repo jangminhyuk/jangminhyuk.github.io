@@ -6,6 +6,9 @@ collection: portfolio
 
 **Duration : MAR '24 - JUN '24**
 ## Origami based length-adjustable landing gear for drone
+
+__Outstanding Materials and Manufacturing Processes Award, Seoul National University, 2024.__
+
 <center>
   <img src='/images/portfolio_img/landinggearexpanding.gif' width='500'/>
   <figcaption>Landing Gear expanding during flight mission</figcaption>
