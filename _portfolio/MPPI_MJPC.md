@@ -38,16 +38,16 @@ First, let's see the impact of $\lambda$ to the control performance.
   <figcaption>Z position with different inverse temperature</figcaption>
 </center>
 
-The above figures demonstrates the importance of selecting proper $lambda$.
+The above figures demonstrates the importance of selecting proper $\lambda$.
 
-Now, let's see the effect of our $lambda$ tuning algorithm.
+Now, let's see the effect of our $\lambda$ tuning algorithm.
 
 <center>
   <img src='/images/portfolio_img/lambda_plot_fixed_0_005_sigma_0.005.png' width='500'/>
   <figcaption>Lambda update process with different initial condition</figcaption>
 </center>
 
-$lambda$ starting from different initial condition converges.
+$\lambda$ starting from different initial condition converges.
 
 <center>
   <img src='/images/portfolio_img/mppi_optimal_lambda.gif' width='700'/>
