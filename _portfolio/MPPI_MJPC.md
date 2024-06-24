@@ -2,6 +2,7 @@
 title: "Automated Inverse Temperature Tuning Algorithm for MPPI Control "
 excerpt: Hovering Task using MPPI control <br/><img src='/images/portfolio_img/0.005_MPPI_MJPC.gif' width='500' height='300'>
 collection: portfolio
+order: 2
 ---
 
 **Project Duration : SEP '23 - JUN '24**

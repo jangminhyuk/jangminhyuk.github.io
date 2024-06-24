@@ -2,6 +2,7 @@
 title: "Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems"
 excerpt: Wasserstein Distributionally Robust Control and State Estimation(WDR-CE) <br/><img src='/images/portfolio_img/WDRCE_qq.jpg' width='500' height='500'> 
 collection: portfolio
+order: 1
 ---
 
 **Duration : MAR '23 - Present**
