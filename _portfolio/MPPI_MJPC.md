@@ -4,8 +4,6 @@ excerpt: Hovering Task using MPPI control <br/><img src='/images/portfolio_img/0
 collection: portfolio
 ---
 
-# Automated Inverse Temperature Tuning Algorithm for MPPI Control 
-
 **Project Duration : SEP '23 - JUN '24**
 
 __Outstanding B.S. Thesis Presentation Award, Department of Mechanical Engineering, Seoul National University, 2024.__
