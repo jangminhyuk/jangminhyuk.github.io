@@ -6,7 +6,7 @@ collection: portfolio
 
 **Duration : MAR '23 - Present**
 
-(Will be updated)
+([arXiv](https://arxiv.org/abs/2406.01723))
 
 ## Abstract
 
