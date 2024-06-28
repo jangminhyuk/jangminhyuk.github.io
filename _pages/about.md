@@ -20,7 +20,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 
 Education
 ======
-* B.S. in Mechanical Engineering and Artificial Intelligence, Seoul National University, 2025 Feb
+* __B.S. in Mechanical Engineering, Interdisciplinary Major in Artificial Intelligence, Seoul National University, 2025 Feb__
   * __GPA : 4.19 / 4.30, (3.99 / 4.0)__
 
 Publications
@@ -47,7 +47,7 @@ Experience
 Leadership / Extracurricular
 ======
 * Sep 2023 - Present : Bulnabi - SNU Drone Club
-  * Hardware / Control Team Leader
+  * Team Leader
     * Led and developed over three Quadrotor Build/Fly seminars, teaching hardware assembly, sensor calibration, Ground Control Station usage, flight experiments, and flight log analysis
     * Directed a 20-member team for the Korea Robot Aircraft Competition, focusing on VTOL system design and autonomous flight missions, conducting extensive outdoor tests to stabilize all flight phases
 * Sep 2021 -- Mar 2023
