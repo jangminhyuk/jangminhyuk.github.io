@@ -21,7 +21,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 Education
 ======
 * B.S. in Mechanical Engineering and Artificial Intelligence, Seoul National University, 2025 Feb
-  * __GPA : 4.19 / 4.30, (3.99/4.0)__
+  * __GPA : 4.19 / 4.30, (3.99 / 4.0)__
 
 Publications
 ======
