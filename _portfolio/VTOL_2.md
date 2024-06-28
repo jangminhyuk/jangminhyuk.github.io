@@ -2,6 +2,7 @@
 title: "VTOL Project (2)"
 excerpt: Second VTOL Project <br/><img src='/images/portfolio_img/BNB3403_0627.jpg' width='500'> 
 collection: portfolio
+order: 4
 ---
 
 **Duration: MAR '24 - SEP '24**
