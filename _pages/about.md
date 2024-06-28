@@ -48,13 +48,13 @@ Leadership / Extracurricular
 ======
 * Sep 2023 - Present : Bulnabi - SNU Drone Club
   * Hardware / Control Team Leader
-    * Designed and conducted Quadrotor Build and Fly seminars (3+) covering sensor calibrations, hardware knowledge, building quadrotors, usage of Ground Control Station, and flight log analysis
-    * Directed the preparation for the Korea Robot Aircraft Competition, focusing on system design of VTOL and autonomous flight missions. Conducted numerous outdoor flight experiments to stabilize fixed wing phase, quadrotor phase, transition, and back transition phases
+    * Led and developed over three Quadrotor Build/Fly seminars, teaching hardware assembly, sensor calibration, Ground Control Station usage, flight experiments, and flight log analysis
+    * Directed a 20-member team for the Korea Robot Aircraft Competition, focusing on VTOL system design and autonomous flight missions, conducting extensive outdoor tests to stabilize all flight phases
 * Sep 2021 -- Mar 2023
   * Senior KATUSA(Korean Augmentation to the United States Army)
     * Led and managed a 10-solider squad, ensuring their training, well-being, and mission preparedness
     * Operated within a U.S. Army office, collaborating extensively with American colleagues on a daily basis
-    * Applied language proficiency to deliver crucial translation and interpretation support during Combined Exercises, promoting cross-cultural comprehension and enhancing mission achievements
+    * Applied language proficiency to deliver crucial translation and interpretation support during Combined Exercises
   
 Skills
 ======
@@ -78,5 +78,6 @@ Skills
   
 Honors & Awards
 ======
-* Kwanjeong Scholarship : Recipient of a full tuition scholarship along with a stipend for two years, in recognition of outstanding academic achievement.
-* ARCOM(Army Commendation Medal) : United States Department of the Army
+* Outstanding B.S. Thesis Presentation Award (2024) : Automated Inverse Temperature Tuning Algorithm for MPPI Control
+* Kwanjeong Scholarship (2021) : Recipient of a full tuition scholarship along with a stipend for two years, in recognition of outstanding academic achievement.
+* ARCOM(Army Commendation Medal) (2022) : United States Department of the Army

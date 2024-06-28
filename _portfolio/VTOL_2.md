@@ -10,7 +10,7 @@ order: 4
 
 ### Team Bulnabi at Seoul National University (SNU)
 
-I served as the team leader for this project.
+I serve as the team leader for this project. (20-member team)
 
 Multicopter phase - Takeoff
 <center>
