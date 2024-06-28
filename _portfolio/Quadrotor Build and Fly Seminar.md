@@ -2,6 +2,7 @@
 title: "Quadrotor Build and Fly Seminar"
 excerpt: Quadrotor Build and Fly Seminar <br/><img src='/images/portfolio_img/drone_seminar.gif' width='500' height='500'> 
 collection: portfolio
+order: 6
 ---
 
 **Duration : MAR '24 - PRESENT**
