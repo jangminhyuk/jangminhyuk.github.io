@@ -49,7 +49,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
   .carousel img {
     height: 600px;
     width: 100%;
-    object-fit: contain; /* Ensures images fit within the container without distortion */
+    object-fit: contain;
   }
   .carousel-button {
     position: absolute;
@@ -60,6 +60,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     color: white;
     font-size: 18px;
     cursor: pointer;
+    z-index: 10;
   }
   .carousel-button.left {
     left: 10px;
@@ -103,15 +104,18 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
         currentIndex = index;
       }
       const offset = -currentIndex * images[0].clientWidth;
+      console.log(`Showing slide ${currentIndex}, offset: ${offset}px`); // Debugging
       carouselImages.style.transform = `translateX(${offset}px)`;
       updateDots();
     }
 
     function moveSlide(step) {
+      console.log(`Moving slide by ${step}`); // Debugging
       showSlide(currentIndex + step);
     }
 
     function moveToSlide(index) {
+      console.log(`Moving to slide ${index}`); // Debugging
       showSlide(index);
     }
 
