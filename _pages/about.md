@@ -28,6 +28,9 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
   <span class="dot" onclick="moveToSlide(0)"></span>
   <span class="dot" onclick="moveToSlide(1)"></span>
   <span class="dot" onclick="moveToSlide(2)"></span>
+  <span class="dot" onclick="moveToSlide(3)"></span>
+  <span class="dot" onclick="moveToSlide(4)"></span>
+  <span class="dot" onclick="moveToSlide(5)"></span>
 </div>
 
 <style>
@@ -124,21 +127,21 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 
   document.addEventListener('DOMContentLoaded', () => {
     autoSlide();
-  });
-
-  document.querySelectorAll('.carousel-button').forEach(button => {
-    button.addEventListener('click', () => {
-      clearTimeout(autoSlideInterval);
-      moveSlide(button.classList.contains('left') ? -1 : 1);
-      autoSlideInterval = setTimeout(autoSlide, 5000);
+    
+    document.querySelectorAll('.carousel-button').forEach(button => {
+      button.addEventListener('click', () => {
+        clearTimeout(autoSlideInterval);
+        moveSlide(button.classList.contains('left') ? -1 : 1);
+        autoSlideInterval = setTimeout(autoSlide, 5000);
+      });
     });
-  });
 
-  document.querySelectorAll('.dot').forEach((dot, index) => {
-    dot.addEventListener('click', () => {
-      clearTimeout(autoSlideInterval);
-      moveToSlide(index);
-      autoSlideInterval = setTimeout(autoSlide, 5000);
+    document.querySelectorAll('.dot').forEach((dot, index) => {
+      dot.addEventListener('click', () => {
+        clearTimeout(autoSlideInterval);
+        moveToSlide(index);
+        autoSlideInterval = setTimeout(autoSlide, 5000);
+      });
     });
   });
 </script>
