@@ -22,21 +22,28 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
   <button class="carousel-button right" onclick="moveSlide(1)">&#10095;</button>
 </div>
 
+<div class="carousel-dots">
+  <span class="dot" onclick="moveToSlide(0)"></span>
+  <span class="dot" onclick="moveToSlide(1)"></span>
+  <span class="dot" onclick="moveToSlide(2)"></span>
+</div>
 <style>
   .carousel {
     position: relative;
     width: 100%;
     max-width: 800px;
+    height: 600px; /* Fixed height */
     margin: auto;
     overflow: hidden;
   }
   .carousel-images {
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 1s ease-in-out; /* Slower transition */
   }
   .carousel img {
     height: 600px;
     width: auto;
+    margin: auto; /* Centering the image */
   }
   .carousel-button {
     position: absolute;
@@ -54,6 +61,22 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
   .carousel-button.right {
     right: 10px;
   }
+  .carousel-dots {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .dot.active {
+    background-color: #717171;
+  }
 </style>
 
 <script>
@@ -70,17 +93,29 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     } else {
       currentIndex = index;
     }
-    const offset = -currentIndex * carouselImages.clientWidth;
-    carouselImages.style.transform = `translateX(${offset}px)`;
+    const offset = -currentIndex * 100;
+    carouselImages.style.transform = `translateX(${offset}%)`;
+    updateDots();
   }
 
   function moveSlide(step) {
     showSlide(currentIndex + step);
   }
 
+  function moveToSlide(index) {
+    showSlide(index);
+  }
+
   function autoSlide() {
     moveSlide(1);
-    setTimeout(autoSlide, 3000);
+    setTimeout(autoSlide, 5000); // Slower automatic transition
+  }
+
+  function updateDots() {
+    const dots = document.querySelectorAll('.dot');
+    dots.forEach((dot, index) => {
+      dot.classList.toggle('active', index === currentIndex);
+    });
   }
 
   document.addEventListener('DOMContentLoaded', () => {
