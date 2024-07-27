@@ -149,6 +149,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     autoSlide();
   });
 </script>
+
 ## Check my Portfolio [HERE](https://jangminhyuk.github.io/portfolio/)
 
 Education
