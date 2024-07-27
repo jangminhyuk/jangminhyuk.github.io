@@ -41,15 +41,18 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     height: 600px;
     margin: auto;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .carousel-images {
     display: flex;
     transition: transform 1s ease-in-out;
   }
   .carousel img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover; /* Ensures images cover the container without distortion */
+    max-height: 600px;
+    width: auto;
+    margin: 0 auto;
   }
   .carousel-button {
     position: absolute;
