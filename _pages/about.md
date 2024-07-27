@@ -24,13 +24,34 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
       <img src="/images/portfolio_img/awesome_takeoff.gif" alt="Photo 3">
     </div>
     <div class="carousel-item">
-      <img src="/images/portfolio_img/awesome_transition.gif" alt="Photo 4">
+      <img src="/images/portfolio_img/cart_system.jpg" alt="Photo 4">
     </div>
     <div class="carousel-item">
-      <img src="/images/portfolio_img/0.005_MPPI_MJPC.gif" alt="Photo 5">
+      <img src="/images/portfolio_img/awesome_transition.gif" alt="Photo 5">
     </div>
     <div class="carousel-item">
-      <img src="/images/portfolio_img/landinggearexpanding.gif" alt="Photo 6">
+      <img src="/images/portfolio_img/0.005_MPPI_MJPC.gif" alt="Photo 6">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/portfolio_img/landinggearexpanding.gif" alt="Photo 7">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/portfolio_img/BNB3403_0627.jpg" alt="Photo 8">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/portfolio_img/drone_outdoor.jpg" alt="Photo 9">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/portfolio_img/nearthlab.jpg" alt="Photo 10">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/portfolio_img/preflight.jpg" alt="Photo 11">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/portfolio_img/WDRCE_qq.jpg" alt="Photo 12">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/portfolio_img/drone_seminar_3.jpg" alt="Photo 13">
     </div>
   </div>
   <button class="carousel-button left">&#10094;</button>
@@ -43,6 +64,13 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
   <span class="dot" onclick="moveToSlide(3)"></span>
   <span class="dot" onclick="moveToSlide(4)"></span>
   <span class="dot" onclick="moveToSlide(5)"></span>
+  <span class="dot" onclick="moveToSlide(6)"></span>
+  <span class="dot" onclick="moveToSlide(7)"></span>
+  <span class="dot" onclick="moveToSlide(8)"></span>
+  <span class="dot" onclick="moveToSlide(9)"></span>
+  <span class="dot" onclick="moveToSlide(10)"></span>
+  <span class="dot" onclick="moveToSlide(11)"></span>
+  <span class="dot" onclick="moveToSlide(12)"></span>
 </div>
 
 <style>
@@ -50,7 +78,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     position: relative;
     width: 100%;
     max-width: 800px;
-    height: 600px;
+    height: 500px;
     margin: auto;
     overflow: hidden;
   }
@@ -66,7 +94,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
   }
   .carousel-item img {
     max-width: 100%;
-    max-height: 600px;
+    max-height: 500px;
   }
   .carousel-button {
     position: absolute;
