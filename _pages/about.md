@@ -9,19 +9,89 @@ redirect_from:
 ---
 
 I am a student majoring in Mechanical Engineering and Artificial Intelligence at Seoul National University. My interests include 
-- __Control Theory__ (Robust Control, Optimal Control, Nonlinear Control and its Applications)
-- __Control and System Design for UAVs__ (Multirotor, VTOL) and __Robotics__.
+- __Control Theory__ (Robust Control, Optimal Control, Adaptive Control, Nonlinear Control)
+- Control and System Design for __Safety-Critical Systems__ (Multirotor, VTOL, Robotics, etc), __Multi-agent Systems__
 
-<center>
-  <img src='/images/portfolio_img/Foamboard_transition.gif' width='500'/>
-</center>
+<div class="carousel">
+  <div class="carousel-images">
+    <img src="/images/portfolio_img/Foamboard_transition.gif" alt="Photo 1">
+    <img src="/images/portfolio_img/VTOL2_SNU_photo.jpg" alt="Photo 2">
+    <img src="/images/portfolio_img/awesome_takeoff.gif" alt="Photo 3">
+  </div>
+  <button class="carousel-button left" onclick="moveSlide(-1)">&#10094;</button>
+  <button class="carousel-button right" onclick="moveSlide(1)">&#10095;</button>
+</div>
 
+<style>
+  .carousel {
+    position: relative;
+    width: 500px;
+    margin: auto;
+    overflow: hidden;
+  }
+  .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  .carousel img {
+    width: 500px;
+    height: auto;
+  }
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .carousel-button.left {
+    left: 10px;
+  }
+  .carousel-button.right {
+    right: 10px;
+  }
+</style>
+
+<script>
+  let currentIndex = 0;
+  const images = document.querySelectorAll('.carousel-images img');
+  const totalImages = images.length;
+
+  function showSlide(index) {
+    const carouselImages = document.querySelector('.carousel-images');
+    if (index >= totalImages) {
+      currentIndex = 0;
+    } else if (index < 0) {
+      currentIndex = totalImages - 1;
+    } else {
+      currentIndex = index;
+    }
+    const offset = -currentIndex * 500;
+    carouselImages.style.transform = `translateX(${offset}px)`;
+  }
+
+  function moveSlide(step) {
+    showSlide(currentIndex + step);
+  }
+
+  function autoSlide() {
+    moveSlide(1);
+    setTimeout(autoSlide, 3000);
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    autoSlide();
+  });
+</script>
 ## Check my Portfolio [HERE](https://jangminhyuk.github.io/portfolio/)
 
 Education
 ======
 * __B.S. in Mechanical Engineering, Interdisciplinary Major in Artificial Intelligence, Seoul National University, 2025 Feb__
-  * GPA : 4.19 / 4.30, (3.99 / 4.0)
+  * GPA : 3.99 / 4.0, Outstanding B.S. Thesis Presentation Award
 
 Publications
 ======
@@ -49,7 +119,7 @@ Leadership / Extracurricular
 * Sep 2023 - Present : Bulnabi - SNU Drone Club
   * Team Leader
     * Led and developed over three Quadrotor Build/Fly seminars, teaching hardware assembly, sensor calibration, Ground Control Station usage, flight experiments, and flight log analysis
-    * Directed a 20-member team for the Korea Robot Aircraft Competition, focusing on VTOL system design and autonomous flight missions, conducting extensive outdoor tests to stabilize all flight phases
+    * Directed a 25-member team for the Korea Robot Aircraft Competition, focusing on VTOL system design and autonomous flight missions, conducting extensive outdoor tests to stabilize all flight phases
 * Sep 2021 -- Mar 2023
   * Senior KATUSA(Korean Augmentation to the United States Army)
     * Led and managed a 10-solider squad, ensuring their training, well-being, and mission preparedness
@@ -60,7 +130,7 @@ Skills
 ======
 * Programming : C/C++, Python, MATLAB
 * Libraries/Softwares : PX4-Autopilot, ROS2, SolidWorks, MuJoCo, PyTorch, LaTeX
-* Languagues : Korean, English (TOEFL 106 : R:30 / L:30 / S:23 / W:23)
+* Languagues : Korean, English (TOEFL 106)
 
 
   
