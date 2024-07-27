@@ -18,8 +18,8 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     <img src="/images/portfolio_img/VTOL2_SNU_photo.jpg" alt="Photo 2">
     <img src="/images/portfolio_img/awesome_takeoff.gif" alt="Photo 3">
     <img src="/images/portfolio_img/awesome_transition.gif" alt="Photo 4">
-    <img src="/images/portfolio_img/0.005_MPPI_MJPC.gif.gif" alt="Photo 5">
-    <img src="/images/portfolio_img/landinggearexpanding.gif.gif.gif" alt="Photo 6">
+    <img src="/images/portfolio_img/0.005_MPPI_MJPC.gif" alt="Photo 5">
+    <img src="/images/portfolio_img/landinggearexpanding.gif" alt="Photo 6">
   </div>
   <button class="carousel-button left" onclick="moveSlide(-1)">&#10094;</button>
   <button class="carousel-button right" onclick="moveSlide(1)">&#10095;</button>
