@@ -38,18 +38,18 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     position: relative;
     width: 100%;
     max-width: 800px;
-    height: 600px; /* Fixed height */
+    height: 600px;
     margin: auto;
     overflow: hidden;
   }
   .carousel-images {
     display: flex;
-    transition: transform 1s ease-in-out; /* Slower transition */
+    transition: transform 1s ease-in-out;
   }
   .carousel img {
     height: 600px;
-    width: auto;
-    margin: auto; /* Centering the image */
+    width: 100%;
+    object-fit: contain; /* Ensures images fit within the container without distortion */
   }
   .carousel-button {
     position: absolute;
@@ -102,8 +102,8 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
       } else {
         currentIndex = index;
       }
-      const offset = -currentIndex * 100;
-      carouselImages.style.transform = `translateX(${offset}%)`;
+      const offset = -currentIndex * images[0].clientWidth;
+      carouselImages.style.transform = `translateX(${offset}px)`;
       updateDots();
     }
 
