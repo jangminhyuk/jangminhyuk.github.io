@@ -47,9 +47,9 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     transition: transform 1s ease-in-out;
   }
   .carousel img {
-    height: 600px;
+    height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover; /* Ensures images cover the container without distortion */
   }
   .carousel-button {
     position: absolute;
@@ -107,9 +107,9 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
       } else {
         currentIndex = index;
       }
-      const offset = -currentIndex * images[0].clientWidth;
-      console.log(`Showing slide ${currentIndex}, offset: ${offset}px`);
-      carouselImages.style.transform = `translateX(${offset}px)`;
+      const offset = -currentIndex * 100;
+      console.log(`Showing slide ${currentIndex}, offset: ${offset}%`);
+      carouselImages.style.transform = `translateX(${offset}%)`;
       updateDots();
     }
 
