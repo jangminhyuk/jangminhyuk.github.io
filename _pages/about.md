@@ -95,7 +95,11 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     const dots = document.querySelectorAll('.dot');
     let autoSlideInterval;
 
+    console.log("Document loaded");
+    console.log(`Total images: ${totalImages}`);
+
     function showSlide(index) {
+      console.log(`showSlide called with index: ${index}`);
       if (index >= totalImages) {
         currentIndex = 0;
       } else if (index < 0) {
@@ -104,24 +108,25 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
         currentIndex = index;
       }
       const offset = -currentIndex * images[0].clientWidth;
-      console.log(`Showing slide ${currentIndex}, offset: ${offset}px`); // Debugging
+      console.log(`Showing slide ${currentIndex}, offset: ${offset}px`);
       carouselImages.style.transform = `translateX(${offset}px)`;
       updateDots();
     }
 
     function moveSlide(step) {
-      console.log(`Moving slide by ${step}`); // Debugging
+      console.log(`moveSlide called with step: ${step}`);
       showSlide(currentIndex + step);
     }
 
     function moveToSlide(index) {
-      console.log(`Moving to slide ${index}`); // Debugging
+      console.log(`moveToSlide called with index: ${index}`);
       showSlide(index);
     }
 
     function autoSlide() {
+      console.log("autoSlide called");
       moveSlide(1);
-      autoSlideInterval = setTimeout(autoSlide, 5000); // Slower automatic transition
+      autoSlideInterval = setTimeout(autoSlide, 5000);
     }
 
     function updateDots() {
@@ -131,12 +136,14 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     }
 
     document.querySelector('.carousel-button.left').addEventListener('click', function() {
+      console.log("Left button clicked");
       clearTimeout(autoSlideInterval);
       moveSlide(-1);
       autoSlideInterval = setTimeout(autoSlide, 5000);
     });
 
     document.querySelector('.carousel-button.right').addEventListener('click', function() {
+      console.log("Right button clicked");
       clearTimeout(autoSlideInterval);
       moveSlide(1);
       autoSlideInterval = setTimeout(autoSlide, 5000);
@@ -144,6 +151,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 
     dots.forEach((dot, index) => {
       dot.addEventListener('click', function() {
+        console.log(`Dot ${index} clicked`);
         clearTimeout(autoSlideInterval);
         moveToSlide(index);
         autoSlideInterval = setTimeout(autoSlide, 5000);
