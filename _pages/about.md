@@ -17,16 +17,19 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     <img src="/images/portfolio_img/Foamboard_transition.gif" alt="Photo 1">
     <img src="/images/portfolio_img/VTOL2_SNU_photo.jpg" alt="Photo 2">
     <img src="/images/portfolio_img/awesome_takeoff.gif" alt="Photo 3">
+    <img src="/images/portfolio_img/awesome_transition.gif" alt="Photo 4">
+    <img src="/images/portfolio_img/0.005_MPPI_MJPC.gif.gif" alt="Photo 5">
+    <img src="/images/portfolio_img/landinggearexpanding.gif.gif.gif" alt="Photo 6">
   </div>
   <button class="carousel-button left" onclick="moveSlide(-1)">&#10094;</button>
   <button class="carousel-button right" onclick="moveSlide(1)">&#10095;</button>
 </div>
-
 <div class="carousel-dots">
   <span class="dot" onclick="moveToSlide(0)"></span>
   <span class="dot" onclick="moveToSlide(1)"></span>
   <span class="dot" onclick="moveToSlide(2)"></span>
 </div>
+
 <style>
   .carousel {
     position: relative;
@@ -81,6 +84,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 
 <script>
   let currentIndex = 0;
+  let autoSlideInterval;
   const images = document.querySelectorAll('.carousel-images img');
   const totalImages = images.length;
 
@@ -108,7 +112,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 
   function autoSlide() {
     moveSlide(1);
-    setTimeout(autoSlide, 5000); // Slower automatic transition
+    autoSlideInterval = setTimeout(autoSlide, 5000); // Slower automatic transition
   }
 
   function updateDots() {
@@ -120,6 +124,22 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 
   document.addEventListener('DOMContentLoaded', () => {
     autoSlide();
+  });
+
+  document.querySelectorAll('.carousel-button').forEach(button => {
+    button.addEventListener('click', () => {
+      clearTimeout(autoSlideInterval);
+      moveSlide(button.classList.contains('left') ? -1 : 1);
+      autoSlideInterval = setTimeout(autoSlide, 5000);
+    });
+  });
+
+  document.querySelectorAll('.dot').forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+      clearTimeout(autoSlideInterval);
+      moveToSlide(index);
+      autoSlideInterval = setTimeout(autoSlide, 5000);
+    });
   });
 </script>
 ## Check my Portfolio [HERE](https://jangminhyuk.github.io/portfolio/)
