@@ -21,8 +21,8 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     <img src="/images/portfolio_img/0.005_MPPI_MJPC.gif" alt="Photo 5">
     <img src="/images/portfolio_img/landinggearexpanding.gif" alt="Photo 6">
   </div>
-  <button class="carousel-button left" onclick="moveSlide(-1)">&#10094;</button>
-  <button class="carousel-button right" onclick="moveSlide(1)">&#10095;</button>
+  <button class="carousel-button left">&#10094;</button>
+  <button class="carousel-button right">&#10095;</button>
 </div>
 <div class="carousel-dots">
   <span class="dot" onclick="moveToSlide(0)"></span>
