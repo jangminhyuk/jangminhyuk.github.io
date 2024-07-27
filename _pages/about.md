@@ -86,63 +86,67 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 </style>
 
 <script>
-  let currentIndex = 0;
-  let autoSlideInterval;
-  const images = document.querySelectorAll('.carousel-images img');
-  const totalImages = images.length;
-
-  function showSlide(index) {
+  document.addEventListener('DOMContentLoaded', function() {
+    let currentIndex = 0;
+    const images = document.querySelectorAll('.carousel-images img');
+    const totalImages = images.length;
     const carouselImages = document.querySelector('.carousel-images');
-    if (index >= totalImages) {
-      currentIndex = 0;
-    } else if (index < 0) {
-      currentIndex = totalImages - 1;
-    } else {
-      currentIndex = index;
-    }
-    const offset = -currentIndex * 100;
-    carouselImages.style.transform = `translateX(${offset}%)`;
-    updateDots();
-  }
-
-  function moveSlide(step) {
-    showSlide(currentIndex + step);
-  }
-
-  function moveToSlide(index) {
-    showSlide(index);
-  }
-
-  function autoSlide() {
-    moveSlide(1);
-    autoSlideInterval = setTimeout(autoSlide, 5000); // Slower automatic transition
-  }
-
-  function updateDots() {
     const dots = document.querySelectorAll('.dot');
-    dots.forEach((dot, index) => {
-      dot.classList.toggle('active', index === currentIndex);
-    });
-  }
+    let autoSlideInterval;
 
-  document.addEventListener('DOMContentLoaded', () => {
-    autoSlide();
-    
-    document.querySelectorAll('.carousel-button').forEach(button => {
-      button.addEventListener('click', () => {
-        clearTimeout(autoSlideInterval);
-        moveSlide(button.classList.contains('left') ? -1 : 1);
-        autoSlideInterval = setTimeout(autoSlide, 5000);
+    function showSlide(index) {
+      if (index >= totalImages) {
+        currentIndex = 0;
+      } else if (index < 0) {
+        currentIndex = totalImages - 1;
+      } else {
+        currentIndex = index;
+      }
+      const offset = -currentIndex * 100;
+      carouselImages.style.transform = `translateX(${offset}%)`;
+      updateDots();
+    }
+
+    function moveSlide(step) {
+      showSlide(currentIndex + step);
+    }
+
+    function moveToSlide(index) {
+      showSlide(index);
+    }
+
+    function autoSlide() {
+      moveSlide(1);
+      autoSlideInterval = setTimeout(autoSlide, 5000); // Slower automatic transition
+    }
+
+    function updateDots() {
+      dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === currentIndex);
       });
+    }
+
+    document.querySelector('.carousel-button.left').addEventListener('click', function() {
+      clearTimeout(autoSlideInterval);
+      moveSlide(-1);
+      autoSlideInterval = setTimeout(autoSlide, 5000);
     });
 
-    document.querySelectorAll('.dot').forEach((dot, index) => {
-      dot.addEventListener('click', () => {
+    document.querySelector('.carousel-button.right').addEventListener('click', function() {
+      clearTimeout(autoSlideInterval);
+      moveSlide(1);
+      autoSlideInterval = setTimeout(autoSlide, 5000);
+    });
+
+    dots.forEach((dot, index) => {
+      dot.addEventListener('click', function() {
         clearTimeout(autoSlideInterval);
         moveToSlide(index);
         autoSlideInterval = setTimeout(autoSlide, 5000);
       });
     });
+
+    autoSlide();
   });
 </script>
 ## Check my Portfolio [HERE](https://jangminhyuk.github.io/portfolio/)
@@ -150,7 +154,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 Education
 ======
 * __B.S. in Mechanical Engineering, Interdisciplinary Major in Artificial Intelligence, Seoul National University, 2025 Feb__
-  * GPA : 3.99 / 4.0, Outstanding B.S. Thesis Presentation Award
+  * GPA : __3.99 / 4.0__, Outstanding B.S. Thesis Presentation Award
 
 Publications
 ======
