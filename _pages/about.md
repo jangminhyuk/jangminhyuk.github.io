@@ -97,7 +97,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     align-items: center;
   }
   .carousel-item img {
-    max-width: 100%;
+    max-width: 99%;
     max-height: 500px;
   }
   .carousel-button {
