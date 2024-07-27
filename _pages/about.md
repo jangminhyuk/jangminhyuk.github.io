@@ -14,12 +14,24 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 
 <div class="carousel">
   <div class="carousel-images">
-    <img src="/images/portfolio_img/Foamboard_transition.gif" alt="Photo 1">
-    <img src="/images/portfolio_img/VTOL2_SNU_photo.jpg" alt="Photo 2">
-    <img src="/images/portfolio_img/awesome_takeoff.gif" alt="Photo 3">
-    <img src="/images/portfolio_img/awesome_transition.gif" alt="Photo 4">
-    <img src="/images/portfolio_img/0.005_MPPI_MJPC.gif" alt="Photo 5">
-    <img src="/images/portfolio_img/landinggearexpanding.gif" alt="Photo 6">
+    <div class="carousel-item">
+      <img src="/images/portfolio_img/Foamboard_transition.gif" alt="Photo 1">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/portfolio_img/VTOL2_SNU_photo.jpg" alt="Photo 2">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/portfolio_img/awesome_takeoff.gif" alt="Photo 3">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/portfolio_img/awesome_transition.gif" alt="Photo 4">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/portfolio_img/0.005_MPPI_MJPC.gif" alt="Photo 5">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/portfolio_img/landinggearexpanding.gif" alt="Photo 6">
+    </div>
   </div>
   <button class="carousel-button left">&#10094;</button>
   <button class="carousel-button right">&#10095;</button>
@@ -46,10 +58,15 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     display: flex;
     transition: transform 1s ease-in-out;
   }
-  .carousel-images img {
+  .carousel-item {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carousel-item img {
     max-width: 100%;
     max-height: 600px;
-    margin: auto;
   }
   .carousel-button {
     position: absolute;
@@ -89,7 +106,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     let currentIndex = 0;
-    const images = document.querySelectorAll('.carousel-images img');
+    const images = document.querySelectorAll('.carousel-item');
     const totalImages = images.length;
     const carouselImages = document.querySelector('.carousel-images');
     const dots = document.querySelectorAll('.dot');
