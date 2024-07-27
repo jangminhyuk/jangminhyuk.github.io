@@ -25,7 +25,8 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 <style>
   .carousel {
     position: relative;
-    width: 500px;
+    width: 100%;
+    max-width: 800px;
     margin: auto;
     overflow: hidden;
   }
@@ -34,8 +35,8 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     transition: transform 0.5s ease-in-out;
   }
   .carousel img {
-    width: 500px;
-    height: auto;
+    height: 600px;
+    width: auto;
   }
   .carousel-button {
     position: absolute;
@@ -69,7 +70,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     } else {
       currentIndex = index;
     }
-    const offset = -currentIndex * 500;
+    const offset = -currentIndex * carouselImages.clientWidth;
     carouselImages.style.transform = `translateX(${offset}px)`;
   }
 
