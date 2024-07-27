@@ -53,6 +53,9 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     <div class="carousel-item">
       <img src="/images/portfolio_img/drone_seminar_3.jpg" alt="Photo 13">
     </div>
+    <div class="carousel-item">
+      <img src="/images/portfolio_img/tau_0.001_ani.gif" alt="Photo 14">
+    </div>
   </div>
   <button class="carousel-button left">&#10094;</button>
   <button class="carousel-button right">&#10095;</button>
@@ -71,6 +74,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
   <span class="dot" onclick="moveToSlide(10)"></span>
   <span class="dot" onclick="moveToSlide(11)"></span>
   <span class="dot" onclick="moveToSlide(12)"></span>
+  <span class="dot" onclick="moveToSlide(13)"></span>
 </div>
 
 <style>
