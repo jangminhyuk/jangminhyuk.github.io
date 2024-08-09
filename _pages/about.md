@@ -10,7 +10,7 @@ redirect_from:
 
 I am a student majoring in Mechanical Engineering and Artificial Intelligence at Seoul National University. My interests include 
 - __Control Theory__ (Robust Control, Optimal Control, Adaptive Control, Nonlinear Control)
-- Control and System Design for __Safety-Critical Systems__ (Multirotor, VTOL, Robotics, etc), __Multi-agent Systems__
+- __Control and System Design for Safety-Critical Systems__ (Multirotor, VTOL, Robotics, etc), __Multi-agent Systems__
 
 <div class="carousel">
   <div class="carousel-images">
@@ -216,7 +216,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 Education
 ======
 * __B.S. in Mechanical Engineering, Interdisciplinary Major in Artificial Intelligence, Seoul National University, 2025 Feb__
-  * GPA : __3.99 / 4.0__, Outstanding B.S. Thesis Presentation Award
+  * __GPA : 3.99 / 4.0__, Outstanding B.S. Thesis Presentation Award
 
 Publications
 ======
