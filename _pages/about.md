@@ -8,14 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-## Hello, I'm Minhyuk!
-
 I am a student majoring in Mechanical Engineering and Artificial Intelligence at Seoul National University. My interests include:
 
 - **Control Theory** (Robust Control, Optimal Control, Adaptive Control, Nonlinear Control)
-- **Control and System Design for Safety-Critical Systems** (Multirotor, VTOL, Robotics, etc.), **Multi-agent Systems**
+- **Safety-Critical Systems** (Multirotor, VTOL, Robotics, etc.), **Safety Guarantee**
+- **Multi-agent Systems**
 
-### Portfolio
+## [Check my Portfolio HERE](https://jangminhyuk.github.io/portfolio/)
 
 <div class="carousel">
   <div class="carousel-images">
@@ -211,7 +210,6 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
   });
 </script>
 
-## [Check my Portfolio HERE](https://jangminhyuk.github.io/portfolio/)
 
 ## Education
 
