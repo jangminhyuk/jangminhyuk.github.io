@@ -42,8 +42,8 @@
 
 .author__avatar {
     width: 150px; /* Increase this value to make the photo bigger */
-    height: 150px; /* Ensure height matches the width for a square */
-    border-radius: 10%; /* Change to 50% for a circle, 0% for a square, or 10% for rounded corners */
+    height: 300px; /* Ensure height matches the width for a square */
+    border-radius: 5%; /* Change to 50% for a circle, 0% for a square, or 10% for rounded corners */
     overflow: hidden; /* Ensures that any overflow content is hidden */
     margin-bottom: 20px; /* Adds space between the photo and the next element */
     display: block;
