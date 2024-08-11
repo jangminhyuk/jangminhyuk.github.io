@@ -39,17 +39,3 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
-
-/* Custom CSS for header image */
-.header-image {
-    width: 100%;
-    max-height: 100px; /* Adjust the height to your preference */
-    overflow: hidden;
-    margin-bottom: 20px; /* Space between image and the navigation bar */
-}
-
-.header-image img {
-    width: 100%;
-    height: auto;
-    object-fit: cover; /* Ensures the image covers the space and maintains aspect ratio */
-}
