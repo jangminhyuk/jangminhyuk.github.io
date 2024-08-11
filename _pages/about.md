@@ -8,53 +8,58 @@ redirect_from:
   - /about.html
 ---
 
-I am a student majoring in Mechanical Engineering and Artificial Intelligence at Seoul National University. My interests include 
-- __Control Theory__ (Robust Control, Optimal Control, Adaptive Control, Nonlinear Control)
-- __Control and System Design for Safety-Critical Systems__ (Multirotor, VTOL, Robotics, etc), __Multi-agent Systems__
+## Hello, I'm Minhyuk!
+
+I am a student majoring in Mechanical Engineering and Artificial Intelligence at Seoul National University. My interests include:
+
+- **Control Theory** (Robust Control, Optimal Control, Adaptive Control, Nonlinear Control)
+- **Control and System Design for Safety-Critical Systems** (Multirotor, VTOL, Robotics, etc.), **Multi-agent Systems**
+
+### Portfolio
 
 <div class="carousel">
   <div class="carousel-images">
     <div class="carousel-item">
-      <img src="/images/portfolio_img/Foamboard_transition.gif" alt="Photo 1">
+      <img src="/images/portfolio_img/Foamboard_transition.gif" alt="Foamboard Transition">
     </div>
     <div class="carousel-item">
-      <img src="/images/portfolio_img/VTOL2_SNU_photo.jpg" alt="Photo 2">
+      <img src="/images/portfolio_img/VTOL2_SNU_photo.jpg" alt="VTOL SNU">
     </div>
     <div class="carousel-item">
-      <img src="/images/portfolio_img/awesome_takeoff.gif" alt="Photo 3">
+      <img src="/images/portfolio_img/awesome_takeoff.gif" alt="Awesome Takeoff">
     </div>
     <div class="carousel-item">
-      <img src="/images/portfolio_img/cart_system.jpg" alt="Photo 4">
+      <img src="/images/portfolio_img/cart_system.jpg" alt="Cart System">
     </div>
     <div class="carousel-item">
-      <img src="/images/portfolio_img/awesome_transition.gif" alt="Photo 5">
+      <img src="/images/portfolio_img/awesome_transition.gif" alt="Awesome Transition">
     </div>
     <div class="carousel-item">
-      <img src="/images/portfolio_img/0.005_MPPI_MJPC.gif" alt="Photo 6">
+      <img src="/images/portfolio_img/0.005_MPPI_MJPC.gif" alt="MPPI MJPC">
     </div>
     <div class="carousel-item">
-      <img src="/images/portfolio_img/landinggearexpanding.gif" alt="Photo 7">
+      <img src="/images/portfolio_img/landinggearexpanding.gif" alt="Landing Gear Expanding">
     </div>
     <div class="carousel-item">
-      <img src="/images/portfolio_img/BNB3403_0627.jpg" alt="Photo 8">
+      <img src="/images/portfolio_img/BNB3403_0627.jpg" alt="BNB3403">
     </div>
     <div class="carousel-item">
-      <img src="/images/portfolio_img/drone_outdoor.jpg" alt="Photo 9">
+      <img src="/images/portfolio_img/drone_outdoor.jpg" alt="Drone Outdoor">
     </div>
     <div class="carousel-item">
-      <img src="/images/portfolio_img/nearthlab.jpg" alt="Photo 10">
+      <img src="/images/portfolio_img/nearthlab.jpg" alt="Nearth Lab">
     </div>
     <div class="carousel-item">
-      <img src="/images/portfolio_img/preflight.jpg" alt="Photo 11">
+      <img src="/images/portfolio_img/preflight.jpg" alt="Preflight">
     </div>
     <div class="carousel-item">
-      <img src="/images/portfolio_img/WDRCE_qq.jpg" alt="Photo 12">
+      <img src="/images/portfolio_img/WDRCE_qq.jpg" alt="WDRCE">
     </div>
     <div class="carousel-item">
-      <img src="/images/portfolio_img/drone_seminar_3.jpg" alt="Photo 13">
+      <img src="/images/portfolio_img/drone_seminar_3.jpg" alt="Drone Seminar">
     </div>
     <div class="carousel-item">
-      <img src="/images/portfolio_img/tau_0.001_ani.gif" alt="Photo 14">
+      <img src="/images/portfolio_img/tau_0.001_ani.gif" alt="Tau Animation">
     </div>
   </div>
   <button class="carousel-button left">&#10094;</button>
@@ -83,12 +88,14 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     width: 100%;
     max-width: 800px;
     height: 500px;
-    margin: auto;
+    margin: 20px auto;
     overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
   .carousel-images {
     display: flex;
-    transition: transform 1s ease-in-out;
+    transition: transform 0.5s ease-in-out;
   }
   .carousel-item {
     min-width: 100%;
@@ -97,38 +104,42 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     align-items: center;
   }
   .carousel-item img {
-    max-width: 99%;
+    max-width: 100%;
     max-height: 500px;
+    border-radius: 10px;
   }
   .carousel-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     border: none;
     color: white;
     font-size: 18px;
     cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
     z-index: 10;
   }
   .carousel-button.left {
-    left: 10px;
+    left: 15px;
   }
   .carousel-button.right {
-    right: 10px;
+    right: 15px;
   }
   .carousel-dots {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
   }
   .dot {
     display: inline-block;
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     margin: 5px;
     background-color: #bbb;
     border-radius: 50%;
     cursor: pointer;
+    transition: background-color 0.3s;
   }
   .dot.active {
     background-color: #717171;
@@ -144,11 +155,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     const dots = document.querySelectorAll('.dot');
     let autoSlideInterval;
 
-    console.log("Document loaded");
-    console.log(`Total images: ${totalImages}`);
-
     function showSlide(index) {
-      console.log(`showSlide called with index: ${index}`);
       if (index >= totalImages) {
         currentIndex = 0;
       } else if (index < 0) {
@@ -157,23 +164,19 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
         currentIndex = index;
       }
       const offset = -currentIndex * 100;
-      console.log(`Showing slide ${currentIndex}, offset: ${offset}%`);
       carouselImages.style.transform = `translateX(${offset}%)`;
       updateDots();
     }
 
     function moveSlide(step) {
-      console.log(`moveSlide called with step: ${step}`);
       showSlide(currentIndex + step);
     }
 
     function moveToSlide(index) {
-      console.log(`moveToSlide called with index: ${index}`);
       showSlide(index);
     }
 
     function autoSlide() {
-      console.log("autoSlide called");
       moveSlide(1);
       autoSlideInterval = setTimeout(autoSlide, 5000);
     }
@@ -185,14 +188,12 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
     }
 
     document.querySelector('.carousel-button.left').addEventListener('click', function() {
-      console.log("Left button clicked");
       clearTimeout(autoSlideInterval);
       moveSlide(-1);
       autoSlideInterval = setTimeout(autoSlide, 5000);
     });
 
     document.querySelector('.carousel-button.right').addEventListener('click', function() {
-      console.log("Right button clicked");
       clearTimeout(autoSlideInterval);
       moveSlide(1);
       autoSlideInterval = setTimeout(autoSlide, 5000);
@@ -200,7 +201,6 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 
     dots.forEach((dot, index) => {
       dot.addEventListener('click', function() {
-        console.log(`Dot ${index} clicked`);
         clearTimeout(autoSlideInterval);
         moveToSlide(index);
         autoSlideInterval = setTimeout(autoSlide, 5000);
@@ -211,21 +211,22 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
   });
 </script>
 
-## Check my Portfolio [HERE](https://jangminhyuk.github.io/portfolio/)
+## [Check my Portfolio HERE](https://jangminhyuk.github.io/portfolio/)
 
-Education
-======
-* __B.S. in Mechanical Engineering, Interdisciplinary Major in Artificial Intelligence, Seoul National University, 2025 Feb__
-  * __GPA : 3.99 / 4.0__, Outstanding B.S. Thesis Presentation Award
+## Education
 
-Publications
-======
-* **Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems** 
-  * *Minhyuk Jang*, Astghik Hakobyan, and Insoon Yang
-  * Advances in Neural Information Processing Systems (NeurIPS), 2024. (submitted) ([arXiv](https://arxiv.org/abs/2406.01723))
-* **Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems**
-  * *Minhyuk Jang*
-  * Institute of Control, Robotics and Systems (ICROS, Domestic Conference), 2024.
+- **B.S. in Mechanical Engineering, Interdisciplinary Major in Artificial Intelligence, Seoul National University, 2025 Feb**
+  - **GPA: 3.99 / 4.0**, Outstanding B.S. Thesis Presentation Award
+
+## Publications
+
+- **Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems**
+  - *Minhyuk Jang*, Astghik Hakobyan, and Insoon Yang
+  - Advances in Neural Information Processing Systems (NeurIPS), 2024. (submitted) ([arXiv](https://arxiv.org/abs/2406.01723))
+- **Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems**
+  - *Minhyuk Jang*
+  - Institute of Control, Robotics and Systems (ICROS, Domestic Conference), 2024.
+
 
 Experience
 ======
