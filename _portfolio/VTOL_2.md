@@ -20,7 +20,7 @@ As the team leader of this 25-member project, I have overseen all aspects of the
 </center>
 
 <center>
-  <img src='/images/portfolio_img/bnb3403_2nd_opened.jpgg' width='800' />
+  <img src='/images/portfolio_img/bnb3403_2nd_opened.jpg' width='800' />
   <figcaption>Inside</figcaption>
 </center>
 
