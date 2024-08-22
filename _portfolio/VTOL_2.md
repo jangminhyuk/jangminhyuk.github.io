@@ -10,7 +10,19 @@ order: 4
 
 ### Team Bulnabi at Seoul National University (SNU)
 
-I serve as the team leader for this project. (25-member team)
+As the team leader of this 25-member project, I have overseen all aspects of the process. Our team has:
+- Conducted over 20 fixed-wing flight missions, successfully stabilizing all mission phases.
+- Built, redesigned, and rebuilt the entire aircraft over five times to optimize performance.
+- Enabled autonomous waypoint missions, implemented obstacle avoidance systems and precision landing.
+
+<center>
+  <img src='/images/portfolio_img/bnb3403_2nd.jpg' width='800' />
+</center>
+
+<center>
+  <img src='/images/portfolio_img/bnb3403_2nd_opened.jpgg' width='800' />
+  <figcaption>Inside</figcaption>
+</center>
 
 <center>
   <img src='/images/portfolio_img/BNB3403_0627.jpg' width='800' />
