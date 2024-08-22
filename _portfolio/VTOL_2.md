@@ -17,6 +17,7 @@ As the team leader of this 25-member project, I have overseen all aspects of the
 
 <center>
   <img src='/images/portfolio_img/bnb3403_2nd.jpg' width='800' />
+  <figcaption>Outside</figcaption>
 </center>
 
 <center>
