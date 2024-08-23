@@ -53,8 +53,16 @@ Transition phase
 </center>
 
 ### Specification
-- All parts are handmade & 3D-printed
+- All parts are handmade & 3D-printed (Using Light-weight PLA)
 - A-tailed Standard VTOL with 4 lift motors and 1 pusher motor
-- Wingspan : 2m
+- Propeller : 12 X 4.5 (Lift) & 14 X 10 (Pusher)
+- Battery : 6S, 10,000 mAh
+- GPS RTK
+- Companion Computer : NVIDIA Jetson NX
+- Camera : SIYI A8 mini Gimbal Camera 4K
+- Wingspan : 2011 mm
+- Cruise speed : 18 m/s
+- Stall speed : 13 m/s
+- Weight : 6.2 kg
 - Flight Controller : Pixhawk 6X
 - Firmware : PX4-Autopilot v1.15.0-beta2
