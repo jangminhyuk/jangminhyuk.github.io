@@ -14,6 +14,15 @@ As the team leader of this 25-member project, I have overseen all aspects of the
 - Conducted over 20 fixed-wing flight missions, successfully stabilizing all mission phases.
 - Built, redesigned, and rebuilt the entire aircraft over five times to optimize performance.
 - Enabled autonomous waypoint missions, implemented obstacle avoidance systems and precision landing.
+<center>
+  <img src='/images/portfolio_img/VTOL_final_sky.jpg' width='800' />
+  <figcaption>Rendering image</figcaption>
+</center>
+
+<center>
+  <img src='/images/portfolio_img/VTOL2_final_CAD.jpg' width='800' />
+  <figcaption>CAD image</figcaption>
+</center>
 
 <center>
   <img src='/images/portfolio_img/bnb3403_2nd.jpg' width='800' />
