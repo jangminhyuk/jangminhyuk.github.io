@@ -11,7 +11,7 @@ order: 4
 ### Team Bulnabi at Seoul National University (SNU)
 
 As the team leader of this 25-member project, I have overseen all aspects of the process. Our team has:
-- Conducted over 20 fixed-wing flight missions, successfully stabilizing all mission phases.
+- Conducted over 30 fixed-wing flight missions, successfully stabilizing all mission phases.
 - Built, redesigned, and rebuilt the entire aircraft over five times to optimize performance.
 - Enabled autonomous waypoint missions, implemented obstacle avoidance systems and precision landing.
 <center>
@@ -58,7 +58,7 @@ Transition phase
 - Propeller : 12 X 4.5 (Lift) & 14 X 10 (Pusher)
 - Battery : 6S, 10,000 mAh
 - GPS RTK
-- Companion Computer : NVIDIA Jetson NX
+- Companion Computer : NVIDIA Jetson Xavier NX
 - Camera : SIYI A8 mini Gimbal Camera 4K
 - Wingspan : 2011 mm
 - Cruise speed : 18 m/s
