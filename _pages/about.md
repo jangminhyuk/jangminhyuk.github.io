@@ -226,7 +226,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
   - Institute of Control, Robotics and Systems (ICROS, Domestic Conference), 2024.
 
 
-Experience
+<!-- Experience
 ======
 * Mar 2023 - Present : Control and Optimization Research ([CORE](http://coregroup.snu.ac.kr/)) Lab, SNU
   * Research Intern - Advisor : Prof. Insoon Yang
@@ -253,7 +253,7 @@ Leadership / Extracurricular
 Skills
 ======
 * Programming : C/C++, Python, MATLAB
-* Libraries/Softwares : PX4-Autopilot, ROS2, Gazebo, MuJoCo, PyTorch, SolidWorks, LaTeX
+* Libraries/Softwares : PX4-Autopilot, ROS2, Gazebo, MuJoCo, PyTorch, SolidWorks, LaTeX -->
 
 
   
@@ -269,10 +269,10 @@ Skills
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
   
-Honors & Awards
+<!-- Honors & Awards
 ======
 * Grand Prize – Korea Robot Aircraft Competition (2024) : 1st Place among 39 University Teams
 * Outstanding B.S. Thesis Presentation Award (2024) : Automated Inverse Temperature Tuning Algorithm for MPPI Control
 * ARCOM(Army Commendation Medal) (2022) : United States Department of the Army
 * Kwanjeong Scholarship (2021) : Recipient of a full tuition scholarship along with a stipend for two years, in recognition of outstanding academic achievement.
-* Merit-based Scholarship (Spring 2020, Fall 2020) : Department of Mechanical Engineering, SNU
+* Merit-based Scholarship (Spring 2020, Fall 2020) : Department of Mechanical Engineering, SNU -->
