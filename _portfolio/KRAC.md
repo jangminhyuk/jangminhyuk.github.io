@@ -1,6 +1,6 @@
 ---
 title: "Korea Robot Aircraft Competition - Grand Award"
-excerpt: VTOL <br/><img src='/images/portfolio_img/full_april.jpg' width='500'> <br/> Full mission <br/><img src='/images/portfolio_img/full_mission.png' width='500'> <br/> Flight log <br/><img src='/images/portfolio_img/flight_log_3d.jpg' width='500'>
+excerpt: VTOL before-takeoff <br/><img src='/images/portfolio_img/full_april.jpg' width='500'> <br/> Full mission overview <br/><img src='/images/portfolio_img/full_mission.png' width='500'> <br/> 3d flight log <br/><img src='/images/portfolio_img/flight_log_3d.jpg' width='500'>
 collection: portfolio
 order: 4.5
 ---
