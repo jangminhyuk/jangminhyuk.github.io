@@ -1,6 +1,6 @@
 ---
 title: "Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems"
-excerpt: Wasserstein Distributionally Robust Control and State Estimation(WDR-CE) <br/><img src='/images/portfolio_img/WDRCE_nn.jpg' width='500'> 2d trajectory tracking control <br/><img src='/images/portfolio_img/drce_2d.jpg' width='500'> 
+excerpt: Wasserstein Distributionally Robust Control and State Estimation(WDR-CE) <br/><img src='/images/portfolio_img/WDRCE_nn.jpg' width='500'> <br/> 2d trajectory tracking control <br/><img src='/images/portfolio_img/drce_2d.jpg' width='500'> 
 collection: portfolio
 order: 1
 ---
