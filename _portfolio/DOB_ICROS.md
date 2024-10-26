@@ -1,6 +1,6 @@
 ---
 title: "Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems"
-excerpt: DOB diagram <br/><img src='/images/portfolio_img/DOB_diagram.jpg' width='500'> 
+excerpt: Presented at Institute of Control, Robotics and Systems (ICROS), 2024 <br/><img src='/images/portfolio_img/DOB_diagram.jpg' width='500'> 
 collection: portfolio
 order: 3
 ---

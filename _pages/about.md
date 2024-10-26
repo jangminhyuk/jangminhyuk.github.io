@@ -223,7 +223,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
   - ([arXiv](https://arxiv.org/abs/2406.01723))
 - **Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems**
   - *Minhyuk Jang*
-  - Institute of Control, Robotics and Systems (ICROS, Domestic Conference), 2024.
+  - Institute of Control, Robotics and Systems (ICROS), 2024.
 
 
 <!-- Experience
