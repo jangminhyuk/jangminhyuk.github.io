@@ -1,6 +1,6 @@
 ---
 title: "Korea Robot Aircraft Competition - Grand Award"
-excerpt: VTOL takeoff- 07SEP2024 <br/><img src='/images/portfolio_img/full_april.jpg' width='500'> <br/><img src='/images/portfolio_img/full_mission.png' width='500'> <br/><img src='/images/portfolio_img/flight_log_3d.jpg' width='500'>
+excerpt: VTOL takeoff- 07SEP2024 <br/><img src='/images/portfolio_img/full_april.jpg' width='500'> Full mission <br/><img src='/images/portfolio_img/full_mission.png' width='500'> Flight log <br/><img src='/images/portfolio_img/flight_log_3d.jpg' width='500'>
 collection: portfolio
 order: 4.5
 ---
@@ -11,10 +11,14 @@ order: 4.5
 
 - First place among 39 university teams
 
-[![Full mission](https://youtu.be/Eh4YpA9WtCg?si=dzA-FHHcIEyJl0jZ/0.jpg)](https://youtu.be/Eh4YpA9WtCg?si=dzA-FHHcIEyJl0jZ)
-([Flight Log](https://review.px4.io/plot_app?log=82e073f3-fc2d-4121-a9b1-53f9363b6c26))
+[![Full mission](/images/portfolio_img/taean_thumbnail.jpg)](https://youtu.be/Eh4YpA9WtCg?si=dzA-FHHcIEyJl0jZ)
 
+([PX4 Flight review - Flight Log](https://review.px4.io/plot_app?log=82e073f3-fc2d-4121-a9b1-53f9363b6c26))
 
+<center>
+  <img src='/images/portfolio_img/flight_log_3d.jpg' width='800' />
+  <figcaption>Flight log</figcaption>
+</center>
 <center>
   <img src='/images/portfolio_img/VTOL_final_sky.jpg' width='800' />
   <figcaption>Rendering image</figcaption>
