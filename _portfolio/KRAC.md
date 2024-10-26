@@ -1,6 +1,6 @@
 ---
 title: "Korea Robot Aircraft Competition - Grand Award"
-excerpt: VTOL <br/><img src='/images/portfolio_img/full_april.jpg' width='500'> \\ Full mission <br/><img src='/images/portfolio_img/full_mission.png' width='500'> \\ Flight log <br/><img src='/images/portfolio_img/flight_log_3d.jpg' width='500'>
+excerpt: VTOL <br/><img src='/images/portfolio_img/full_april.jpg' width='500'> <br/> Full mission <br/><img src='/images/portfolio_img/full_mission.png' width='500'> <br/> Flight log <br/><img src='/images/portfolio_img/flight_log_3d.jpg' width='500'>
 collection: portfolio
 order: 4.5
 ---
@@ -12,8 +12,6 @@ order: 4.5
 - First place among 39 university teams
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Eh4YpA9WtCg?si=QosV2julDi4mWTRN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-[![Full mission](/images/portfolio_img/taean_thumbnail.jpg)](https://youtu.be/Eh4YpA9WtCg?si=dzA-FHHcIEyJl0jZ)
 
 ([PX4 Flight review - Flight Log](https://review.px4.io/plot_app?log=82e073f3-fc2d-4121-a9b1-53f9363b6c26))
 
