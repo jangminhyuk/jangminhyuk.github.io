@@ -6,7 +6,6 @@ order: 4.5
 ---
 
 **Duration: MAR '24 - SEP '24**
-## Korea Robot Aircraft Competition (KRAC) - Grand Award 
 ### Team Bulnabi at Seoul National University (SNU)
 
 - First place among 39 university teams
@@ -29,7 +28,7 @@ order: 4.5
 </center>
 <center>
   <img src='/images/portfolio_img/low_level.gif' width='800' />
-  <figcaption>Low-altutude fixed-wing flight</figcaption>
+  <figcaption>Low-altitude fixed-wing flight</figcaption>
 </center>
 <center>
   <img src='/images/portfolio_img/full_mission.png' width='800' />
