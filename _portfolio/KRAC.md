@@ -2,7 +2,7 @@
 title: "Korea Robot Aircraft Competition - Grand Award"
 excerpt:  VTOL Takeoff <br/><img src='/images/portfolio_img/taean_takeoff.gif' width='500'> <br/> VTOL before-takeoff <br/><img src='/images/portfolio_img/full_april.jpg' width='500'> <br/> Full mission overview <br/><img src='/images/portfolio_img/full_mission.png' width='500'> <br/> 3d flight log <br/><img src='/images/portfolio_img/flight_log_3d.jpg' width='500'>
 collection: portfolio
-order: 3.5
+order: 3.6
 ---
 
 **Duration: MAR '24 - SEP '24**
@@ -25,6 +25,10 @@ order: 3.5
 <center>
   <img src='/images/portfolio_img/taean_takeoff.gif' width='800' />
   <figcaption>Takeoff</figcaption>
+</center>
+<center>
+  <img src='/images/portfolio_img/vtol_transition.gif' width='800' />
+  <figcaption>Multicopter to Fixed-wing transition</figcaption>
 </center>
 <center>
   <img src='/images/portfolio_img/low_level.gif' width='800' />
