@@ -14,6 +14,21 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 - **Safety-Critical Systems** (Multirotor, VTOL, Robotics, etc.), **Safety Guarantee**
 - **Multi-agent Systems**
 
+## Education
+
+- **B.S. in Mechanical Engineering, Interdisciplinary Major in Artificial Intelligence, Seoul National University, 2025 Feb**
+  - **GPA: 3.99 / 4.0**, Outstanding B.S. Thesis Presentation Award
+
+## Publications
+
+- **Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems**
+  - *Minhyuk Jang*, Astghik Hakobyan, and Insoon Yang
+  - Submitted to *IEEE Transactions on Automatic Control*
+  - ([arXiv](https://arxiv.org/abs/2406.01723))
+- **Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems**
+  - *Minhyuk Jang*
+  - Institute of Control, Robotics and Systems (ICROS), 2024.
+
 <div align="center">
   <a href="https://jangminhyuk.github.io/portfolio/" target="_blank" style="text-decoration: none;">
     <button style="background-color: #4CAF50; color: white; padding: 20px 40px; font-size: 24px; border: none; border-radius: 8px; cursor: pointer;">
@@ -217,19 +232,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 </script>
 
 
-## Education
 
-- **B.S. in Mechanical Engineering, Interdisciplinary Major in Artificial Intelligence, Seoul National University, 2025 Feb**
-  - **GPA: 3.99 / 4.0**, Outstanding B.S. Thesis Presentation Award
-
-## Publications
-
-- **Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems**
-  - *Minhyuk Jang*, Astghik Hakobyan, and Insoon Yang
-  - ([arXiv](https://arxiv.org/abs/2406.01723))
-- **Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems**
-  - *Minhyuk Jang*
-  - Institute of Control, Robotics and Systems (ICROS), 2024.
 
 
 <!-- Experience
