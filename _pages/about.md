@@ -14,7 +14,15 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 - **Safety-Critical Systems** (Multirotor, VTOL, Robotics, etc.), **Safety Guarantee**
 - **Multi-agent Systems**
 
-## [Check my Portfolio HERE](https://jangminhyuk.github.io/portfolio/)
+## Check My Portfolio
+
+<div align="center">
+  <a href="https://jangminhyuk.github.io/portfolio/" target="_blank" style="text-decoration: none;">
+    <button style="background-color: #4CAF50; color: white; padding: 10px 20px; font-size: 16px; border: none; border-radius: 5px; cursor: pointer;">
+      Check My Portfolio
+    </button>
+  </a>
+</div>
 
 <div class="carousel">
   <div class="carousel-images">
