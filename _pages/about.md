@@ -23,7 +23,7 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 
 - **Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems**
   - *Minhyuk Jang*, Astghik Hakobyan, and Insoon Yang
-  - Submitted to *IEEE Transactions on Automatic Control*
+  - Submitted to *IEEE Transactions on Automatic Control* (under review)
   - ([arXiv](https://arxiv.org/abs/2406.01723))
 - **Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems**
   - *Minhyuk Jang*
