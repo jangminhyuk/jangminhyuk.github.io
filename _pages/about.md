@@ -233,8 +233,9 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
   - *Minhyuk Jang*
   - Institute of Control, Robotics and Systems (ICROS), 2024.
 
+## I can fly FPV drones too!
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qCGaa-OFfKE?si=3YpXTW-7aMHg-Lks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <!-- Experience
 ======
