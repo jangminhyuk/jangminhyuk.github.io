@@ -224,7 +224,11 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 
 
 ## Publications
-
+- **On the Steady-State Distributionally Robust Kalman Filter**
+  - *Minhyuk Jang* *, Astghik Hakobyan*, and Insoon Yang
+  - Submitted to *IEEE Control and Decision Conference* (submitted)
+  - ([arXiv](https://arxiv.org/abs/2503.23742))
+  - ** Equal contribution
 - **Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems**
   - *Minhyuk Jang*, Astghik Hakobyan, and Insoon Yang
   - Submitted to *IEEE Transactions on Automatic Control* (under review)
