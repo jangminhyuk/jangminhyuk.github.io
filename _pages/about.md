@@ -221,18 +221,16 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 
 - **B.S. in Mechanical Engineering, Interdisciplinary Major in Artificial Intelligence, Seoul National University, 2025 Feb**
   - **GPA: 3.99 / 4.0**, Outstanding B.S. Thesis Presentation Award
-
+  - College of Engineering Outstanding Graduate Award, One of the Top 24 Graduates across the entire College of Engineering
 
 ## Publications
-- **On the Steady-State Distributionally Robust Kalman Filter**
-  - *Minhyuk Jang* *, Astghik Hakobyan*, and Insoon Yang
+- **On the Steady-State Distributionally Robust Kalman Filter**, ([arXiv](https://arxiv.org/abs/2503.23742))
+  - *Minhyuk Jang* **, Astghik Hakobyan **, and Insoon Yang
   - Submitted to *IEEE Control and Decision Conference* (submitted)
-  - ([arXiv](https://arxiv.org/abs/2503.23742))
   - ** Equal contribution
-- **Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems**
+- **Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems**, ([arXiv](https://arxiv.org/abs/2406.01723))
   - *Minhyuk Jang*, Astghik Hakobyan, and Insoon Yang
   - Submitted to *IEEE Transactions on Automatic Control* (under review)
-  - ([arXiv](https://arxiv.org/abs/2406.01723))
 - **Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems**
   - *Minhyuk Jang*
   - Institute of Control, Robotics and Systems (ICROS), 2024.
