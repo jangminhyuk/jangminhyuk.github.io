@@ -12,7 +12,7 @@ I will be joining the UIUC MechSE [Advanced Controls Research Lab](https://naira
 
 I earned my bachelor’s degree in Mechanical Engineering and Artificial Intelligence at Seoul National University. My interests include:
 
-- **Control Theory** (Robust Control, Optimal Control, Adaptive Control, Nonlinear Control)
+- **Control Theory** (Robust Control, Optimal Control, Adaptive Control, Learning-Based Control)
 - **Safety Guarantee**, **Safety-Critical Systems** (Multirotor, VTOL, Robotics, etc.)
 - **Multi-agent Systems**
 
