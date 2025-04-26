@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a student majoring in Mechanical Engineering and Artificial Intelligence at Seoul National University. My interests include:
+I will be joining the UIUC MechSE [Advanced Controls Research Lab](https://naira.mechse.illinois.edu/) as a PhD student in Fall 2025.
+
+I earned my bachelor’s degree in Mechanical Engineering and Artificial Intelligence at Seoul National University. My interests include:
 
 - **Control Theory** (Robust Control, Optimal Control, Adaptive Control, Nonlinear Control)
 - **Safety Guarantee**, **Safety-Critical Systems** (Multirotor, VTOL, Robotics, etc.)
