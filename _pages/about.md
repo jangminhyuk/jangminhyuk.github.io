@@ -8,10 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I am a student majoring in Mechanical Engineering and Artificial Intelligence at Seoul National University. My interests include:
+I will be joining the UIUC MechSE [Advanced Controls Research Lab](https://naira.mechse.illinois.edu/) as a PhD student in Fall 2025.
 
-- **Control Theory** (Robust Control, Optimal Control, Adaptive Control, Nonlinear Control)
-- **Safety-Critical Systems** (Multirotor, VTOL, Robotics, etc.), **Safety Guarantee**
+I earned my bachelor’s degree in Mechanical Engineering and Artificial Intelligence at Seoul National University. My interests include:
+
+- **Control Theory** (Robust Control, Optimal Control, Adaptive Control, Learning-Based Control)
+- **Safety Guarantee**, **Safety-Critical Systems** (Multirotor, VTOL, Robotics, etc.)
 - **Multi-agent Systems**
 
 
@@ -221,68 +223,21 @@ I am a student majoring in Mechanical Engineering and Artificial Intelligence at
 
 - **B.S. in Mechanical Engineering, Interdisciplinary Major in Artificial Intelligence, Seoul National University, 2025 Feb**
   - **GPA: 3.99 / 4.0**, Outstanding B.S. Thesis Presentation Award
-
+  - College of Engineering Outstanding Graduate Award, One of the Top 24 Graduates across the entire College of Engineering
 
 ## Publications
-
-- **Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems**
+- **On the Steady-State Distributionally Robust Kalman Filter**, ([arXiv](https://arxiv.org/abs/2503.23742))
+  - *Minhyuk Jang* **, Astghik Hakobyan **, and Insoon Yang
+  - Submitted to *IEEE Control and Decision Conference* (submitted)
+  - ** Equal contribution
+- **Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems**, ([arXiv](https://arxiv.org/abs/2406.01723))
   - *Minhyuk Jang*, Astghik Hakobyan, and Insoon Yang
   - Submitted to *IEEE Transactions on Automatic Control* (under review)
-  - ([arXiv](https://arxiv.org/abs/2406.01723))
 - **Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems**
   - *Minhyuk Jang*
   - Institute of Control, Robotics and Systems (ICROS), 2024.
 
+## I fly FPV drones too!
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qCGaa-OFfKE?si=3YpXTW-7aMHg-Lks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-<!-- Experience
-======
-* Mar 2023 - Present : Control and Optimization Research ([CORE](http://coregroup.snu.ac.kr/)) Lab, SNU
-  * Research Intern - Advisor : Prof. Insoon Yang
-  * Developed unified algorithm for  Distributionally Robust Control and State Estimation in partially observable linear stochastic systems, addressing unknown probability distributions of disturbances and measurement noise
-  * Formulated a tractable semidefinite programming problem that iteratively determines the worst-case covariance matrices of all uncertainties, significantly enhancing the scalability and efficiency of the proposed algorithm
-
-* Jan 2024 - Feb 2024: [NEARTHLAB](https://www.nearthlab.com/)
-  * Aerospace Engineering Intern, GNC Team
-  * Developed DOB and LQR based position/velocity controllers in C++ & ROS2 and tested through Gazebo simulation
-  * Integrated the flight controller with a companion computer for offboard flight control of quadrotors, implemented DOB+LQR and DOB+PID controllers, and conducted extensive outdoor flight experiments
-
-Leadership / Extracurricular
-======
-* Sep 2023 - Present : Bulnabi - SNU Drone Club
-  * Team Leader
-    * Led and developed over five Quadrotor Build/Fly seminars, teaching hardware assembly, sensor calibration, Ground Control Station usage, flight experiments, and flight log analysis
-    * Directed a 25-member team for the Korea Robot Aircraft Competition, focusing on VTOL system design and autonomous flight missions, conducting extensive outdoor tests to stabilize all flight phases
-* Sep 2021 -- Mar 2023
-  * Senior KATUSA(Korean Augmentation to the United States Army)
-    * Led and managed a 10-solider squad, ensuring their training, well-being, and mission preparedness
-    * Operated within a U.S. Army office, collaborating extensively with American colleagues on a daily basis
-    * Applied language proficiency to deliver crucial translation and interpretation support during Combined Exercises
-  
-Skills
-======
-* Programming : C/C++, Python, MATLAB
-* Libraries/Softwares : PX4-Autopilot, ROS2, Gazebo, MuJoCo, PyTorch, SolidWorks, LaTeX -->
-
-
-  
-<!-- Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul> -->
-  
-<!-- Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
-  
-<!-- Honors & Awards
-======
-* Grand Prize – Korea Robot Aircraft Competition (2024) : 1st Place among 39 University Teams
-* Outstanding B.S. Thesis Presentation Award (2024) : Automated Inverse Temperature Tuning Algorithm for MPPI Control
-* ARCOM(Army Commendation Medal) (2022) : United States Department of the Army
-* Kwanjeong Scholarship (2021) : Recipient of a full tuition scholarship along with a stipend for two years, in recognition of outstanding academic achievement.
-* Merit-based Scholarship (Spring 2020, Fall 2020) : Department of Mechanical Engineering, SNU -->

@@ -10,6 +10,8 @@ order: 3.7
 
 - First place among 39 university teams
 
+Summary of the developments can be found [HERE](https://jangminhyuk.github.io/files/20241213_CSIE_SNU_Minhyuk_Jang.pdf).
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Eh4YpA9WtCg?si=QosV2julDi4mWTRN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ([PX4 Flight review - Flight Log](https://review.px4.io/plot_app?log=82e073f3-fc2d-4121-a9b1-53f9363b6c26))

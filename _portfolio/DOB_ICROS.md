@@ -9,6 +9,8 @@ order: 3
 
 **Project Duration : NOV '23 - APR '24**
 
+([Paper](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11908850))
+
 ### Abstract
 The Disturbance Observer(DOB) is a robust control technique for systems with model uncertainties and disturbances. While stability conditions for parametric uncertainties and disturbances are well-studied, those for differing degrees between true and nominal systems are less explored. This paper investigates DOB’s stability conditions when the degrees of the true and nominal systems are different, while maintaining the same relative degree. Results demonstrate alignment with well-known results derived under the assumption of equal system degrees, explaining DOB’s exemplary performance in real-world applications.
 
