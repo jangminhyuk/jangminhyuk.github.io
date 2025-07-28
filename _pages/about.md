@@ -228,16 +228,14 @@ I earned my bachelor’s degree in Mechanical Engineering and Artificial Intelli
 ## Publications
 - **On the Steady-State Distributionally Robust Kalman Filter**, ([arXiv](https://arxiv.org/abs/2503.23742))
   - *Minhyuk Jang* **, Astghik Hakobyan **, and Insoon Yang
-  - Submitted to *IEEE Control and Decision Conference* (submitted)
+  - *IEEE Control and Decision Conference 2025* (Accepted)
   - ** Equal contribution
 - **Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems**, ([arXiv](https://arxiv.org/abs/2406.01723))
   - *Minhyuk Jang*, Astghik Hakobyan, and Insoon Yang
-  - Submitted to *IEEE Transactions on Automatic Control* (under review)
 - **Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems**
   - *Minhyuk Jang*
   - Institute of Control, Robotics and Systems (ICROS), 2024.
 
 ## I fly FPV drones too!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qCGaa-OFfKE?si=3YpXTW-7aMHg-Lks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WPttdZw-E_8?si=gXVi6KftqGTxxWPf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

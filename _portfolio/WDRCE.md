@@ -1,15 +1,14 @@
 ---
 title: "Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems"
-excerpt: Wasserstein Distributionally Robust Control and State Estimation(WDR-CE) <br/> Submitted to IEEE TAC (under review) <br/><img src='/images/portfolio_img/WDRCE_nn.jpg' width='500'> <br/> 2D trajectory tracking control where each controller has nominal disturbance and noise distributions derived from statistical learning methods, which inherently contain errors <br/><img src='/images/portfolio_img/drce_2d.jpg' width='500'> 
+excerpt: Wasserstein Distributionally Robust Control and State Estimation(WDR-CE)<br/><img src='/images/portfolio_img/WDRCE_nn.jpg' width='500'> <br/> 2D trajectory tracking control where each controller has nominal disturbance and noise distributions derived from statistical learning methods, which inherently contain errors <br/><img src='/images/portfolio_img/drce_2d.jpg' width='500'> 
 collection: portfolio
-order: 1
+order: 1.1
 ---
 
 **Duration : MAR '23 - Present**
 
 ([arXiv](https://arxiv.org/abs/2406.01723))
 
-Submitted to IEEE TAC (under review)
 
 ## Abstract
 
