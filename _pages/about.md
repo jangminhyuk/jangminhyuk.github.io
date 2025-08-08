@@ -9,10 +9,10 @@ redirect_from:
 ---
 
 <div class="intro-section">
-  <h2>I am a PhD Student in UIUC MechSE | <a href="https://naira.mechse.illinois.edu/" target="_blank">Advanced Controls Research Lab</h2>
+  <h2>I am a PhD Student in UIUC MechSE | <a href="https://naira.mechse.illinois.edu/" target="_blank">Advanced Controls Research Lab</a></h2>
   <p>I earned my bachelor's degree in Mechanical Engineering and Artificial Intelligence at Seoul National University.</p>
   
-  <h3>Research Interests</h3>
+  <h3>🔬 Research Interests</h3>
   <div class="research-box">
     <div class="research-item">
       <strong>Control Theory</strong> - Robust, Optimal, Adaptive, Learning-Based Control
