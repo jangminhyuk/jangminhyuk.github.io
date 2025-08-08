@@ -143,9 +143,6 @@ redirect_from:
     line-height: 1.3;
   }
   
-  .research-item:not(:last-child) {
-    border-bottom: 2px solid #e9ecef;
-  }
   
   .research-item strong {
     color: #2c3e50;
