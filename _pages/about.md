@@ -8,37 +8,22 @@ redirect_from:
   - /about.html
 ---
 
-<div class="hero-section">
-  <div class="hero-content">
-    <div class="hero-text">
-      <h2>PhD Student in Mechanical Science & Engineering</h2>
-      <p class="affiliation">University of Illinois Urbana-Champaign | <a href="https://naira.mechse.illinois.edu/" target="_blank">Advanced Controls Research Lab</a></p>
-      <p class="background">I earned my bachelor's degree in Mechanical Engineering and Artificial Intelligence at Seoul National University.</p>
-    </div>
-    <div class="research-highlights">
-      <h3>Research Focus</h3>
-      <div class="research-grid">
-        <div class="research-item">
-          <div class="research-icon">⚙️</div>
-          <span><strong>Control Theory</strong><br>Robust, Optimal, Adaptive, Learning-Based Control</span>
-        </div>
-        <div class="research-item">
-          <div class="research-icon">🛡️</div>
-          <span><strong>Safety-Critical Systems</strong><br>Multirotor, VTOL, Robotics</span>
-        </div>
-        <div class="research-item">
-          <div class="research-icon">🤝</div>
-          <span><strong>Multi-agent Systems</strong><br>Distributed Control & Coordination</span>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="intro-section">
+  <h2>PhD Student in Mechanical Science & Engineering</h2>
+  <p>University of Illinois Urbana-Champaign | <a href="https://naira.mechse.illinois.edu/" target="_blank">Advanced Controls Research Lab</a></p>
+  <p>I earned my bachelor's degree in Mechanical Engineering and Artificial Intelligence at Seoul National University.</p>
+  
+  <h3>Research Interests</h3>
+  <ul class="research-list">
+    <li><strong>Control Theory</strong> - Robust, Optimal, Adaptive, Learning-Based Control</li>
+    <li><strong>Safety-Critical Systems</strong> - Multirotor, VTOL, Robotics</li>
+    <li><strong>Multi-agent Systems</strong> - Distributed Control & Coordination</li>
+  </ul>
 </div>
 
-<div class="cta-section">
-  <a href="https://jangminhyuk.github.io/portfolio/" target="_blank" class="portfolio-button">
-    <span class="button-text">View My Portfolio</span>
-    <span class="button-arrow">→</span>
+<div class="portfolio-section">
+  <a href="https://jangminhyuk.github.io/portfolio/" target="_blank" class="portfolio-link">
+    View My Portfolio →
   </a>
 </div>
 
@@ -108,356 +93,220 @@ redirect_from:
 </div>
 
 <style>
-  /* Hero Section */
-  .hero-section {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 60px 20px;
-    margin: -20px -20px 40px -20px;
-    border-radius: 0 0 20px 20px;
-  }
-  
-  .hero-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    align-items: center;
-  }
-  
-  .hero-text h2 {
-    font-size: 2.5em;
-    font-weight: 700;
-    margin: 0 0 15px 0;
-    line-height: 1.2;
-  }
-  
-  .affiliation {
-    font-size: 1.2em;
-    margin: 15px 0;
-    opacity: 0.9;
-  }
-  
-  .affiliation a {
-    color: #fff;
-    text-decoration: underline;
-  }
-  
-  .background {
-    font-size: 1.1em;
-    opacity: 0.85;
-    line-height: 1.6;
-  }
-  
-  .research-highlights h3 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .research-grid {
-    display: grid;
-    gap: 20px;
-  }
-  
-  .research-item {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    border-radius: 15px;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    text-align: center;
-    transition: transform 0.3s ease;
-  }
-  
-  .research-item:hover {
-    transform: translateY(-5px);
-  }
-  
-  .research-icon {
-    font-size: 2em;
-    margin-bottom: 10px;
-    display: block;
-  }
-  
-  /* CTA Section */
-  .cta-section {
-    text-align: center;
-    margin: 40px 0;
-  }
-  
-  .portfolio-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    text-decoration: none;
-    padding: 20px 40px;
-    font-size: 1.3em;
-    font-weight: 600;
-    border-radius: 50px;
-    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
-    transition: all 0.3s ease;
-  }
-  
-  .portfolio-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 12px 35px rgba(102, 126, 234, 0.4);
-    color: white;
-  }
-  
-  .button-arrow {
-    font-size: 1.2em;
-    transition: transform 0.3s ease;
-  }
-  
-  .portfolio-button:hover .button-arrow {
-    transform: translateX(5px);
-  }
-  
-  /* Content Sections */
-  .section-divider {
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #667eea, transparent);
-    margin: 60px 0 40px 0;
-  }
-  
-  .content-section {
-    margin: 50px 0;
-    max-width: 1000px;
+  /* Clean, minimal styling */
+  .intro-section {
+    margin-bottom: 40px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
   }
   
-  .section-title {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    font-size: 2.2em;
-    font-weight: 700;
+  .intro-section h2 {
+    font-size: 1.8em;
+    font-weight: 600;
     color: #333;
-    margin-bottom: 30px;
-    border-bottom: 3px solid #667eea;
-    padding-bottom: 10px;
+    margin-bottom: 15px;
   }
   
-  .section-icon {
-    font-size: 1em;
-  }
-  
-  /* Education Timeline */
-  .education-timeline {
-    position: relative;
-    padding-left: 30px;
-  }
-  
-  .education-timeline::before {
-    content: '';
-    position: absolute;
-    left: 15px;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background: linear-gradient(180deg, #667eea, #764ba2);
-  }
-  
-  .education-item {
-    position: relative;
-    margin-bottom: 40px;
-    background: white;
-    border-radius: 15px;
-    padding: 25px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-    border-left: 4px solid #667eea;
-  }
-  
-  .education-item.current {
-    border-left-color: #4CAF50;
-    background: linear-gradient(135deg, #f0fff4 0%, #e8f8f5 100%);
-  }
-  
-  .education-marker {
-    position: absolute;
-    left: -37px;
-    top: 30px;
-    width: 12px;
-    height: 12px;
-    background: #667eea;
-    border-radius: 50%;
-    border: 3px solid white;
-    box-shadow: 0 0 0 3px #667eea;
-  }
-  
-  .education-item.current .education-marker {
-    background: #4CAF50;
-    box-shadow: 0 0 0 3px #4CAF50;
-  }
-  
-  .education-content h3 {
-    font-size: 1.4em;
-    font-weight: 700;
-    color: #333;
+  .intro-section p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
     margin-bottom: 10px;
   }
   
-  .institution {
+  .intro-section h3 {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #333;
+    margin: 25px 0 15px 0;
+  }
+  
+  .research-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .research-list li {
+    margin-bottom: 8px;
+    padding: 8px 0;
+    font-size: 1em;
+    color: #666;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .research-list li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Simple portfolio link */
+  .portfolio-section {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .portfolio-link {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    padding: 12px 24px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .portfolio-link:hover {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Content sections */
+  .content-section {
+    margin: 50px auto;
+    max-width: 800px;
+  }
+  
+  .section-title {
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 25px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .section-icon {
+    margin-right: 10px;
+  }
+  
+  /* Simple education section */
+  .education-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .education-content h3 {
     font-size: 1.2em;
     font-weight: 600;
-    color: #667eea;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .institution {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #666;
     margin-bottom: 5px;
   }
   
   .duration {
     font-size: 1em;
-    color: #666;
-    margin-bottom: 10px;
+    color: #999;
+    margin-bottom: 8px;
   }
   
   .lab {
     font-size: 1em;
-    color: #333;
-  }
-  
-  .lab a {
-    color: #667eea;
-    text-decoration: none;
+    color: #666;
   }
   
   .achievements {
-    margin-top: 15px;
-    display: grid;
-    gap: 8px;
+    margin-top: 12px;
   }
   
   .achievement-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    margin-bottom: 6px;
+    font-size: 0.95em;
+    color: #666;
   }
   
   .achievement-label {
-    font-weight: 600;
-    color: #333;
+    font-weight: 500;
   }
   
   .achievement-value {
-    font-weight: 700;
-    color: #4CAF50;
-    font-size: 1.1em;
-  }
-  
-  .achievement-badge {
-    background: linear-gradient(135deg, #667eea, #764ba2);
-    color: white;
-    padding: 5px 12px;
-    border-radius: 20px;
-    font-size: 0.9em;
     font-weight: 600;
+    color: #333;
   }
   
-  .achievement-note {
-    font-style: italic;
-    color: #666;
-    font-size: 0.95em;
-  }
-  
-  /* Publications */
+  /* Simple publications */
   .publications-list {
     display: grid;
-    gap: 25px;
+    gap: 20px;
   }
   
   .publication-item {
-    background: white;
-    padding: 25px;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
-    border-left: 4px solid #667eea;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .publication-item:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
   }
   
   .paper-title {
-    font-size: 1.3em;
-    font-weight: 700;
+    font-size: 1.1em;
+    font-weight: 600;
     color: #333;
-    margin-bottom: 10px;
-    line-height: 1.4;
+    margin-bottom: 8px;
+    line-height: 1.3;
   }
   
   .paper-authors {
-    font-size: 1.1em;
+    font-size: 1em;
     color: #666;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
   }
   
   .paper-venue {
     font-size: 1em;
-    font-weight: 600;
-    color: #667eea;
-    margin-bottom: 15px;
+    font-weight: 500;
+    color: #888;
+    margin-bottom: 10px;
   }
   
   .paper-links {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
     flex-wrap: wrap;
   }
   
   .paper-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    background: #667eea;
-    color: white;
+    color: #333;
     text-decoration: none;
-    padding: 8px 16px;
-    border-radius: 20px;
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
     font-size: 0.9em;
-    font-weight: 600;
-    transition: background 0.3s ease;
+    transition: background-color 0.3s ease;
   }
   
   .paper-link:hover {
-    background: #5a67d8;
-    color: white;
+    background-color: #f5f5f5;
+    color: #333;
   }
   
   .paper-note {
     font-size: 0.9em;
-    color: #666;
+    color: #999;
     font-style: italic;
   }
   
-  /* FPV Section */
+  /* Simple FPV section */
   .fpv-section {
     text-align: center;
-  }
-  
-  .fpv-description {
-    font-size: 1.2em;
-    color: #666;
-    margin-bottom: 30px;
-    line-height: 1.6;
   }
   
   .video-container {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
     padding-bottom: 56.25%;
     height: 0;
-    border-radius: 15px;
+    border-radius: 4px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   }
   
   .video-container iframe {
@@ -468,16 +317,16 @@ redirect_from:
     height: 100%;
   }
   
-  /* Carousel Styles */
+  /* Simple carousel */
   .carousel {
     position: relative;
     width: 100%;
-    max-width: 800px;
-    height: 500px;
-    margin: 40px auto;
+    max-width: 600px;
+    height: 400px;
+    margin: 30px auto;
     overflow: hidden;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    border: 1px solid #ddd;
   }
   
   .carousel-images {
@@ -494,51 +343,50 @@ redirect_from:
   
   .carousel-item img {
     max-width: 100%;
-    max-height: 500px;
-    border-radius: 10px;
+    max-height: 400px;
   }
   
   .carousel-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.7);
-    border: none;
-    color: white;
-    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 16px;
     cursor: pointer;
-    padding: 12px;
-    border-radius: 50%;
+    padding: 8px 12px;
+    border-radius: 3px;
     z-index: 10;
     transition: background-color 0.3s ease;
   }
   
   .carousel-button:hover {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
   }
   
   .carousel-button.left {
-    left: 15px;
+    left: 10px;
   }
   
   .carousel-button.right {
-    right: 15px;
+    right: 10px;
   }
   
   .carousel-dots {
     text-align: center;
-    padding: 20px 0;
+    padding: 15px 0;
   }
   
   .dot {
     display: inline-block;
-    width: 12px;
-    height: 12px;
-    margin: 5px;
-    background-color: #ccc;
+    width: 10px;
+    height: 10px;
+    margin: 4px;
+    background-color: #ddd;
     border-radius: 50%;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: background-color 0.3s ease;
   }
   
   .dot:hover {
@@ -546,42 +394,30 @@ redirect_from:
   }
   
   .dot.active {
-    background-color: #667eea;
-    transform: scale(1.2);
+    background-color: #666;
   }
   
-  /* Responsive Design */
+  /* Responsive */
   @media (max-width: 768px) {
-    .hero-content {
-      grid-template-columns: 1fr;
-      gap: 30px;
-      text-align: center;
-    }
-    
-    .hero-text h2 {
-      font-size: 2em;
+    .intro-section h2 {
+      font-size: 1.5em;
     }
     
     .section-title {
-      font-size: 1.8em;
-    }
-    
-    .portfolio-button {
-      padding: 15px 30px;
-      font-size: 1.1em;
-    }
-    
-    .video-container {
-      max-width: 100%;
+      font-size: 1.4em;
     }
     
     .carousel {
-      height: 300px;
+      height: 250px;
       margin: 20px 10px;
     }
     
     .carousel-item img {
-      max-height: 300px;
+      max-height: 250px;
+    }
+    
+    .video-container {
+      max-width: 100%;
     }
   }
 </style>
@@ -732,7 +568,6 @@ redirect_from:
     Beyond Research: FPV Piloting
   </h2>
   <div class="fpv-section">
-    <p class="fpv-description">When not working on control theory, I enjoy applying flight dynamics in practice through FPV drone piloting.</p>
     <div class="video-container">
       <iframe src="https://www.youtube.com/embed/WPttdZw-E_8?si=gXVi6KftqGTxxWPf" title="FPV Flight Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>

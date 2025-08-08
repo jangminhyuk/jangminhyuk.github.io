@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Minhyuk, Jang"
   avatar           : "minhyuk_photo.jpg"
-  bio              : "B.S. @ Seoul National University, PhD student @ UIUC MechSE"
+  bio              : "PhD student @ UIUC MechSE / B.S. @ SNU, "
   location         : "Illinois, United States"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=ko&user=uU0P3CwAAAAJ"
-  email            : "jason4012@snu.ac.kr"
+  email            : "jang64@illinois.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
