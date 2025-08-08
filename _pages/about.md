@@ -9,13 +9,13 @@ redirect_from:
 ---
 
 <div class="intro-section">
-  <h2>I am a PhD Student in UIUC MechSE | <a href="https://naira.mechse.illinois.edu/" target="_blank">Advanced Controls Research Lab</a></h2>
+  <p class="intro-title">I am a PhD student in Mechanical Science & Engineering at UIUC, working at the <a href="https://naira.mechse.illinois.edu/" target="_blank">Advanced Controls Research Lab</a>.</p>
   <p>I earned my bachelor's degree in Mechanical Engineering and Artificial Intelligence at Seoul National University.</p>
   
   <h3>🔬 Research Interests</h3>
   <div class="research-box">
     <div class="research-item">
-      <strong>Control Theory</strong> - Robust, Optimal, Adaptive, Learning-Based Control
+      <strong>Control Theory</strong> - Learning-Based, Robust and Adaptive Control
     </div>
     <div class="research-item">
       <strong>Safety-Critical Systems</strong> - Multirotor, VTOL, Robotics
@@ -106,11 +106,12 @@ redirect_from:
     margin-right: auto;
   }
   
-  .intro-section h2 {
-    font-size: 1.8em;
+  .intro-title {
+    font-size: 1.3em;
     font-weight: 600;
     color: #333;
     margin-bottom: 15px;
+    line-height: 1.4;
   }
   
   .intro-section p {
@@ -131,15 +132,15 @@ redirect_from:
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
     border: 1px solid #e9ecef;
     border-radius: 8px;
-    padding: 20px;
+    padding: 15px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   }
   
   .research-item {
-    padding: 8px 0;
+    padding: 6px 0;
     font-size: 1em;
     color: #555;
-    line-height: 1.4;
+    line-height: 1.3;
   }
   
   .research-item:not(:last-child) {
@@ -194,8 +195,8 @@ redirect_from:
   
   /* Simple education section */
   .education-item {
-    margin-bottom: 30px;
-    padding: 20px;
+    margin-bottom: 25px;
+    padding: 15px;
     border: 1px solid #ddd;
     border-radius: 4px;
   }
@@ -251,7 +252,7 @@ redirect_from:
   }
   
   .publication-item {
-    padding: 20px;
+    padding: 15px;
     border: 1px solid #ddd;
     border-radius: 4px;
   }
