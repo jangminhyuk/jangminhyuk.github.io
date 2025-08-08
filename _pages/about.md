@@ -130,9 +130,9 @@ redirect_from:
   
   .research-box {
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
-    border: 1px solid #e9ecef;
+    border: 2px solid #e9ecef;
     border-radius: 8px;
-    padding: 15px;
+    padding: 10px 15px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   }
   
@@ -144,7 +144,7 @@ redirect_from:
   }
   
   .research-item:not(:last-child) {
-    border-bottom: 1px solid #e9ecef;
+    border-bottom: 2px solid #e9ecef;
   }
   
   .research-item strong {
@@ -196,8 +196,8 @@ redirect_from:
   /* Simple education section */
   .education-item {
     margin-bottom: 25px;
-    padding: 15px;
-    border: 1px solid #ddd;
+    padding: 10px 15px;
+    border: 2px solid #ddd;
     border-radius: 4px;
   }
   
@@ -252,8 +252,8 @@ redirect_from:
   }
   
   .publication-item {
-    padding: 15px;
-    border: 1px solid #ddd;
+    padding: 10px 15px;
+    border: 2px solid #ddd;
     border-radius: 4px;
   }
   
@@ -513,7 +513,7 @@ redirect_from:
       <div class="education-content">
         <h3>Ph.D. in Mechanical Science and Engineering</h3>
         <p class="institution">University of Illinois Urbana-Champaign</p>
-        <p class="duration">2025.Aug ~ Current</p>
+        <p class="duration">2025 Aug ~ Current</p>
         <p class="lab"><a href="https://naira.mechse.illinois.edu/" target="_blank">Advanced Controls Research Lab</a></p>
       </div>
     </div>
