@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <div class="intro-section">
-  <h2>PhD Student in Mechanical Science & Engineering</h2>
+  <h2>I am a PhD Student in Mechanical Science & Engineering</h2>
   <p>University of Illinois Urbana-Champaign | <a href="https://naira.mechse.illinois.edu/" target="_blank">Advanced Controls Research Lab</a></p>
   <p>I earned my bachelor's degree in Mechanical Engineering and Artificial Intelligence at Seoul National University.</p>
   
