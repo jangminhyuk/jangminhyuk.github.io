@@ -9,16 +9,21 @@ redirect_from:
 ---
 
 <div class="intro-section">
-  <h2>I am a PhD Student in Mechanical Science & Engineering</h2>
-  <p>University of Illinois Urbana-Champaign | <a href="https://naira.mechse.illinois.edu/" target="_blank">Advanced Controls Research Lab</a></p>
+  <h2>I am a PhD Student in UIUC MechSE | <a href="https://naira.mechse.illinois.edu/" target="_blank">Advanced Controls Research Lab</h2>
   <p>I earned my bachelor's degree in Mechanical Engineering and Artificial Intelligence at Seoul National University.</p>
   
   <h3>Research Interests</h3>
-  <ul class="research-list">
-    <li><strong>Control Theory</strong> - Robust, Optimal, Adaptive, Learning-Based Control</li>
-    <li><strong>Safety-Critical Systems</strong> - Multirotor, VTOL, Robotics</li>
-    <li><strong>Multi-agent Systems</strong> - Distributed Control & Coordination</li>
-  </ul>
+  <div class="research-box">
+    <div class="research-item">
+      <strong>Control Theory</strong> - Robust, Optimal, Adaptive, Learning-Based Control
+    </div>
+    <div class="research-item">
+      <strong>Safety-Critical Systems</strong> - Multirotor, VTOL, Robotics
+    </div>
+    <div class="research-item">
+      <strong>Multi-agent Systems</strong> - Distributed Control & Coordination
+    </div>
+  </div>
 </div>
 
 <div class="portfolio-section">
@@ -122,21 +127,28 @@ redirect_from:
     margin: 25px 0 15px 0;
   }
   
-  .research-list {
-    list-style: none;
-    padding: 0;
+  .research-box {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   }
   
-  .research-list li {
-    margin-bottom: 8px;
+  .research-item {
     padding: 8px 0;
     font-size: 1em;
-    color: #666;
-    border-bottom: 1px solid #eee;
+    color: #555;
+    line-height: 1.4;
   }
   
-  .research-list li:last-child {
-    border-bottom: none;
+  .research-item:not(:last-child) {
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .research-item strong {
+    color: #2c3e50;
+    font-weight: 600;
   }
   
   /* Simple portfolio link */
