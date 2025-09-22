@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <div class="intro-section">
-  <p class="intro-title">I am a PhD student in Mechanical Science & Engineering at UIUC, working at the <a href="https://naira.mechse.illinois.edu/" target="_blank">Advanced Controls Research Lab</a>.</p>
+  <p class="intro-title">I am a PhD student in Mechanical Science & Engineering at UIUC.</p>
   <p>I earned my bachelor's degree in Mechanical Engineering and Artificial Intelligence at Seoul National University.</p>
   
   <h3>🔬 Research Interests</h3>
@@ -511,7 +511,6 @@ redirect_from:
         <h3>Ph.D. in Mechanical Science and Engineering</h3>
         <p class="institution">University of Illinois Urbana-Champaign</p>
         <p class="duration">2025 Aug ~ Current</p>
-        <p class="lab"><a href="https://naira.mechse.illinois.edu/" target="_blank">Advanced Controls Research Lab</a></p>
       </div>
     </div>
     <div class="education-item">
