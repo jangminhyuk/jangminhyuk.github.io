@@ -11,8 +11,8 @@ redirect_from:
 <div class="intro-section">
   <!-- <p class="intro-title">I am a PhD student in Mechanical Science & Engineering at UIUC.</p>
   <p>I earned my bachelor's degree in Mechanical Engineering and Artificial Intelligence at Seoul National University.</p> -->
-  <p class="intro-title">I am broadly interested in learning-based control and safety-critical systems. My background spans control theory, machine learning, and hands-on hardware development. While much of my past work has focused on aerial robotics such as drones and VTOLs, my interests extend to all domains of robotics and autonomous systems.</p>
-
+  <p class="intro-title"> I am broadly interested in learning-based control and safety-critical systems. My background spans control theory, machine learning, and hands-on hardware development. While much of my past work has focused on aerial robotics, my interests extend to all domains of robotics and autonomous systems. I plan to focus more on theoretical research, while continuing to stay engaged with hardware and experimental robotics.
+</p>
 
   <h3>🔬 Research Interests</h3>
   <div class="research-box">
