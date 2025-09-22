@@ -9,16 +9,18 @@ redirect_from:
 ---
 
 <div class="intro-section">
-  <p class="intro-title">I am a PhD student in Mechanical Science & Engineering at UIUC.</p>
-  <p>I earned my bachelor's degree in Mechanical Engineering and Artificial Intelligence at Seoul National University.</p>
-  
+  <!-- <p class="intro-title">I am a PhD student in Mechanical Science & Engineering at UIUC.</p>
+  <p>I earned my bachelor's degree in Mechanical Engineering and Artificial Intelligence at Seoul National University.</p> -->
+  <p class="intro-title">I am broadly interested in learning-based control and safety-critical systems. My background spans control theory, machine learning, and hands-on hardware development. While much of my past work has focused on aerial robotics such as drones and VTOLs, my interests extend to all domains of robotics and autonomous systems.</p>
+
+
   <h3>🔬 Research Interests</h3>
   <div class="research-box">
     <div class="research-item">
-      <strong>Control Theory</strong> - Learning-Based, Robust and Adaptive Control
+      <strong>Learning-Based Control</strong>
     </div>
     <div class="research-item">
-      <strong>Safety-Critical Systems</strong> - Multirotor, VTOL, Robotics
+      <strong>Safety-Critical Systems</strong> - Robotics
     </div>
     <div class="research-item">
       <strong>Multi-agent Systems</strong> - Distributed Control & Coordination
@@ -505,14 +507,14 @@ redirect_from:
     Education
   </h2>
   <div class="education-timeline">
-    <div class="education-item current">
+    <!-- <div class="education-item current">
       <div class="education-marker"></div>
       <div class="education-content">
         <h3>Ph.D. in Mechanical Science and Engineering</h3>
         <p class="institution">University of Illinois Urbana-Champaign</p>
         <p class="duration">2025 Aug ~ Current</p>
       </div>
-    </div>
+    </div> -->
     <div class="education-item">
       <div class="education-marker"></div>
       <div class="education-content">
