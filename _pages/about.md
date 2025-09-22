@@ -520,7 +520,7 @@ redirect_from:
       <div class="education-content">
         <h3>B.S. in Mechanical Engineering, Interdisciplinary Major in AI</h3>
         <p class="institution">Seoul National University</p>
-        <p class="duration">2025 Feb</p>
+        <p class="duration">2025</p>
         <div class="achievements">
           <div class="achievement-item">
             <span class="achievement-label">GPA:</span>
