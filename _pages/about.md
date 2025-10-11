@@ -11,7 +11,7 @@ redirect_from:
 <div class="intro-section">
   <!-- <p class="intro-title">I am a PhD student in Mechanical Science & Engineering at UIUC.</p>
   <p>I earned my bachelor's degree in Mechanical Engineering and Artificial Intelligence at Seoul National University.</p> -->
-  <p class="intro-title"> I am interested in learning-based control and safety-critical systems. I have a background in control theory, machine learning, and hands-on hardware development. I plan to focus more on theoretical research while continuing to stay engaged with hardware and experimental robotics.
+  <p class="intro-title"> I’m interested in learning-based control, robotics, and safety-critical systems. My strength is an interdisciplinary background in artificial intelligence and mechanical engineering, grounded in strong mathematics and extensive hands-on hardware work. I believe researchers who understand the full system architecture make the greatest impact.
 </p>
 
   <h3>🔬 Research Interests</h3>
@@ -23,7 +23,79 @@ redirect_from:
       <strong>Safety-Critical Systems</strong> - Robotics
     </div>
     <div class="research-item">
-      <strong>Multi-agent Systems</strong> - Distributed Control & Coordination
+      <strong>Multi-agent Systems</strong>
+    </div>
+  </div>
+</div>
+
+<div class="content-section">
+  <h2 class="section-title">
+    <span class="section-icon">🎓</span>
+    Education
+  </h2>
+  <div class="education-timeline">
+    <!-- <div class="education-item current">
+      <div class="education-marker"></div>
+      <div class="education-content">
+        <h3>Ph.D. in Mechanical Science and Engineering</h3>
+        <p class="institution">University of Illinois Urbana-Champaign</p>
+        <p class="duration">2025 Aug ~ Current</p>
+      </div>
+    </div> -->
+    <div class="education-item">
+      <div class="education-marker"></div>
+      <div class="education-content">
+        <h3>B.S. in Mechanical Engineering, Interdisciplinary Major in AI</h3>
+        <p class="institution">Seoul National University</p>
+        <p class="duration">2025</p>
+        <div class="achievements">
+          <div class="achievement-item">
+            <span class="achievement-label">GPA:</span>
+            <span class="achievement-value">3.99 / 4.0</span>
+          </div>
+          <div class="achievement-item">
+            <span class="achievement-badge">Outstanding B.S. Thesis Presentation Award</span>
+          </div>
+          <div class="achievement-item">
+            <span class="achievement-badge">College of Engineering Outstanding Graduate Award</span>
+          </div>
+          <div class="achievement-item">
+            <span class="achievement-note">Top 24 Graduates across the entire College of Engineering</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="content-section">
+  <h2 class="section-title">
+    <span class="section-icon">📄</span>
+    Publications
+  </h2>
+  <div class="publications-list">
+    <div class="publication-item">
+      <h4 class="paper-title">On the Steady-State Distributionally Robust Kalman Filter</h4>
+      <p class="paper-authors"><em>Minhyuk Jang</em>*, Astghik Hakobyan*, and Insoon Yang</p>
+      <p class="paper-venue">IEEE Control and Decision Conference 2025</p>
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2503.23742" target="_blank" class="paper-link">📄 arXiv</a>
+        <span class="paper-note">* Equal contribution</span>
+      </div>
+    </div>
+    
+    <div class="publication-item">
+      <h4 class="paper-title">Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems</h4>
+      <p class="paper-authors"><em>Minhyuk Jang</em>, Astghik Hakobyan, and Insoon Yang</p>
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2406.01723" target="_blank" class="paper-link">📄 arXiv</a>
+      </div>
+    </div>
+    
+    <div class="publication-item">
+      <h4 class="paper-title">Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems</h4>
+      <p class="paper-authors"><em>Minhyuk Jang</em></p>
+      <p class="paper-venue">Institute of Control, Robotics and Systems (ICROS), 2024</p>
     </div>
   </div>
 </div>
@@ -501,77 +573,6 @@ redirect_from:
 
 <div class="section-divider"></div>
 
-<div class="content-section">
-  <h2 class="section-title">
-    <span class="section-icon">🎓</span>
-    Education
-  </h2>
-  <div class="education-timeline">
-    <!-- <div class="education-item current">
-      <div class="education-marker"></div>
-      <div class="education-content">
-        <h3>Ph.D. in Mechanical Science and Engineering</h3>
-        <p class="institution">University of Illinois Urbana-Champaign</p>
-        <p class="duration">2025 Aug ~ Current</p>
-      </div>
-    </div> -->
-    <div class="education-item">
-      <div class="education-marker"></div>
-      <div class="education-content">
-        <h3>B.S. in Mechanical Engineering, Interdisciplinary Major in AI</h3>
-        <p class="institution">Seoul National University</p>
-        <p class="duration">2025</p>
-        <div class="achievements">
-          <div class="achievement-item">
-            <span class="achievement-label">GPA:</span>
-            <span class="achievement-value">3.99 / 4.0</span>
-          </div>
-          <div class="achievement-item">
-            <span class="achievement-badge">Outstanding B.S. Thesis Presentation Award</span>
-          </div>
-          <div class="achievement-item">
-            <span class="achievement-badge">College of Engineering Outstanding Graduate Award</span>
-          </div>
-          <div class="achievement-item">
-            <span class="achievement-note">Top 24 Graduates across the entire College of Engineering</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="content-section">
-  <h2 class="section-title">
-    <span class="section-icon">📄</span>
-    Publications
-  </h2>
-  <div class="publications-list">
-    <div class="publication-item">
-      <h4 class="paper-title">On the Steady-State Distributionally Robust Kalman Filter</h4>
-      <p class="paper-authors"><em>Minhyuk Jang</em>*, Astghik Hakobyan*, and Insoon Yang</p>
-      <p class="paper-venue">IEEE Control and Decision Conference 2025</p>
-      <div class="paper-links">
-        <a href="https://arxiv.org/abs/2503.23742" target="_blank" class="paper-link">📄 arXiv</a>
-        <span class="paper-note">* Equal contribution</span>
-      </div>
-    </div>
-    
-    <div class="publication-item">
-      <h4 class="paper-title">Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems</h4>
-      <p class="paper-authors"><em>Minhyuk Jang</em>, Astghik Hakobyan, and Insoon Yang</p>
-      <div class="paper-links">
-        <a href="https://arxiv.org/abs/2406.01723" target="_blank" class="paper-link">📄 arXiv</a>
-      </div>
-    </div>
-    
-    <div class="publication-item">
-      <h4 class="paper-title">Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems</h4>
-      <p class="paper-authors"><em>Minhyuk Jang</em></p>
-      <p class="paper-venue">Institute of Control, Robotics and Systems (ICROS), 2024</p>
-    </div>
-  </div>
-</div>
 
 <div class="content-section">
   <h2 class="section-title">
