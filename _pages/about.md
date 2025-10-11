@@ -23,7 +23,7 @@ redirect_from:
       <strong>Safety-Critical Systems</strong> - Robotics
     </div>
     <div class="research-item">
-      <strong>Multi-agent Systems</strong>
+      <strong>Multi-Agent Systems</strong>
     </div>
   </div>
 </div>
@@ -231,18 +231,25 @@ redirect_from:
   
   .portfolio-link {
     display: inline-block;
-    color: #333;
+    color: white;
+    background-color: #2c3e50;
     text-decoration: none;
-    padding: 12px 24px;
-    border: 2px solid #333;
-    border-radius: 4px;
-    font-weight: 500;
+    padding: 18px 36px;
+    border: 3px solid #2c3e50;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.2em;
     transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(44, 62, 80, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
   
   .portfolio-link:hover {
-    background-color: #333;
-    color: white;
+    background-color: #34495e;
+    border-color: #34495e;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(44, 62, 80, 0.4);
   }
   
   /* Content sections */
