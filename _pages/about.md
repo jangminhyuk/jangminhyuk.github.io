@@ -11,7 +11,7 @@ redirect_from:
 <div class="intro-section">
   <!-- <p class="intro-title">I am a PhD student in Mechanical Science & Engineering at UIUC.</p>
   <p>I earned my bachelor's degree in Mechanical Engineering and Artificial Intelligence at Seoul National University.</p> -->
-  <p class="intro-title"> I’m interested in learning-based control, robotics, and safety-critical systems. My strength is an interdisciplinary background in artificial intelligence and mechanical engineering, grounded in strong mathematics and extensive hands-on hardware work. I believe researchers who understand the full system architecture make the greatest impact.
+  <p class="intro-title"> I’m passionate about robotics of all kinds, learning-based control, and safety-critical systems. My strength is an interdisciplinary background in AI and mechanical engineering, grounded in strong mathematics and extensive hands-on hardware experience that gives me system-level insight. I believe researchers who understand the full system architecture can make the greatest impact!
 </p>
 
   <h3>🔬 Research Interests</h3>
