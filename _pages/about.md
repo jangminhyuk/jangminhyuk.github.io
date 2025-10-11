@@ -17,10 +17,10 @@ redirect_from:
   <h3>🔬 Research Interests</h3>
   <div class="research-box">
     <div class="research-item">
-      <strong>Learning-Based Control</strong>
+      <strong>Robotics</strong>
     </div>
     <div class="research-item">
-      <strong>Safety-Critical Systems</strong> - Robotics
+      <strong>Learning-Based Control</strong>
     </div>
     <div class="research-item">
       <strong>Multi-Agent Systems</strong>
