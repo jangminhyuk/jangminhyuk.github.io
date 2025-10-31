@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <div class="intro-section">
-  <p class="intro-title"> I’m passionate about robotics across platforms, learning-based control, AI safety, and systems design. I bring an interdisciplinary background in AI and mechanical engineering, grounded in rigorous control theory and hands-on hardware experience that gives me system-level insight. I believe researchers who understand the full system architecture can make the greatest impact!
+  <p class="intro-title"> I’m passionate about robotics across platforms, learning-based control, AI safety, and systems design. I bring an interdisciplinary background in AI and mechanical engineering, grounded in strong mathematics in control theory and hands-on hardware experience that gives me system-level insight. I believe researchers who understand the full system architecture can make the greatest impact!
 </p>
 
   <h3>🔬 Research Interests</h3>
