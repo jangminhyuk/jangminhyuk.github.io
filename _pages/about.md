@@ -15,13 +15,13 @@ redirect_from:
   <h3>🔬 Research Interests</h3>
   <div class="research-box">
     <div class="research-item">
-      <strong>Autonomous Systems, Robotics</strong>
-    </div>
-    <div class="research-item">
       <strong>Learning-Based Control, AI Safety</strong>
     </div>
     <div class="research-item">
       <strong>Systems Engineering</strong>
+    </div>
+    <div class="research-item">
+      <strong>Autonomous Systems, Robotics</strong>
     </div>
   </div>
 </div>
