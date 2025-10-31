@@ -9,21 +9,19 @@ redirect_from:
 ---
 
 <div class="intro-section">
-  <!-- <p class="intro-title">I am a PhD student in Mechanical Science & Engineering at UIUC.</p>
-  <p>I earned my bachelor's degree in Mechanical Engineering and Artificial Intelligence at Seoul National University.</p> -->
-  <p class="intro-title"> I’m passionate about robotics of all kinds, learning-based control, and safety-critical systems. My strength is an interdisciplinary background in AI and mechanical engineering, grounded in strong mathematics in control theory and extensive hardware experience that gives me system-level insight. I believe researchers who understand the full system architecture can make the greatest impact!
+  <p class="intro-title"> I’m passionate about robotics across platforms, learning-based control, AI safety, and systems design. I bring an interdisciplinary background in AI and mechanical engineering, grounded in rigorous control theory and hands-on hardware experience that gives me system-level insight. I believe researchers who understand the full system architecture can make the greatest impact!
 </p>
 
   <h3>🔬 Research Interests</h3>
   <div class="research-box">
     <div class="research-item">
-      <strong>Robotics</strong>
+      <strong>Autonomous Systems, robotics, aerial systems</strong>
     </div>
     <div class="research-item">
-      <strong>Learning-Based Control</strong>
+      <strong>Learning-Based Control, AI Safety</strong>
     </div>
     <div class="research-item">
-      <strong>Multi-Agent Systems</strong>
+      <strong>Systems Engineering & Multi-Agent Systems</strong>
     </div>
   </div>
 </div>
