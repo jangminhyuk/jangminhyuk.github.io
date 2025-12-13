@@ -73,6 +73,14 @@ redirect_from:
   </h2>
   <div class="publications-list">
     <div class="publication-item">
+      <h4 class="paper-title">Distributionally Robust Kalman Filter</h4>
+      <p class="paper-authors"><em>Minhyuk Jang</em>*, Astghik Hakobyan*, and Insoon Yang</p>
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2512.06286" target="_blank" class="paper-link">📄 arXiv</a>
+      </div>
+    </div>
+
+    <div class="publication-item">
       <h4 class="paper-title">On the Steady-State Distributionally Robust Kalman Filter</h4>
       <p class="paper-authors"><em>Minhyuk Jang</em>*, Astghik Hakobyan*, and Insoon Yang</p>
       <p class="paper-venue">IEEE Control and Decision Conference 2025</p>
