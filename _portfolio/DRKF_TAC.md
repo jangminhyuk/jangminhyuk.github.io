@@ -7,9 +7,9 @@ order: 0.9
 
 ([arXiv](https://arxiv.org/abs/2512.06286))
 
-<em>Minhyuk Jang</em>*, Astghik Hakobyan*, Insoon Yang.
+Minhyuk Jang, Astghik Hakobyan, Insoon Yang.
 
-*Equal Contribution
+First two authors contributed equalliy.
 
 <center>
   <img src='/images/portfolio_img/3d_regret_surface_normal.jpg' width='500'/>
