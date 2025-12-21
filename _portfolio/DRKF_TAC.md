@@ -1,6 +1,6 @@
 ---
 title: "Distributionally Robust Kalman Filter"
-excerpt: Distributionally Robust Kalman Filter <br/><img src='/images/portfolio_img/3d_regret_surface_normal.pdf' width='500'> <br/><img src='/images/portfolio_img/tube_3D_piecewise_linear.pdf' width='500'> <br/><img src='/images/portfolio_img/regret_theta_effect_normal_estimation.pdf' width='500'>
+excerpt: Distributionally Robust Kalman Filter <br/><img src='/images/portfolio_img/3d_regret_surface_normal.jpg' width='500'> <br/><img src='/images/portfolio_img/tube_3D_piecewise_linear.jpg' width='500'> <br/><img src='/images/portfolio_img/regret_theta_effect_normal_estimation.jpg' width='500'>
 order: 0.9
 ---
 
