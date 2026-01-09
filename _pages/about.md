@@ -58,7 +58,7 @@ redirect_from:
             <span class="achievement-badge">College of Engineering Outstanding Graduate Award</span>
           </div>
           <div class="achievement-item">
-            <span class="achievement-note">Top 24 Graduates across the entire College of Engineering</span>
+            <span class="achievement-note">One of the top 24 Graduates across the entire College of Engineering</span>
           </div>
         </div>
       </div>
