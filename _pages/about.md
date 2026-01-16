@@ -58,7 +58,7 @@ redirect_from:
             <span class="achievement-badge">College of Engineering Outstanding Graduate Award</span>
           </div>
           <div class="achievement-item">
-            <span class="achievement-note">One of the top 24 Graduates across the entire College of Engineering</span>
+            <span class="achievement-note">One of the Top 24 Graduates across the entire College of Engineering</span>
           </div>
         </div>
       </div>
@@ -77,6 +77,7 @@ redirect_from:
       <p class="paper-authors"><em>Minhyuk Jang</em>*, Astghik Hakobyan*, and Insoon Yang</p>
       <div class="paper-links">
         <a href="https://arxiv.org/abs/2512.06286" target="_blank" class="paper-link">📄 arXiv</a>
+        <span class="paper-note">* Equal contribution</span>
       </div>
     </div>
 
