@@ -1,8 +1,11 @@
 ---
 title: "VTOL Project (1)"
-excerpt: First VTOL Project <br/><img src='/images/portfolio_img/Foamboard_transition.gif' width='500'> <br/><img src='/images/portfolio_img/VTOL.jpg' width='500' height='500'> 
+excerpt: "First VTOL Project"
 collection: portfolio
 order: 5
+preview_images:
+  - /images/portfolio_img/thumbs/Foamboard_transition.gif
+  - /images/portfolio_img/VTOL.jpg
 ---
 
 **Duration : MAR '24 - SEP '24**

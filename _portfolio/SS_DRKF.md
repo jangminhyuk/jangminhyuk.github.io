@@ -1,7 +1,9 @@
 ---
 title: "On the Steady-State Distributionally Robust Kalman Filter"
-excerpt: On the Steady-State Distributionally Robust Kalman Filter <br/> IEEE CDC 2025  <br/><img src='/images/portfolio_img/violin_lqr.jpeg' width='500'>
+excerpt: "On the Steady-State Distributionally Robust Kalman Filter - IEEE CDC 2025"
 order: 1
+preview_images:
+  - /images/portfolio_img/violin_lqr.jpeg
 ---
 
 **Duration : OCT '24 - MAR '25**

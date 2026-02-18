@@ -1,8 +1,10 @@
 ---
 title: "Origami-Based Landing Gear for Drones"
-excerpt: Length Adjustable Landing Gear <br/><img src='/images/portfolio_img/drone_outdoor.jpg' width='500'>
+excerpt: "Origami-Based Length Adjustable Landing Gear"
 collection: portfolio
 order: 8
+preview_images:
+  - /images/portfolio_img/drone_outdoor.jpg
 ---
 
 **Duration : MAR '24 - JUN '24**

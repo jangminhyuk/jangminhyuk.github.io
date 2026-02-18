@@ -1,8 +1,10 @@
 ---
 title: "Quadrotor Build and Fly Seminar"
-excerpt: Quadrotor Build and Fly Seminar <br/><img src='/images/portfolio_img/drone_seminar.gif' width='500' height='500'> 
+excerpt: "Organized and conducted over five Quadrotor Build/Fly seminars, teaching hardware assembly, sensor calibration, Ground Control Station usage, flight experiments, and flight log analysis"
 collection: portfolio
 order: 7
+preview_images:
+  - /images/portfolio_img/thumbs/drone_seminar.gif
 ---
 
 **Duration : MAR '24 - PRESENT**

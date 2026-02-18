@@ -1,8 +1,10 @@
 ---
 title: "Automated Inverse Temperature Tuning Algorithm for MPPI Control "
-excerpt: Objective- Generate a smooth trajectory while maintaining low cost<br/><img src='/images/portfolio_img/0.005_MPPI_MJPC.gif' width='500' height='300'>
+excerpt: "Automated Inverse Temperature Tuning for MPPI Control"
 collection: portfolio
 order: 2
+preview_images:
+  - /images/portfolio_img/thumbs/0.005_MPPI_MJPC.gif
 ---
 
 **Project Duration : SEP '23 - JUN '24**

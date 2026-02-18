@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc:*)",
+      "Bash(ls:*)",
+      "Bash(grep:*)",
+      "Bash(ruby:*)",
+      "Bash(bundle:*)",
+      "Bash(jekyll:*)",
+      "Bash(powershell -File -:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(bash -c \"ls C:/Users/jason/jangminhyuk.github.io/_portfolio/\")",
+      "Bash(bash -c 'ls')",
+      "Bash(git -C \"C:/Users/jason/jangminhyuk.github.io\" show HEAD:_portfolio/VTOL_1.md)"
+    ]
+  }
+}

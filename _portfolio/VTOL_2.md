@@ -1,8 +1,10 @@
 ---
 title: "VTOL Project (2)"
-excerpt: Second VTOL Project <br/><img src='/images/portfolio_img/VTOL2_SNU_photo.jpg' width='500'> 
+excerpt: "Second VTOL Project"
 collection: portfolio
 order: 4
+preview_images:
+  - /images/portfolio_img/VTOL2_SNU_photo.jpg
 ---
 
 **Duration: MAR '24 - SEP '24**

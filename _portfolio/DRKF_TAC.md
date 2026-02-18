@@ -1,7 +1,10 @@
 ---
 title: "Distributionally Robust Kalman Filter"
-excerpt: Distributionally Robust Kalman Filter  <br/><img src='/images/portfolio_img/tube_3D_piecewise_linear.jpg' width='500'> <br/><img src='/images/portfolio_img/regret_theta_effect_normal_estimation.jpg' width='500'>
+excerpt: "Noise-centric formulation of the Distributionally Robust Kalman filter (DRKF) for discrete-time linear stochastic systems with uncertain noise statistics"
 order: 0.9
+preview_images:
+  - /images/portfolio_img/tube_3D_piecewise_linear.jpg
+  - /images/portfolio_img/regret_theta_effect_normal_estimation.jpg
 ---
 
 

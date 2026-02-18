@@ -1,8 +1,13 @@
 ---
 title: "Korea Robot Aircraft Competition - Grand Award"
-excerpt:  VTOL Takeoff <br/><img src='/images/portfolio_img/taean_takeoff.gif' width='500'> <br/> VTOL before-takeoff <br/><img src='/images/portfolio_img/full_april.jpg' width='500'> <br/> Full mission overview <br/><img src='/images/portfolio_img/full_mission.png' width='500'> <br/> 3d flight log <br/><img src='/images/portfolio_img/flight_log_3d.jpg' width='500'>
+excerpt: "Led a 25-member team to 1st place among 39 university teams. Built a 2.1m-wingspan VTOL with fully autonomous waypoint navigation, transition flight, obstacle avoidance, precision landing, and live streaming."
 collection: portfolio
 order: 3.7
+preview_images:
+  - /images/portfolio_img/thumbs/taean_takeoff.gif
+  - /images/portfolio_img/full_april.jpg
+  - /images/portfolio_img/full_mission.png
+  - /images/portfolio_img/flight_log_3d.jpg
 ---
 
 **Duration: MAR '24 - SEP '24**
