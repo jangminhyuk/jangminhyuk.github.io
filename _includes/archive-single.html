@@ -49,13 +49,16 @@
     {% if post.preview_images %}
     {% if post.preview_layout == "wide-top" %}
     <div class="archive__item-preview-images" style="display:flex;flex-direction:column;gap:8px;margin:8px 0;">
+      {% for img in post.preview_images %}
+        {% if forloop.first %}
       <div>
-        <img src="{{ post.preview_images[0] }}" alt="{{ post.title }}" loading="lazy" style="max-width:500px;max-height:200px;object-fit:contain;background:#f5f6f7;border-radius:4px;">
+        <img src="{{ img }}" alt="{{ post.title }}" loading="lazy" style="max-width:500px;max-height:200px;object-fit:contain;background:#f5f6f7;border-radius:4px;">
       </div>
       <div style="display:flex;flex-wrap:wrap;gap:8px;">
-        {% for img in post.preview_images offset:1 %}
-          <img src="{{ img }}" alt="{{ post.title }}" loading="lazy" style="max-width:240px;max-height:180px;object-fit:contain;background:#f5f6f7;border-radius:4px;">
-        {% endfor %}
+        {% else %}
+        <img src="{{ img }}" alt="{{ post.title }}" loading="lazy" style="max-width:240px;max-height:180px;object-fit:contain;background:#f5f6f7;border-radius:4px;">
+        {% endif %}
+      {% endfor %}
       </div>
     </div>
     {% else %}

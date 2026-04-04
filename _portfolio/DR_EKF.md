@@ -9,10 +9,11 @@ preview_images:
 preview_layout: wide-top
 ---
 
+IEEE CDC 2026, under review
 
-Minhyuk Jang*, Jungjin Lee*, Astghik Hakobyan, Insoon Yang, Naira Hovakimyan.
+Minhyuk Jang, Jungjin Lee, Astghik Hakobyan, Insoon Yang, Naira Hovakimyan.
 
-
+First two authors contributed equally.
 <center>
   <img src='/images/portfolio_img/tracking_video_INSTANCE_1_quadratic_fps15.gif' width='500'/>
 </center>

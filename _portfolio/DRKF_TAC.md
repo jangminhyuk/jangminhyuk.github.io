@@ -12,7 +12,7 @@ preview_images:
 
 Minhyuk Jang, Astghik Hakobyan, Insoon Yang.
 
-First two authors contributed equalliy.
+First two authors contributed equally.
 
 <center>
   <img src='/images/portfolio_img/3d_regret_surface_normal.jpg' width='500'/>

@@ -98,6 +98,8 @@ redirect_from:
       {% assign img_count = project.preview_images | size %}
       {% if img_count == 4 %}
         {% assign span_class = "project-card project-card--span2" %}
+      {% elsif img_count == 3 %}
+        {% assign span_class = "project-card project-card--span2" %}
       {% elsif img_count == 2 %}
         {% assign span_class = "project-card project-card--span2" %}
       {% else %}
@@ -114,6 +116,22 @@ redirect_from:
                 <img src="{{ img }}" alt="{{ project.title }}" loading="lazy">
               </div>
             {% endfor %}
+          </div>
+        {% elsif img_count == 3 %}
+          <div class="project-card__images project-card__images--wide-top">
+            {% for img in project.preview_images %}
+              {% if forloop.first %}
+              <div class="project-card__img-wrap project-card__img-wrap--wide">
+                <img src="{{ img }}" alt="{{ project.title }}" loading="lazy">
+              </div>
+              <div class="project-card__images--bottom-row">
+              {% else %}
+              <div class="project-card__img-wrap project-card__img-wrap--small">
+                <img src="{{ img }}" alt="{{ project.title }}" loading="lazy">
+              </div>
+              {% endif %}
+            {% endfor %}
+              </div>
           </div>
         {% elsif img_count == 2 %}
           <div class="project-card__images project-card__images--side">
@@ -391,6 +409,45 @@ redirect_from:
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+  }
+
+  .project-card__images--wide-top {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .project-card__images--wide-top .project-card__img-wrap--wide {
+    background: #f5f6f7;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+  }
+  .project-card__images--wide-top .project-card__img-wrap--wide img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .project-card__images--bottom-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .project-card__images--wide-top .project-card__img-wrap--small {
+    background: #f5f6f7;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+  }
+  .project-card__images--wide-top .project-card__img-wrap--small img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
   }
 
   .project-card__images--grid4 {
