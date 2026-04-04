@@ -53,15 +53,22 @@ redirect_from:
   </h2>
   <div class="publications-list">
     <div class="publication-item">
+      <h4 class="paper-title">Distributionally Robust EKF: Absorbing Linearization Mismatch via Wasserstein Ambiguity</h4>
+      <p class="paper-authors"><em>Minhyuk Jang</em>*, Jungjin Lee*, Astghik Hakobyan, Naira Hovakimyan, and Insoon Yang · <span class="paper-note">* Equal contribution</span></p>
+      <p class="paper-venue">IEEE Control and Decision Conference (CDC) 2026, under review</p>
+    </div>
+
+    <div class="publication-item">
       <h4 class="paper-title">Distributionally Robust Kalman Filter</h4>
       <p class="paper-authors"><em>Minhyuk Jang</em>*, Astghik Hakobyan*, and Insoon Yang · <span class="paper-note">* Equal contribution</span></p>
+      <p class="paper-venue">IEEE Transactions on Automatic Control (TAC), under review</p>
       <a href="https://arxiv.org/abs/2512.06286" target="_blank" class="paper-link">arXiv</a>
     </div>
 
     <div class="publication-item">
       <h4 class="paper-title">On the Steady-State Distributionally Robust Kalman Filter</h4>
       <p class="paper-authors"><em>Minhyuk Jang</em>*, Astghik Hakobyan*, and Insoon Yang · <span class="paper-note">* Equal contribution</span></p>
-      <p class="paper-venue">IEEE Control and Decision Conference 2025</p>
+      <p class="paper-venue">IEEE Control and Decision Conference (CDC) 2025</p>
       <a href="https://arxiv.org/abs/2503.23742" target="_blank" class="paper-link">arXiv</a>
     </div>
 
