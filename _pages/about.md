@@ -57,6 +57,7 @@ redirect_from:
       <h4 class="paper-title">Distributionally Robust EKF: Absorbing Linearization Mismatch via Wasserstein Ambiguity</h4>
       <p class="paper-authors"><em>Minhyuk Jang</em>*, Jungjin Lee*, Astghik Hakobyan, Naira Hovakimyan, and Insoon Yang</p>
       <p class="paper-venue">IEEE Control and Decision Conference (CDC) 2026, under review</p>
+      <a href="https://arxiv.org/abs/2604.02749" target="_blank" class="paper-link">arXiv</a>
     </div>
 
     <div class="publication-item">
