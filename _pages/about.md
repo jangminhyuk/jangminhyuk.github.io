@@ -97,7 +97,9 @@ redirect_from:
     {% assign sorted_projects = site.portfolio | sort: 'order' %}
     {% for project in sorted_projects %}
       {% assign img_count = project.preview_images | size %}
-      {% if img_count == 4 %}
+      {% if project.preview_layout == "stacked" %}
+        {% assign span_class = "project-card project-card--span2" %}
+      {% elsif img_count == 4 %}
         {% assign span_class = "project-card project-card--span2" %}
       {% elsif img_count == 3 %}
         {% assign span_class = "project-card project-card--span2" %}
@@ -110,7 +112,15 @@ redirect_from:
         <a href="{{ project.url }}" class="project-card__link">
           <h3 class="project-card__title">{{ project.title }}</h3>
         </a>
-        {% if img_count == 4 %}
+        {% if project.preview_layout == "stacked" %}
+          <div class="project-card__images project-card__images--stacked">
+            {% for img in project.preview_images %}
+              <div class="project-card__img-wrap">
+                <img src="{{ img }}" alt="{{ project.title }}" loading="lazy">
+              </div>
+            {% endfor %}
+          </div>
+        {% elsif img_count == 4 %}
           <div class="project-card__images project-card__images--grid4">
             {% for img in project.preview_images %}
               <div class="project-card__img-wrap project-card__img-wrap--small">
@@ -466,6 +476,23 @@ redirect_from:
     align-items: center;
     justify-content: center;
     height: 180px;
+  }
+
+  .project-card__images--stacked {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 480px;
+  }
+  .project-card__images--stacked .project-card__img-wrap {
+    background: #f5f6f7;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .project-card__images--stacked .project-card__img-wrap img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
   }
 
   .project-card__img-wrap img {

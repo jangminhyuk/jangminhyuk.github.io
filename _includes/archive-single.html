@@ -47,7 +47,13 @@
         {% endif %}
 
     {% if post.preview_images %}
-    {% if post.preview_layout == "wide-top" %}
+    {% if post.preview_layout == "stacked" %}
+    <div class="archive__item-preview-images" style="display:flex;flex-direction:column;gap:8px;margin:8px 0;">
+      {% for img in post.preview_images %}
+        <img src="{{ img }}" alt="{{ post.title }}" loading="lazy" style="display:block;max-width:360px;max-height:200px;object-fit:contain;background:#f5f6f7;border-radius:4px;">
+      {% endfor %}
+    </div>
+    {% elsif post.preview_layout == "wide-top" %}
     <div class="archive__item-preview-images" style="display:flex;flex-direction:column;gap:8px;margin:8px 0;">
       {% for img in post.preview_images %}
         {% if forloop.first %}
