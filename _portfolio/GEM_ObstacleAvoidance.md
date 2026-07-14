@@ -10,7 +10,7 @@ preview_images:
   - /images/portfolio_img/thumbs/gem_passenger.gif
 ---
 
-**CS588: Autonomous Vehicle System Engineering — Group 9**
+**CS588: Autonomous Vehicle System Engineering**
 
 A Highbay navigation framework for the **Polaris GEM e4** that performs obstacle-aware planning and control. An **RGB-D + YOLO** perception module estimates obstacle positions, a **hierarchical Frenet-frame replanner** samples safe detours, and a low-level **Stanley controller** tracks the chosen path. The system is validated first in high-fidelity simulation and then on the physical GEM e4.
 
