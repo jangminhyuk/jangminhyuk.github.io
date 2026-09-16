@@ -1,0 +1,13 @@
+<figure class="research-media{% unless include.item.video %} research-media--figure{% endunless %}">
+  {% if include.item.video %}
+  <video data-preview controls muted loop playsinline preload="none" poster="{{ include.item.image | relative_url }}" aria-label="{{ include.item.alt | escape }}">
+    <source src="{{ include.item.video | relative_url }}" type="video/mp4">
+    <a href="{{ include.item.video | relative_url }}">Watch the research demonstration</a>
+  </video>
+  {% else %}
+  <a href="{{ include.item.project | relative_url }}" aria-label="Read about {{ include.item.title | escape }}">
+    <img src="{{ include.item.image | relative_url }}" alt="{{ include.item.alt | escape }}" width="960" height="540" loading="lazy">
+  </a>
+  {% endif %}
+  <figcaption>{{ include.item.caption }}</figcaption>
+</figure>

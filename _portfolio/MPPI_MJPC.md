@@ -1,4 +1,12 @@
 ---
+card_video_alt: "Quadrotor hovering with MPPI control in MuJoCo simulation."
+card_video: /assets/projects/mppi.mp4
+card_image: /assets/projects/mppi.jpg
+home_order: 4
+featured_engineering: true
+card_title: "Adaptive tuning for MPPI control"
+card_label: "Sampling-based control"
+card_summary: "Automatic inverse-temperature tuning for model predictive path integral control."
 title: "Automated Inverse Temperature Tuning Algorithm for MPPI Control "
 excerpt: "Automated Inverse Temperature Tuning for MPPI Control"
 collection: portfolio
@@ -13,19 +21,19 @@ __Outstanding B.S. Thesis Presentation Award, Department of Mechanical Engineeri
 
 (Last update : 2024-06-24)
 
-This reserach project is mainly focused on the automated selection of the hyperparameter named **Inverse Temperature** in MPPI control. Also, we implemented MPPI controller and our algorithm within [MuJoCo MPC](https://github.com/google-deepmind/mujoco_mpc) framework.
+This project implements automatic inverse-temperature tuning for MPPI in [MuJoCo MPC](https://github.com/google-deepmind/mujoco_mpc), with quadrotor hovering and path-tracking experiments.
 
 ### Model Predictive Path Integral(MPPI)
 
-The Model Predictive Path Integral(MPPI) control method has evolved significantly and has exhibited its efficacy in various autonomous driving experiments. These sampling-based MPC techniques are rooted in an Information-Theoretic approach, leveraging information derived from randomly generated simple policies. Control inputs are determined by the cost associated with each of these policies. Unlike traditional optimal control problems(e.g., MPC), this approach doesn’t require objective function to be differentiable, allowing the use of complex dynamical models without approximation. Moreover, MPPI can be computed efficiently, with each rollout parallelized. These characteristics makes MPPI able to handle complex, contact-rich environments involving high-DOF robotics. Recent work has demonstrated the effectiveness of MPPI in various complex contact-rich tasks, such as collision avoidance with robot arms in Isaac Gym environments, leveraging GPU acceleration. [Ref](https://proceedings.mlr.press/v164/bhardwaj22a.html)
+MPPI samples candidate control sequences, evaluates their rollout costs, and combines them using cost-based weights. It supports non-differentiable costs and parallel rollout evaluation. [Reference](https://proceedings.mlr.press/v164/bhardwaj22a.html)
 
 ### Inverse Temperature Tuning
-In MPPI control theory, there is a crucial **hyperparameter** named **$\lambda$ (inverse temperature)**, which significantly impacts control performance. The choice of $\lambda$ affects both control cost and state fluctuation. However, there are no existing algorithms that automatically tune $\lambda$ for optimal performance. In this paper, we propose an adaptive algorithm for tuning $\lambda$ to minimize state fluctuation while maintaining low cost. We define an objective function with respect to $\lambda$ and update $\lambda$ to minimize this specific objective function, operating in parallel with the MPPI controller.
+The parameter **$\lambda$ (inverse temperature)** affects control cost and state fluctuation. This project updates $\lambda$ alongside the MPPI controller to reduce state fluctuations while maintaining low cost.
 
-We demonstrated our algorithm using an open-source framework named MuJoCo MPC (MJPC), specifically in the quadrotor hovering and path tracking tasks. As we continuously update $\lambda$ at each time step, the $\lambda$ value starting from different initial values converges. Using the proposed algorithm with adpative $\lambda$, the quadrotor exhibits less fluctuation and improved control performance.
+In the quadrotor experiments, $\lambda$ converged from different initial values, and adaptive tuning reduced fluctuations in hovering and path tracking.
 
 ## Experimental Results
-First, let's see the impact of $\lambda$ to the control performance.
+Position tracking under different fixed values of $\lambda$:
 <center>
   <img src='/images/portfolio_img/x_position_plot.png' width='500'/>
   <figcaption>X position with different inverse temperature</figcaption>
@@ -41,7 +49,7 @@ First, let's see the impact of $\lambda$ to the control performance.
 
 The above figures demonstrates the importance of selecting proper $\lambda$. ($\lambda=0.005$ shows small cost with small fluctuation in this case.)
 
-Now, let's see the effect of our $\lambda$ tuning algorithm.
+Online updates from different initial values of $\lambda$:
 
 <center>
   <img src='/images/portfolio_img/lambda_plot_fixed_0_005_sigma_0.005.png' width='500'/>
@@ -55,5 +63,3 @@ $\lambda$ starting from different initial condition converges.
   <figcaption>Quadrotor Hovering task with MPPI (Goal Position : Green)</figcaption>
 </center>
 The results from MPPI with the properly tuned $\lambda$ showed reduced fluctuations compared to different selections of $\lambda$. Additionally, the optimal $\lambda$ values consistently converged to a specific range despite different initial values, underscoring the effectiveness of our approach. 
-
-Our resulting algorithm is not only suitable for the quadrotor hovering task, but also adaptable to a variety of other robotic tasks that require smooth trajectory generation.

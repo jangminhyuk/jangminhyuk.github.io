@@ -1,0 +1,6 @@
+<article class="publication-entry">
+  <h3><a href="{{ include.item.project | relative_url }}">{{ include.item.title }}</a></h3>
+  <p class="authors">{{ include.item.authors | replace: 'Minhyuk Jang', '<strong>Minhyuk Jang</strong>' }}</p>
+  <p class="venue">{{ include.item.venue }}</p>
+  {% include research-links.html item=include.item %}
+</article>

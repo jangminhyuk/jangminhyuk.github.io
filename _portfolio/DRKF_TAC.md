@@ -1,4 +1,5 @@
 ---
+research_id: drkf
 title: "Distributionally Robust Kalman Filter"
 excerpt: "Noise-centric formulation of the Distributionally Robust Kalman filter (DRKF) for discrete-time linear stochastic systems with uncertain noise statistics"
 order: 0.9

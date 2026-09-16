@@ -1,4 +1,12 @@
 ---
+card_video_alt: "The first VTOL prototype transitioning from hover to forward flight."
+card_video: /assets/projects/vtol-prototype.mp4
+card_image: /assets/projects/vtol-prototype.jpg
+home_order: 6
+featured_engineering: true
+card_title: "VTOL: first prototype"
+card_label: "Aircraft development"
+card_summary: "Building and testing a quadplane through hover and transition flight."
 title: "VTOL Project (1)"
 excerpt: "First VTOL Project"
 collection: portfolio

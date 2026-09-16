@@ -1,0 +1,4 @@
+<div class="paper-links">
+  {% if include.item.paper %}<a href="{{ include.item.paper }}">{% if include.item.paper contains 'arxiv.org' %}arXiv{% else %}Paper{% endif %} <span aria-hidden="true">↗</span></a>{% endif %}
+  {% unless include.hide_project %}<a href="{{ include.item.project | relative_url }}">Project details <span aria-hidden="true">→</span></a>{% endunless %}
+</div>

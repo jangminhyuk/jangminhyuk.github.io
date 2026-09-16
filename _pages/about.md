@@ -1,565 +1,85 @@
 ---
+layout: research-site
 permalink: /
-title: "Hello, I'm Minhyuk!"
-excerpt: "About me"
-author_profile: true
+title: "Minhyuk Jang"
+excerpt: "Robotics, learning-based control, and safe autonomy. Ph.D. student at the University of Illinois Urbana-Champaign."
 redirect_from:
   - /about/
   - /about.html
 ---
-
-<div class="intro-section">
-  <p class="intro-title"> I'm a Ph.D. student at UIUC Mechanical Science and Engineering, passionate about all kinds of robotics and learning-based control. I bring an interdisciplinary background in AI and mechanical engineering, grounded in strong mathematics in control theory and hands-on hardware experience that gives me system-level insight. I believe researchers who understand the full system architecture can make the greatest impact! <a href="/files/minhyukjang_CV.pdf" target="_blank" class="cv-link">[CV]</a>
-</p>
-
-  <h3>🔬 Research Interests</h3>
-  <div class="research-pills">
-    <span class="research-pill">Learning-Based Control</span>
-    <span class="research-pill">Robotics</span>
-    <span class="research-pill">AI Safety</span>
-    <span class="research-pill">Multi-Agent Systems</span>
-  </div>
-</div>
-
-<div class="content-section">
-  <h2 class="section-title">
-    <span class="section-icon">🎓</span>
-    Education
-  </h2>
-  <div class="education-list">
-    <div class="edu-entry">
-      <img src="/images/illinois_logo.png" alt="UIUC" class="edu-logo">
-      <div class="edu-body">
-        <div class="edu-degree">Ph.D. student in Mechanical Science and Engineering</div>
-        <div class="edu-detail"><strong>University of Illinois Urbana-Champaign (UIUC), Aug 2025 – Present · GPA: 4.0 / 4.0</strong></div>
-        <div class="edu-detail"><a href="https://naira.mechse.illinois.edu/">Advanced Controls Research Laboratory</a> · Advisor: Prof. Naira Hovakimyan</div>
-      </div>
+<section class="intro" aria-labelledby="intro-title">
+  <div class="intro-copy">
+    <h1 id="intro-title">Minhyuk Jang<span class="name-period">.</span></h1>
+    <p class="intro-bio">My research is in robotics, with a focus on robust state estimation, learning-based control, and safe motion planning. I work with Prof. Naira Hovakimyan at the <a href="https://naira.mechse.illinois.edu/">Advanced Controls Research Laboratory</a>.</p>
+    <div class="education-brief" aria-label="Education">
+      <div><strong>University of Illinois Urbana-Champaign</strong><p>Ph.D. student, Mechanical Science & Engineering · 2025–present <span class="gpa">GPA: 4.0 / 4.0</span></p></div>
+      <div><strong>Seoul National University</strong><p>B.S., Artificial Intelligence & Mechanical Engineering · 2025 <span class="gpa">GPA: 3.99 / 4.0</span></p></div>
     </div>
-    <div class="edu-entry">
-      <img src="/images/SNU.svg" alt="SNU" class="edu-logo">
-      <div class="edu-body">
-        <div class="edu-degree">B.S. in Mechanical Engineering, Interdisciplinary Major in AI</div>
-        <div class="edu-detail"><strong>Seoul National University, 2025 · GPA: 3.99 / 4.0</strong></div>
-        <div class="edu-detail">College of Engineering Outstanding Graduate Award</div>
-      </div>
+    <div class="intro-actions">
+      <a class="text-link intro-cv" href="{{ '/files/Minhyuk_Jang_CV.pdf' | relative_url }}">View CV <span aria-hidden="true">↗</span></a>
+      <div class="contact-links"><a href="mailto:{{ site.author.email }}">Email <span aria-hidden="true">↗</span></a><a href="{{ site.author.googlescholar }}">Google Scholar <span aria-hidden="true">↗</span></a><a href="https://github.com/{{ site.author.github }}">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">LinkedIn <span aria-hidden="true">↗</span></a></div>
     </div>
   </div>
-</div>
+  <figure class="portrait"><img src="{{ '/images/minhyuk-jang.jpg' | relative_url }}" alt="Minhyuk Jang" width="960" height="960" fetchpriority="high"></figure>
+</section>
 
-<div class="content-section">
-  <h2 class="section-title">
-    <span class="section-icon">📄</span>
-    Publications
-  </h2>
-  <p class="paper-note">* Equal contribution</p>
-  <div class="publications-list">
-    <div class="publication-item">
-      <h4 class="paper-title">Distributionally Robust EKF: Absorbing Linearization Mismatch via Wasserstein Ambiguity</h4>
-      <p class="paper-authors"><em>Minhyuk Jang</em>*, Jungjin Lee*, Astghik Hakobyan, Naira Hovakimyan, and Insoon Yang</p>
-      <p class="paper-venue">IEEE Control and Decision Conference (CDC) 2026, under review</p>
-      <a href="https://arxiv.org/abs/2604.02749" target="_blank" class="paper-link">arXiv</a>
-    </div>
-
-    <div class="publication-item">
-      <h4 class="paper-title">Distributionally Robust Kalman Filter</h4>
-      <p class="paper-authors"><em>Minhyuk Jang</em>*, Astghik Hakobyan*, and Insoon Yang</p>
-      <p class="paper-venue">IEEE Transactions on Automatic Control (TAC), under review</p>
-      <a href="https://arxiv.org/abs/2512.06286" target="_blank" class="paper-link">arXiv</a>
-    </div>
-
-    <div class="publication-item">
-      <h4 class="paper-title">On the Steady-State Distributionally Robust Kalman Filter</h4>
-      <p class="paper-authors"><em>Minhyuk Jang</em>*, Astghik Hakobyan*, and Insoon Yang</p>
-      <p class="paper-venue">IEEE Control and Decision Conference (CDC) 2025</p>
-      <a href="https://arxiv.org/abs/2503.23742" target="_blank" class="paper-link">arXiv</a>
-    </div>
-
-    <div class="publication-item">
-      <h4 class="paper-title">Wasserstein Distributionally Robust Control and State Estimation for Partially Observable Linear Systems</h4>
-      <p class="paper-authors"><em>Minhyuk Jang</em>, Astghik Hakobyan, and Insoon Yang</p>
-      <a href="https://arxiv.org/abs/2406.01723" target="_blank" class="paper-link">arXiv</a>
-    </div>
-
-    <div class="publication-item">
-      <h4 class="paper-title">Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems</h4>
-      <p class="paper-authors"><em>Minhyuk Jang</em></p>
-      <p class="paper-venue">Institute of Control, Robotics and Systems (ICROS), 2024</p>
-    </div>
+<section id="research" class="research-section" aria-labelledby="research-title">
+  <div class="section-heading">
+    <h2 id="research-title">Research</h2>
+    <div class="section-actions"><button type="button" class="motion-toggle" hidden aria-pressed="false">Pause videos</button><a class="text-link" href="#publications">All publications <span aria-hidden="true">↓</span></a></div>
   </div>
-</div>
-
-<div class="content-section">
-  <h2 class="section-title">
-    <span class="section-icon">🛠️</span>
-    Projects
-  </h2>
-  <div class="project-grid">
-    {% assign sorted_projects = site.portfolio | sort: 'order' %}
-    {% for project in sorted_projects %}
-      {% assign img_count = project.preview_images | size %}
-      {% if project.preview_layout == "stacked" %}
-        {% assign span_class = "project-card project-card--span2" %}
-      {% elsif img_count == 4 %}
-        {% assign span_class = "project-card project-card--span2" %}
-      {% elsif img_count == 3 %}
-        {% assign span_class = "project-card project-card--span2" %}
-      {% elsif img_count == 2 %}
-        {% assign span_class = "project-card project-card--span2" %}
-      {% else %}
-        {% assign span_class = "project-card" %}
-      {% endif %}
-      <div class="{{ span_class }}">
-        <a href="{{ project.url }}" class="project-card__link">
-          <h3 class="project-card__title">{{ project.title }}</h3>
-        </a>
-        {% if project.preview_layout == "stacked" %}
-          <div class="project-card__images project-card__images--stacked">
-            {% for img in project.preview_images %}
-              <div class="project-card__img-wrap">
-                <img src="{{ img }}" alt="{{ project.title }}" loading="lazy">
-              </div>
-            {% endfor %}
-          </div>
-        {% elsif img_count == 4 %}
-          <div class="project-card__images project-card__images--grid4">
-            {% for img in project.preview_images %}
-              <div class="project-card__img-wrap project-card__img-wrap--small">
-                <img src="{{ img }}" alt="{{ project.title }}" loading="lazy">
-              </div>
-            {% endfor %}
-          </div>
-        {% elsif img_count == 3 %}
-          <div class="project-card__images project-card__images--wide-top">
-            {% for img in project.preview_images %}
-              {% if forloop.first %}
-              <div class="project-card__img-wrap project-card__img-wrap--wide">
-                <img src="{{ img }}" alt="{{ project.title }}" loading="lazy">
-              </div>
-              <div class="project-card__images--bottom-row">
-              {% else %}
-              <div class="project-card__img-wrap project-card__img-wrap--small">
-                <img src="{{ img }}" alt="{{ project.title }}" loading="lazy">
-              </div>
-              {% endif %}
-            {% endfor %}
-              </div>
-          </div>
-        {% elsif img_count == 2 %}
-          <div class="project-card__images project-card__images--side">
-            {% for img in project.preview_images %}
-              <div class="project-card__img-wrap">
-                <img src="{{ img }}" alt="{{ project.title }}" loading="lazy">
-              </div>
-            {% endfor %}
-          </div>
-        {% elsif img_count == 1 %}
-          <div class="project-card__images project-card__images--single">
-            <div class="project-card__img-wrap">
-              <img src="{{ project.preview_images[0] }}" alt="{{ project.title }}" loading="lazy">
-            </div>
-          </div>
-        {% endif %}
-        <p class="project-card__excerpt">{{ project.excerpt }}</p>
+  <div class="research-list">
+    {% assign featured_research = site.data.research | where: 'featured', true %}
+    {% for paper in featured_research %}
+    <article class="research-row" id="{{ paper.id }}">
+      {% include research-media.html item=paper %}
+      <div class="research-copy">
+        <p class="eyebrow topic">{{ paper.topic }}</p>
+        <h3><a href="{{ paper.project | relative_url }}">{{ paper.title }}</a></h3>
+        <p class="research-summary">{{ paper.summary }}</p>
+        <p class="authors">{{ paper.authors | replace: 'Minhyuk Jang', '<strong>Minhyuk Jang</strong>' }}</p>
+        <p class="venue">{{ paper.venue }}</p>
+        {% include research-links.html item=paper %}
       </div>
+    </article>
     {% endfor %}
   </div>
-</div>
+  <div class="research-end"><p class="small-note">* Equal contribution</p></div>
+</section>
 
-<div class="content-section">
-  <h2 class="section-title">
-    <span class="section-icon">🚁</span>
-    Beyond Research: FPV Piloting
-  </h2>
-  <div class="fpv-section">
-    <div class="video-container">
-      <iframe src="https://www.youtube.com/embed/WPttdZw-E_8?si=gXVi6KftqGTxxWPf" title="FPV Flight Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
+<section id="projects" class="section-block" aria-labelledby="projects-title">
+  <div class="section-heading"><h2 id="projects-title">Projects</h2><div class="section-actions"><button type="button" class="motion-toggle" hidden aria-pressed="false">Pause videos</button><a class="text-link" href="{{ '/portfolio/' | relative_url }}">All projects <span aria-hidden="true">↗</span></a></div></div>
+  <div class="engineering-grid engineering-grid--featured">
+    {% assign featured_projects = site.portfolio | where: 'featured_engineering', true | sort: 'home_order' %}
+    {% for project in featured_projects %}{% include engineering-card.html project=project show_gallery=true %}{% endfor %}
   </div>
-</div>
+</section>
 
-<style>
-  /* Clean, minimal styling */
-  .intro-section {
-    margin-bottom: 40px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+<section id="publications" class="section-block" aria-labelledby="publications-title">
+  <div class="section-heading"><h2 id="publications-title">Publications</h2><a class="text-link" href="{{ '/publications/' | relative_url }}">Full citations <span aria-hidden="true">↗</span></a></div>
+  <div class="publication-list--compact">
+    {% for paper in site.data.research %}
+    <article class="publication-compact">
+      <div>
+        <h3><a href="{{ paper.project | relative_url }}">{{ paper.title }}</a></h3>
+        <p class="authors">{{ paper.authors | replace: 'Minhyuk Jang', '<strong>Minhyuk Jang</strong>' }}</p>
+        <p class="venue">{{ paper.venue }}</p>
+      </div>
+      {% if paper.paper %}<a class="publication-paper" href="{{ paper.paper }}" aria-label="Read {{ paper.title | escape }}">{% if paper.paper contains 'arxiv.org' %}arXiv{% else %}Paper{% endif %} <span aria-hidden="true">↗</span></a>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+  <p class="publication-note small-note">* Equal contribution</p>
+</section>
 
-  .intro-title {
-    font-size: 1.3em;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 15px;
-    line-height: 1.4;
-  }
-  .cv-link {
-    color: #2c3e50;
-    text-decoration: underline;
-    font-weight: 600;
-  }
-  .cv-link:hover {
-    color: #34495e;
-  }
-
-  .intro-section p {
-    font-size: 1.1em;
-    color: #666;
-    line-height: 1.6;
-    margin-bottom: 10px;
-  }
-
-  .intro-section h3 {
-    font-size: 1.3em;
-    font-weight: 600;
-    color: #333;
-    margin: 25px 0 15px 0;
-  }
-
-  .research-pills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  .research-pill {
-    display: inline-block;
-    padding: 6px 16px;
-    background: #f0f4f8;
-    border: 1px solid #d0d7de;
-    border-radius: 20px;
-    font-size: 0.95em;
-    font-weight: 600;
-    color: #2c3e50;
-  }
-
-  /* Content sections */
-  .content-section {
-    margin: 50px auto;
-    max-width: 800px;
-  }
-
-  .section-title {
-    font-size: 1.6em;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 25px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid #ddd;
-  }
-
-  .section-icon {
-    margin-right: 10px;
-  }
-
-  /* Education */
-  .education-list {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  }
-  .edu-entry {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    padding: 10px 16px;
-    border-left: 4px solid #2c3e50;
-    background: #fafbfc;
-    border-radius: 0 4px 4px 0;
-  }
-  .edu-logo {
-    width: 44px;
-    height: 44px;
-    object-fit: contain;
-    flex-shrink: 0;
-  }
-  .edu-body {
-    flex: 1;
-    min-width: 0;
-  }
-  .edu-degree {
-    font-size: 1.05em;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 4px;
-  }
-  .edu-detail {
-    font-size: 0.95em;
-    color: #666;
-    line-height: 1.5;
-  }
-  .edu-detail a {
-    color: #2c3e50;
-  }
-
-  /* Publications */
-  .publications-list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .publication-item {
-    padding: 10px 16px;
-    border-left: 4px solid #2c3e50;
-    background: #fafbfc;
-    border-radius: 0 4px 4px 0;
-  }
-
-  .paper-title {
-    font-size: 1em;
-    font-weight: 600;
-    color: #333;
-    margin: 0 0 3px 0;
-    line-height: 1.3;
-  }
-
-  .paper-authors {
-    font-size: 0.9em;
-    color: #666;
-    margin-bottom: 3px;
-  }
-
-  .paper-venue {
-    font-size: 0.85em;
-    font-weight: 500;
-    color: #888;
-    margin-bottom: 4px;
-  }
-
-  .paper-links {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-
-  .paper-link {
-    color: #333;
-    text-decoration: none;
-    padding: 4px 8px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    font-size: 0.9em;
-    transition: background-color 0.3s ease;
-  }
-
-  .paper-link:hover {
-    background-color: #f5f5f5;
-    color: #333;
-  }
-
-  .paper-note {
-    font-size: 0.9em;
-    color: #999;
-    font-style: italic;
-  }
-
-  /* ── Project Grid ── */
-  .project-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-flow: dense;
-    gap: 20px;
-  }
-
-  .project-card {
-    grid-column: span 1;
-    border: 2px solid #ddd;
-    border-radius: 6px;
-    padding: 14px;
-    transition: box-shadow 0.2s ease;
-  }
-  .project-card:hover {
-    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-  }
-
-  .project-card--span2 {
-    grid-column: span 2;
-  }
-
-  .project-card__link {
-    text-decoration: none;
-    color: inherit;
-  }
-  .project-card__title {
-    font-size: 1.2em;
-    font-weight: 600;
-    color: #2c3e50;
-    margin: 0 0 10px 0;
-    line-height: 1.3;
-  }
-  .project-card__link:hover .project-card__title {
-    color: #34495e;
-    text-decoration: underline;
-  }
-
-  .project-card__excerpt {
-    font-size: 0.9em;
-    color: #777;
-    margin: 8px 0 0 0;
-    line-height: 1.4;
-  }
-
-  /* Image containers */
-  .project-card__images--single .project-card__img-wrap,
-  .project-card__images--side .project-card__img-wrap {
-    background: #f5f6f7;
-    border-radius: 4px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 220px;
-  }
-
-  .project-card__images--single {
-    display: block;
-  }
-
-  .project-card__images--side {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-  }
-
-  .project-card__images--wide-top {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-  .project-card__images--wide-top .project-card__img-wrap--wide {
-    background: #f5f6f7;
-    border-radius: 4px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 220px;
-  }
-  .project-card__images--wide-top .project-card__img-wrap--wide img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-  }
-  .project-card__images--bottom-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-  }
-  .project-card__images--wide-top .project-card__img-wrap--small {
-    background: #f5f6f7;
-    border-radius: 4px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 250px;
-  }
-  .project-card__images--wide-top .project-card__img-wrap--small img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-  }
-
-  .project-card__images--grid4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 8px;
-  }
-  .project-card__images--grid4 .project-card__img-wrap,
-  .project-card__images--grid4 .project-card__img-wrap--small {
-    background: #f5f6f7;
-    border-radius: 4px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 180px;
-  }
-
-  .project-card__images--stacked {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    max-width: 480px;
-  }
-  .project-card__images--stacked .project-card__img-wrap {
-    background: #f5f6f7;
-    border-radius: 4px;
-    overflow: hidden;
-  }
-  .project-card__images--stacked .project-card__img-wrap img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-  }
-
-  .project-card__img-wrap img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-
-  /* Simple FPV section */
-  .fpv-section {
-    text-align: center;
-  }
-
-  .video-container {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    padding-bottom: 56.25%;
-    height: 0;
-    border-radius: 4px;
-    overflow: hidden;
-  }
-
-  .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-
-  /* Responsive */
-  @media (max-width: 768px) {
-    .intro-section h2 {
-      font-size: 1.5em;
-    }
-
-    .section-title {
-      font-size: 1.4em;
-    }
-
-    .project-grid {
-      grid-template-columns: 1fr;
-    }
-    .project-card,
-    .project-card--span2 {
-      grid-column: span 1;
-    }
-    .project-card__images--single .project-card__img-wrap,
-    .project-card__images--side .project-card__img-wrap {
-      height: 200px;
-    }
-    .project-card__images--side {
-      grid-template-columns: 1fr;
-    }
-    .project-card__images--grid4 {
-      grid-template-columns: 1fr;
-      grid-template-rows: auto;
-    }
-    .project-card__images--grid4 .project-card__img-wrap,
-    .project-card__images--grid4 .project-card__img-wrap--small {
-      height: 160px;
-    }
-
-    .video-container {
-      max-width: 100%;
-    }
-  }
-</style>
+<section id="background" class="section-block background-section" aria-labelledby="background-title">
+  <div class="section-heading"><h2 id="background-title">Experience & service</h2><a class="text-link" href="{{ '/files/Minhyuk_Jang_CV.pdf' | relative_url }}">Full CV <span aria-hidden="true">↗</span></a></div>
+  <div class="background-grid">
+    <div><h3>Research</h3><div class="background-entry"><span class="entry-date">2025 — Present</span><h4>Advanced Controls Research Laboratory</h4><p>Research Assistant · UIUC</p></div><div class="background-entry"><span class="entry-date">2023 — 2025</span><h4>Learning and Decision Systems Lab</h4><p>Research Intern · Seoul National University</p></div><div class="background-entry"><span class="entry-date">2024</span><h4>NEARTHLAB</h4><p>Aerospace Engineering Intern · GNC Team</p></div></div>
+    <div><h3>Teaching & service</h3><div class="background-entry"><span class="entry-date">2026</span><h4>TAM 210/211 — Statics</h4><p>Teaching Assistant · UIUC</p></div><div class="background-entry"><h4>Reviewer</h4><p>IEEE Transactions on Signal Processing<br>IEEE Transactions on Control of Network Systems</p></div><div class="background-entry"><span class="entry-date">2023 — 2025</span><h4>Bulnabi — SNU Drone Club</h4><p>Team Leader · Quadrotor build/fly seminars</p></div></div>
+  </div>
+</section>
+<section class="fpv-section" aria-labelledby="fpv-title">
+  <div class="section-heading"><h2 id="fpv-title">FPV flying</h2><a class="text-link" href="https://www.youtube.com/watch?v=WPttdZw-E_8">YouTube <span aria-hidden="true">↗</span></a></div>
+  <iframe src="https://www.youtube-nocookie.com/embed/WPttdZw-E_8" title="FPV flight in Jeongseon, July 2025" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>

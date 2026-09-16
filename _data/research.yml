@@ -1,0 +1,86 @@
+# Publication metadata follows Minhyuk_Jang_CV.pdf, September 2026.
+# One record feeds both the visual research list and the publication index.
+- id: aerial-refueling
+  title: "Uncertainty-Aware Vision-Based Autonomous Aerial Refueling"
+  authors: "Minhyuk Jang*, Thinh Nguyen*, Vivek Khatana, Sandeep Banik, Naira Hovakimyan, and Petros G. Voulgaris"
+  venue: "Submitted to IEEE ICRA 2027"
+  topic: "Aerial autonomy"
+  summary: "Vision-aided state estimation and uncertainty-aware MPC for probe-and-drogue docking."
+  image: /assets/research/aerial-refueling.jpg
+  video: /assets/research/aerial-refueling.mp4
+  alt: "Four simulated aerial refueling approaches, showing a receiver aircraft aligning with a moving drogue."
+  caption: "Vision-based docking · FlightGear / JSBSim simulation"
+  project: /portfolio/aerial-refueling/
+  featured: true
+
+- id: safe-flow-expansion
+  title: "Safe Flow Expansion: Discovering Safe Robot Behaviors in Out-of-Distribution Motion Planning"
+  authors: "Dohyun Lee, Minhyuk Jang, Vincent Kurtz, Joel Burdick, and Naira Hovakimyan"
+  venue: "Submitted to IEEE ICRA 2027"
+  topic: "Learning & safe planning"
+  summary: "Conditional flow matching with control-barrier safety checks to discover new actions in unfamiliar environments."
+  image: /assets/research/safe-flow-expansion.jpg
+  video: /assets/research/safe-flow-expansion.mp4
+  alt: "Multiple quadrotor flight paths through a lab obstacle course after safe flow expansion."
+  caption: "Safe flow expansion · Quadrotor hardware experiments"
+  project: /portfolio/safe-flow-expansion/
+  featured: true
+
+- id: wrap
+  title: "WRAP: Wasserstein-Robust Adaptive Plug-in for Robot Localization"
+  authors: "Minhyuk Jang, Astghik Hakobyan, Jungjin Lee, Naira Hovakimyan, and Insoon Yang"
+  venue: "Submitted to IEEE RA-L"
+  topic: "Robust robot localization"
+  summary: "Adaptive noise statistics and a Wasserstein-robust update for EKF/ESKF localization."
+  image: /assets/research/wrap.webp
+  alt: "WRAP architecture connecting changing GNSS and UWB sensing conditions, an adaptive module, and a robust EKF or ESKF update."
+  caption: "Adaptive noise models + Wasserstein-robust estimation"
+  project: /portfolio/wrap/
+  paper: https://arxiv.org/abs/2608.09807
+  featured: true
+
+- id: dr-ekf
+  title: "Residual-Aware Distributionally Robust EKF: Absorbing Linearization Mismatch via Wasserstein Ambiguity"
+  authors: "Minhyuk Jang*, Jungjin Lee*, Astghik Hakobyan, Naira Hovakimyan, and Insoon Yang"
+  venue: "IEEE Conference on Decision and Control (CDC), 2026"
+  topic: "Nonlinear state estimation"
+  summary: "A robust extended Kalman filter that accounts for noise mismatch and linearization error."
+  image: /assets/research/dr-ekf.jpg
+  video: /assets/research/dr-ekf.mp4
+  alt: "Simulated target trajectories comparing tracking estimates under uncertain noise."
+  caption: "Nonlinear target tracking under model mismatch"
+  project: /portfolio/DR_EKF/
+  paper: https://arxiv.org/abs/2604.02749
+  featured: true
+
+- id: drkf
+  title: "Distributionally Robust Kalman Filter"
+  authors: "Minhyuk Jang*, Astghik Hakobyan*, and Insoon Yang"
+  venue: "Preprint"
+  project: /portfolio/DRKF_TAC/
+  paper: https://arxiv.org/abs/2512.06286
+  featured: false
+
+- id: steady-state-drkf
+  title: "On the Steady-State Distributionally Robust Kalman Filter"
+  authors: "Minhyuk Jang*, Astghik Hakobyan*, and Insoon Yang"
+  venue: "IEEE Conference on Decision and Control (CDC), 2025"
+  project: /portfolio/SS_DRKF/
+  paper: https://arxiv.org/abs/2503.23742
+  featured: false
+
+- id: wdrce
+  title: "Distributionally Robust Control and State Estimation for Linear Stochastic Systems"
+  authors: "Minhyuk Jang, Astghik Hakobyan, and Insoon Yang"
+  venue: "Preprint"
+  project: /portfolio/WDRCE/
+  paper: https://arxiv.org/abs/2406.01723
+  featured: false
+
+- id: disturbance-observer
+  title: "Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems"
+  authors: "Minhyuk Jang"
+  venue: "Institute of Control, Robotics and Systems (ICROS), 2024"
+  project: /portfolio/DOB_ICROS/
+  paper: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11908850
+  featured: false

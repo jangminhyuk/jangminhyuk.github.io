@@ -1,4 +1,5 @@
 ---
+research_id: steady-state-drkf
 title: "On the Steady-State Distributionally Robust Kalman Filter"
 excerpt: "On the Steady-State Distributionally Robust Kalman Filter - IEEE CDC 2025"
 order: 0.85

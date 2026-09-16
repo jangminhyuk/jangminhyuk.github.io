@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Minhyuk's Hompage"
+title                    : "Minhyuk Jang"
 title_separator          : "-"
-name                     : &name "Minhyuk, Jang"
-description              : &description "Undergraduate Student at SNU"
+name                     : &name "Minhyuk Jang"
+description              : &description "Robotics, learning-based control, and safe autonomy. Ph.D. student at UIUC."
 url                      : https://jangminhyuk.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : jangminhyuk/jangminhyuk.github.io
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Minhyuk, Jang"
-  avatar           : "minhyuk_photo.jpg"
+  name             : "Minhyuk Jang"
+  avatar           : "minhyuk-jang.jpg"
   bio              : "Ph.D. Student at UIUC MechSE"
   location         :
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=ko&user=uU0P3CwAAAAJ"
-  email            : "jason4012@snu.ac.kr"
+  email            : "jang64@illinois.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -145,6 +145,12 @@ exclude:
   - node_modules
   - package.json
   - tmp
+  - scripts
+  - _reference
+  - website_reference
+  - .claude
+  - .codex
+  - .agents
   - vendor
 keep_files:
   - .git
@@ -232,7 +238,8 @@ defaults:
       path: ""
       type: portfolio
     values:
-      layout: single
+      layout: research-project
+      math: true
       author_profile: true
       share: true
       comment: true

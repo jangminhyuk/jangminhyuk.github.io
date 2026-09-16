@@ -1,4 +1,7 @@
 ---
+card_title: "Quadrotor build & fly seminars"
+card_label: "Teaching & hardware"
+card_summary: "Hands-on seminars covering assembly, calibration, flight experiments, and log analysis."
 title: "Quadrotor Build and Fly Seminar"
 excerpt: "Organized and conducted over five Quadrotor Build/Fly seminars, teaching hardware assembly, sensor calibration, Ground Control Station usage, flight experiments, and flight log analysis"
 collection: portfolio

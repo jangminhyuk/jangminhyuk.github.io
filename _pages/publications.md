@@ -1,16 +1,7 @@
 ---
-layout: archive
+layout: research-site
 title: "Publications"
 permalink: /publications/
-author_profile: true
 ---
-
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<header class="index-heading"><h1>Publications</h1><p class="small-note">* Equal contribution · <a href="{{ site.author.googlescholar }}">Google Scholar ↗</a></p></header>
+<div class="publication-list">{% for paper in site.data.research %}{% include publication-entry.html item=paper %}{% endfor %}</div>

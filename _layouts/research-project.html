@@ -1,0 +1,22 @@
+---
+layout: research-site
+---
+{% assign research = nil %}
+{% if page.research_id and page.research_id != empty %}
+  {% assign research = site.data.research | where: 'id', page.research_id | first %}
+{% endif %}
+<article class="project-detail">
+  <a class="back-link" href="{% if research %}{{ '/#research' | relative_url }}{% else %}{{ '/portfolio/' | relative_url }}{% endif %}"><span aria-hidden="true">←</span> {% if research %}Research{% else %}All projects{% endif %}</a>
+  <header class="project-heading">
+    <p class="eyebrow">{% if research %}{{ research.topic | default: 'Research' }}{% else %}Engineering & robotics{% endif %}</p>
+    <h1>{{ research.title | default: page.title }}</h1>
+    {% if research %}
+    <p class="authors">{{ research.authors | replace: 'Minhyuk Jang', '<strong>Minhyuk Jang</strong>' }}</p>
+    <p class="venue">{{ research.venue }}</p>
+    {% if research.authors contains '*' %}<p class="small-note">* Equal contribution</p>{% endif %}
+    {% include research-links.html item=research hide_project=true %}
+    {% endif %}
+  </header>
+  {% if research.image %}{% include research-media.html item=research %}{% endif %}
+  <div class="prose">{{ content }}</div>
+</article>

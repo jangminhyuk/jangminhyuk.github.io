@@ -1,5 +1,6 @@
 ---
-title: "Distributionally Robust Extended Kalman Filter (DR-EKF)"
+research_id: dr-ekf
+title: "Residual-Aware Distributionally Robust EKF: Absorbing Linearization Mismatch via Wasserstein Ambiguity"
 excerpt: "Target Tracking under inaccurate process and measurement noise distributions"
 order: 0.8
 preview_images:
@@ -9,11 +10,7 @@ preview_images:
 preview_layout: wide-top
 ---
 
-IEEE CDC 2026, under review
 
-Minhyuk Jang, Jungjin Lee, Astghik Hakobyan, Insoon Yang, Naira Hovakimyan.
-
-First two authors contributed equally.
 <center>
   <img src='/images/portfolio_img/tracking_video_INSTANCE_1_quadratic_fps15.gif' width='500'/>
 </center>

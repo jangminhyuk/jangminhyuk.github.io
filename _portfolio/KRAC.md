@@ -1,4 +1,20 @@
 ---
+card_video_alt: "Competition VTOL transitioning from hover to fixed-wing flight."
+card_video: /assets/projects/vtol.mp4
+home_order: 2
+featured_engineering: true
+card_image: /assets/projects/vtol.jpg
+card_gallery:
+  - image: /assets/projects/vtol-aircraft.jpg
+    alt: "The team's quadplane aircraft on the launch mat."
+    caption: "Aircraft platform"
+  - image: /assets/projects/vtol-low-flight.jpg
+    video: /assets/projects/vtol-low-flight.mp4
+    alt: "The competition aircraft flying a low-altitude fixed-wing mission."
+    caption: "Low-altitude flight"
+card_label: "Grand Award · 2024"
+card_title: "Korea Robot Aircraft Competition"
+card_summary: "Led a 25-member team in VTOL design and flight testing; first place among 39 teams."
 title: "Korea Robot Aircraft Competition - Grand Award"
 excerpt: "Led a 25-member team to 1st place among 39 university teams. Built a 2.1m-wingspan VTOL with fully autonomous waypoint navigation, transition flight, obstacle avoidance, precision landing, and live streaming."
 collection: portfolio

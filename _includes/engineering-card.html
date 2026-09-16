@@ -1,0 +1,36 @@
+<article class="engineering-card">
+  {% if include.project.card_image %}{% assign card_image = include.project.card_image %}{% else %}{% assign card_image = include.project.preview_images | first %}{% endif %}
+  {% if include.project.card_video %}
+  <div class="engineering-image engineering-image--video">
+    <video data-preview controls muted loop playsinline preload="none" poster="{{ card_image | relative_url }}" aria-label="{{ include.project.card_video_alt | default: include.project.title | escape }}">
+      <source src="{{ include.project.card_video | relative_url }}" type="video/mp4">
+      <a href="{{ include.project.card_video | relative_url }}">Watch video</a>
+    </video>
+  </div>
+  {% else %}
+  <a class="engineering-image" href="{{ include.project.url | relative_url }}">
+    <img src="{{ card_image | relative_url }}" alt="{{ include.project.title | escape }}" width="640" height="420" loading="lazy">
+  </a>
+  {% endif %}
+  {% if include.show_gallery and include.project.card_gallery %}
+  <div class="project-gallery">
+    {% for media in include.project.card_gallery %}
+    <figure>
+      {% if media.video %}
+      <video data-preview controls muted loop playsinline preload="none" poster="{{ media.image | relative_url }}" aria-label="{{ media.alt | escape }}">
+        <source src="{{ media.video | relative_url }}" type="video/mp4">
+        <a href="{{ media.video | relative_url }}">Watch video</a>
+      </video>
+      {% else %}
+      <a href="{{ include.project.url | relative_url }}"><img src="{{ media.image | relative_url }}" alt="{{ media.alt | escape }}" width="640" height="480" loading="lazy"></a>
+      {% endif %}
+      <figcaption>{{ media.caption }}</figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% if include.project.card_label %}<p class="eyebrow">{{ include.project.card_label }}</p>{% endif %}
+  <h3><a href="{{ include.project.url | relative_url }}">{{ include.project.card_title | default: include.project.title }}</a></h3>
+  <p>{{ include.project.card_summary | default: include.project.excerpt }}</p>
+  <a class="text-link" href="{{ include.project.url | relative_url }}">Details <span aria-hidden="true">→</span></a>
+</article>

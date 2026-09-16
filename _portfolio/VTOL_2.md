@@ -1,4 +1,7 @@
 ---
+card_title: "VTOL: competition platform"
+card_label: "Aircraft development"
+card_summary: "Design, integration, and autonomous flight testing with Team Bulnabi."
 title: "VTOL Project (2)"
 excerpt: "Second VTOL Project"
 collection: portfolio

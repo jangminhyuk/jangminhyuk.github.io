@@ -1,4 +1,5 @@
 ---
+research_id: disturbance-observer
 title: "Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems"
 excerpt: "Presented at Institute of Control, Robotics and Systems (ICROS), 2024"
 collection: portfolio

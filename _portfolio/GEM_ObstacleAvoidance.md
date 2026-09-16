@@ -1,4 +1,21 @@
 ---
+card_video_alt: "GEM e4 driving around an obstacle during an outdoor test."
+card_video: /assets/projects/gem.mp4
+home_order: 1
+featured_engineering: true
+card_image: /assets/projects/gem.jpg
+card_gallery:
+  - image: /assets/projects/gem-simulation.jpg
+    video: /images/portfolio_img/gem_gazebo.mp4
+    alt: "GEM e4 navigating around a pedestrian in simulation."
+    caption: "Simulation"
+  - image: /assets/projects/gem-onboard.jpg
+    video: /assets/projects/gem-onboard.mp4
+    alt: "Onboard view of the GEM e4 steering around an obstacle."
+    caption: "Onboard view"
+card_label: "Autonomous vehicles"
+card_title: "Autonomous obstacle avoidance"
+card_summary: "Perception, planning, and control deployed on a full-scale Polaris GEM e4."
 title: "Autonomous Obstacle Avoidance on the GEM e4"
 excerpt: "Obstacle-aware planning and control on a full-scale autonomous vehicle (Polaris GEM e4)"
 collection: portfolio

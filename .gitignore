@@ -1,2 +1,9 @@
 _site/
 
+# Local design references and build caches must never be published.
+_reference/
+website_reference/
+.jekyll-cache/
+.sass-cache/
+tmp/
+

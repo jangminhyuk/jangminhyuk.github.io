@@ -1,4 +1,12 @@
 ---
+card_video_alt: "A quadrotor extending its adjustable landing gear in flight."
+card_video: /assets/projects/landing-gear.mp4
+home_order: 3
+featured_engineering: true
+card_image: /assets/projects/landing-gear.jpg
+card_label: "Robotic mechanisms"
+card_title: "Origami-inspired landing gear"
+card_summary: "A length-adjustable mechanism, prototyped and tested on a flying quadrotor."
 title: "Origami-Based Landing Gear for Drones"
 excerpt: "Origami-Based Length Adjustable Landing Gear"
 collection: portfolio

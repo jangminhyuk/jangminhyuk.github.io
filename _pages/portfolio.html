@@ -1,14 +1,7 @@
 ---
-layout: archive
-title: "Portfolio"
+layout: research-site
+title: "Engineering Projects"
 permalink: /portfolio/
-author_profile: true
 ---
-
-{% include base_path %}
-
-
-{% assign sorted_portfolio = site.portfolio | sort: 'order' %}
-{% for post in sorted_portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<header class="index-heading"><h1>Projects</h1><button type="button" class="motion-toggle" hidden aria-pressed="false">Pause videos</button></header>
+<div class="engineering-grid engineering-grid--archive">{% assign projects = site.portfolio | sort: 'order' %}{% for project in projects %}{% unless project.research_id %}{% include engineering-card.html project=project %}{% endunless %}{% endfor %}</div>
