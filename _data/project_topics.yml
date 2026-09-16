@@ -1,8 +1,12 @@
-- id: aerial
-  label: Aerial robotics
+- id: robotics
+  label: Robotics
+  description: Robot systems, autonomous vehicles, and hardware experiments.
 - id: control
-  label: Planning & control
-- id: design
-  label: Robot design
-- id: teaching
-  label: Teaching
+  label: Planning & Control
+  description: Motion planning, predictive control, and robust feedback.
+- id: learning
+  label: Learning-Based Methods
+  description: Learned policies, perception, and adaptive noise models.
+- id: estimation
+  label: State Estimation
+  description: Robot localization, sensor fusion, and robust Kalman filtering.

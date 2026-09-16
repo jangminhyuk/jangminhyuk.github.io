@@ -1,6 +1,9 @@
 ---
 title: "Safe Flow Expansion: Discovering Safe Robot Behaviors in Out-of-Distribution Motion Planning"
 research_id: safe-flow-expansion
+home_order: -3
+topics: [robotics, control, learning]
+card_title: "Safe Flow Expansion"
 hide_research_media: true
 permalink: /portfolio/safe-flow-expansion/
 excerpt: "Discovering new safe robot behaviors with an expanded generative policy."

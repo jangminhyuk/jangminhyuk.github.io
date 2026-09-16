@@ -3,9 +3,10 @@ Personal website: https://jangminhyuk.github.io/
 ## Updating content
 
 - _data/research.yml is the shared publication record. It supplies titles, author lists, status, paper links, and media for both the homepage and /publications/.
-- Set featured: true to show a research entry with its figure or video on the homepage.
-- _portfolio/ contains detail pages. A research_id connects a page to its publication record and keeps it out of the engineering project listing.
-- All engineering projects without a research_id appear on the homepage and at /portfolio/, ordered by home_order. Assign one or more topics from _data/project_topics.yml to include a project in those filters. The card_video and card_image fields specify an inline MP4 and its poster; card_* fields supply the text.
+- _portfolio/ contains detail pages. A research_id connects a page to its publication record, including its media, venue, and paper link.
+- All research and engineering projects appear once in the combined browser on the homepage and at /portfolio/, ordered by home_order. Full titles and author lists remain in the separate publication list.
+- Assign one or more topics from _data/project_topics.yml to each project. Robotics covers systems and applications; Planning & Control, Learning-Based Methods, and State Estimation describe methods and may overlap. Use Learning-Based Methods for learned policies, perception, or models, rather than automatic tuning alone.
+- The card_video and card_image fields override the research record's inline MP4 and poster; card_* fields supply concise text. Research figures use a contain layout so axes and legends remain visible.
 - An optional card_gallery adds supporting media to a homepage project. Each entry has image, alt, and caption fields, plus video for a clip.
 - _pages/about.md contains the introduction, background, and homepage sections.
 - The current CV is files/Minhyuk_Jang_CV.pdf.

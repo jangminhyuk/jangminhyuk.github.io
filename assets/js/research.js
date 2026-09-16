@@ -40,6 +40,7 @@
     const buttons = [...browser.querySelectorAll('[data-project-filter]')];
     const cards = [...browser.querySelectorAll('[data-project-topics]')];
     const count = browser.querySelector('[data-project-count]');
+    const description = browser.querySelector('[data-filter-description]:not(button)');
     buttons.forEach(button => button.addEventListener('click', () => {
       const topic = button.dataset.projectFilter;
       buttons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
@@ -48,6 +49,7 @@
       });
       const matching = cards.filter(card => !card.hidden).length;
       count.textContent = topic === 'all' ? `${cards.length} projects` : `${matching} of ${cards.length} projects`;
+      description.textContent = button.dataset.filterDescription;
       update();
     }));
     filters.hidden = false;

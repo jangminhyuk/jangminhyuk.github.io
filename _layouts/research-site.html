@@ -19,7 +19,6 @@
     <div class="site-width header-inner">
       <a class="wordmark" href="{{ '/' | relative_url }}">Minhyuk Jang<span class="wordmark-dot" aria-hidden="true">.</span></a>
       <nav aria-label="Main navigation">
-        <a href="{{ '/#research' | relative_url }}">Research</a>
         <a href="{% if page.url == '/' %}#projects{% else %}{{ '/portfolio/' | relative_url }}{% endif %}"{% if page.url == '/portfolio/' %} aria-current="page"{% endif %}>Projects</a>
         <a href="{% if page.url == '/' %}#publications{% else %}{{ '/publications/' | relative_url }}{% endif %}"{% if page.url == '/publications/' %} aria-current="page"{% endif %}>Publications</a>
         <a class="nav-cv" href="{{ '/files/Minhyuk_Jang_CV.pdf' | relative_url }}">CV <span aria-hidden="true">↗</span></a>

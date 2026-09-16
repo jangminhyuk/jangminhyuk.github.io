@@ -1,6 +1,6 @@
 ---
 home_order: 8
-topics: [aerial, control, design]
+topics: [robotics, control]
 card_image: /assets/projects/vtol-platform.jpg
 card_title: "VTOL: competition platform"
 card_label: "Aircraft development"

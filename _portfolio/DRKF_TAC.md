@@ -1,5 +1,9 @@
 ---
 research_id: drkf
+home_order: 10
+topics: [estimation]
+card_summary: "Noise-centric Wasserstein ambiguity sets for robust filtering under uncertain process and measurement noise."
+card_image_alt: "State uncertainty tubes comparing the distributionally robust Kalman filter with low- and high-noise Kalman filters."
 title: "Distributionally Robust Kalman Filter"
 excerpt: "Noise-centric formulation of the Distributionally Robust Kalman filter (DRKF) for discrete-time linear stochastic systems with uncertain noise statistics"
 order: 0.9

@@ -1,6 +1,6 @@
 ---
 home_order: 7
-topics: [aerial, control]
+topics: [robotics, control]
 card_image: /assets/projects/quadrotor-delivery.jpg
 card_video: /assets/projects/quadrotor-delivery.mp4
 card_video_alt: "Quadrotor-delivery simulation with disturbance-observer and model predictive control."

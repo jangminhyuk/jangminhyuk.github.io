@@ -1,14 +1,14 @@
-{% assign engineering_projects = site.portfolio | where_exp: 'project', 'project.research_id == nil' | sort: 'home_order' %}
+{% assign all_projects = site.portfolio | sort: 'home_order' %}
 <div class="project-browser" data-project-browser>
   <div class="project-filters" role="group" aria-label="Filter projects by topic" hidden>
-    <button type="button" class="project-filter" data-project-filter="all" aria-pressed="true" aria-controls="{{ include.grid_id }}">All projects <span>{{ engineering_projects.size }}</span></button>
+    <button type="button" class="project-filter" data-project-filter="all" data-filter-description="Projects can appear in more than one topic." aria-pressed="true" aria-controls="{{ include.grid_id }}">All projects <span>{{ all_projects.size }}</span></button>
     {% for topic in site.data.project_topics %}
-    {% assign topic_projects = engineering_projects | where_exp: 'project', 'project.topics contains topic.id' %}
-    <button type="button" class="project-filter" data-project-filter="{{ topic.id }}" aria-pressed="false" aria-controls="{{ include.grid_id }}">{{ topic.label }} <span>{{ topic_projects.size }}</span></button>
+    {% assign topic_projects = all_projects | where_exp: 'project', 'project.topics contains topic.id' %}
+    <button type="button" class="project-filter" data-project-filter="{{ topic.id }}" data-filter-description="{{ topic.description | escape }}" aria-pressed="false" aria-controls="{{ include.grid_id }}">{{ topic.label }} <span>{{ topic_projects.size }}</span></button>
     {% endfor %}
   </div>
-  <p class="project-count" data-project-count role="status" aria-live="polite" aria-atomic="true">{{ engineering_projects.size }} projects</p>
+  <div class="project-browser-status" role="status" aria-live="polite" aria-atomic="true"><p class="project-count" data-project-count>{{ all_projects.size }} projects</p><p class="project-filter-description" data-filter-description>Projects can appear in more than one topic.</p></div>
   <div class="engineering-grid {{ include.grid_class }}" id="{{ include.grid_id }}">
-    {% for project in engineering_projects %}{% include engineering-card.html project=project show_gallery=include.show_gallery %}{% endfor %}
+    {% for project in all_projects %}{% include engineering-card.html project=project show_gallery=include.show_gallery %}{% endfor %}
   </div>
 </div>

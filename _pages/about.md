@@ -23,32 +23,10 @@ redirect_from:
   <figure class="portrait"><img src="{{ '/images/minhyuk-jang.jpg' | relative_url }}" alt="Minhyuk Jang" width="960" height="960" fetchpriority="high"></figure>
 </section>
 
-<section id="research" class="research-section" aria-labelledby="research-title">
-  <div class="section-heading">
-    <h2 id="research-title">Research</h2>
-    <div class="section-actions"><button type="button" class="motion-toggle" hidden aria-pressed="false">Pause videos</button><a class="text-link" href="#publications">All publications <span aria-hidden="true">↓</span></a></div>
-  </div>
-  <div class="research-list">
-    {% assign featured_research = site.data.research | where: 'featured', true %}
-    {% for paper in featured_research %}
-    <article class="research-row" id="{{ paper.id }}">
-      {% include research-media.html item=paper %}
-      <div class="research-copy">
-        <p class="eyebrow topic">{{ paper.topic }}</p>
-        <h3><a href="{{ paper.project | relative_url }}">{{ paper.title }}</a></h3>
-        <p class="research-summary">{{ paper.summary }}</p>
-        <p class="authors">{{ paper.authors | replace: 'Minhyuk Jang', '<strong>Minhyuk Jang</strong>' }}</p>
-        <p class="venue">{{ paper.venue }}</p>
-        {% include research-links.html item=paper %}
-      </div>
-    </article>
-    {% endfor %}
-  </div>
-  <div class="research-end"><p class="small-note">* Equal contribution</p></div>
-</section>
-
-<section id="projects" class="section-block" aria-labelledby="projects-title">
-  <div class="section-heading"><h2 id="projects-title">Projects</h2><button type="button" class="motion-toggle" hidden aria-pressed="false">Pause videos</button></div>
+<section id="projects" class="research-section" aria-labelledby="projects-title">
+  <span id="research" class="section-anchor" aria-hidden="true"></span>
+  <div class="section-heading"><h2 id="projects-title">Research & Projects</h2><div class="section-actions"><button type="button" class="motion-toggle" hidden aria-pressed="false">Pause videos</button><a class="text-link" href="#publications">All publications <span aria-hidden="true">↓</span></a></div></div>
+  <p class="section-intro">Research papers, robot systems, and experiments.</p>
   {% include project-browser.html grid_id="home-project-grid" grid_class="engineering-grid--featured" show_gallery=true %}
 </section>
 

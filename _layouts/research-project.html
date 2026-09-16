@@ -6,7 +6,7 @@ layout: research-site
   {% assign research = site.data.research | where: 'id', page.research_id | first %}
 {% endif %}
 <article class="project-detail">
-  <a class="back-link" href="{% if research %}{{ '/#research' | relative_url }}{% else %}{{ '/portfolio/' | relative_url }}{% endif %}"><span aria-hidden="true">←</span> {% if research %}Research{% else %}All projects{% endif %}</a>
+  <a class="back-link" href="{{ '/#projects' | relative_url }}"><span aria-hidden="true">←</span> All projects</a>
   <header class="project-heading">
     <p class="eyebrow">{% if research %}{{ research.topic | default: 'Research' }}{% else %}Engineering & robotics{% endif %}</p>
     <h1>{{ research.title | default: page.title }}</h1>

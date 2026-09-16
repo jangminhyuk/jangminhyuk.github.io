@@ -1,6 +1,10 @@
 ---
 title: "WRAP: Wasserstein-Robust Adaptive Plug-in for Robot Localization"
 research_id: wrap
+home_order: -2
+topics: [robotics, learning, estimation]
+card_title: "WRAP: robust robot localization"
+card_summary: "Adaptive noise models, including learned adapters, with Wasserstein-robust EKF/ESKF updates."
 permalink: /portfolio/wrap/
 excerpt: "Adaptive, distributionally robust state estimation for changing sensing conditions."
 order: -1

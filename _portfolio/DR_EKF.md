@@ -1,5 +1,8 @@
 ---
 research_id: dr-ekf
+home_order: -1
+topics: [robotics, estimation]
+card_title: "Residual-aware distributionally robust EKF"
 title: "Residual-Aware Distributionally Robust EKF: Absorbing Linearization Mismatch via Wasserstein Ambiguity"
 excerpt: "Target Tracking under inaccurate process and measurement noise distributions"
 order: 0.8

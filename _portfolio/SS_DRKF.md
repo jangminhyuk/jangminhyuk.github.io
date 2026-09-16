@@ -1,5 +1,10 @@
 ---
 research_id: steady-state-drkf
+home_order: 11
+topics: [estimation]
+card_title: "Steady-state distributionally robust Kalman filter"
+card_summary: "A constant-gain robust estimator obtained from a single offline optimization, with convergence guarantees."
+card_image_alt: "LQR cost distributions comparing Kalman filter baselines and the steady-state distributionally robust Kalman filter."
 title: "On the Steady-State Distributionally Robust Kalman Filter"
 excerpt: "On the Steady-State Distributionally Robust Kalman Filter - IEEE CDC 2025"
 order: 0.85

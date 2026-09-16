@@ -2,7 +2,7 @@
 card_video_alt: "A quadrotor extending its adjustable landing gear in flight."
 card_video: /assets/projects/landing-gear.mp4
 home_order: 3
-topics: [aerial, design]
+topics: [robotics]
 card_image: /assets/projects/landing-gear.jpg
 card_label: "Robotic mechanisms"
 card_title: "Origami-inspired landing gear"

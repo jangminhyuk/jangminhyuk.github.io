@@ -1,5 +1,6 @@
 """Check the generated research site without third-party Python dependencies."""
 from html.parser import HTMLParser
+from collections import Counter
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
@@ -35,6 +36,10 @@ def main():
         *root.glob("portfolio/*/index.html"),
     ]
     errors = []
+    project_urls = {
+        "/" + path.parent.relative_to(root).as_posix() + "/"
+        for path in root.glob("portfolio/*/index.html")
+    }
     homepage_links = set()
     if (root / "index.html").exists():
         homepage = Page((root / "index.html").read_text(encoding="utf-8"))
@@ -47,6 +52,19 @@ def main():
             errors.append(f"Missing page: {path}")
             continue
         page = Page(path.read_text(encoding="utf-8"))
+        if path in (root / "index.html", root / "portfolio/index.html"):
+            cards = [attrs for _, attrs in page.tags if "data-project-url" in attrs]
+            card_urls = Counter(unquote(attrs["data-project-url"]) for attrs in cards)
+            if card_urls != Counter(project_urls):
+                errors.append(f"Project browser must include every project once: {path.relative_to(root)}")
+            topics = {
+                attrs["data-project-filter"] for _, attrs in page.tags
+                if "data-project-filter" in attrs and attrs["data-project-filter"] != "all"
+            }
+            for card in cards:
+                assigned = set(card.get("data-project-topics", "").split())
+                if not assigned or not assigned <= topics:
+                    errors.append(f"Missing or unknown topics: {card['data-project-url']}")
         if sum(tag == "h1" for tag, _ in page.tags) != 1:
             errors.append(f"Expected one main heading: {path.relative_to(root)}")
         if path.parent.parent == root / "portfolio":

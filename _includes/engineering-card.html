@@ -1,15 +1,19 @@
-<article class="engineering-card" data-project-topics="{{ include.project.topics | join: ' ' | escape }}">
-  {% if include.project.card_image %}{% assign card_image = include.project.card_image %}{% else %}{% assign card_image = include.project.preview_images | first %}{% endif %}
-  {% if include.project.card_video %}
+{% assign card_research = nil %}
+{% if include.project.research_id %}{% assign card_research = site.data.research | where: 'id', include.project.research_id | first %}{% endif %}
+{% assign card_image = include.project.card_image | default: card_research.image | default: include.project.preview_images.first %}
+{% assign card_video = include.project.card_video | default: card_research.video %}
+{% assign card_alt = include.project.card_video_alt | default: include.project.card_image_alt | default: card_research.alt | default: include.project.title %}
+<article class="engineering-card{% if card_research %} project-card--research{% endif %}" data-project-topics="{{ include.project.topics | join: ' ' | escape }}" data-project-url="{{ include.project.url | relative_url }}"{% if card_research %} id="{{ card_research.id }}"{% endif %}>
+  {% if card_video %}
   <div class="engineering-image engineering-image--video">
-    <video data-preview controls muted loop playsinline preload="none" poster="{{ card_image | relative_url }}" aria-label="{{ include.project.card_video_alt | default: include.project.title | escape }}">
-      <source src="{{ include.project.card_video | relative_url }}" type="video/mp4">
-      <a href="{{ include.project.card_video | relative_url }}">Watch video</a>
+    <video data-preview controls muted loop playsinline preload="none" poster="{{ card_image | relative_url }}" aria-label="{{ card_alt | escape }}">
+      <source src="{{ card_video | relative_url }}" type="video/mp4">
+      <a href="{{ card_video | relative_url }}">Watch video</a>
     </video>
   </div>
   {% else %}
   <a class="engineering-image" href="{{ include.project.url | relative_url }}">
-    <img src="{{ card_image | relative_url }}" alt="{{ include.project.title | escape }}" width="640" height="420" loading="lazy">
+    <img src="{{ card_image | relative_url }}" alt="{{ card_alt | escape }}" width="640" height="420" loading="lazy">
   </a>
   {% endif %}
   {% if include.show_gallery and include.project.card_gallery %}
@@ -29,8 +33,14 @@
     {% endfor %}
   </div>
   {% endif %}
-  {% if include.project.card_label %}<p class="eyebrow">{{ include.project.card_label }}</p>{% endif %}
+  <p class="eyebrow">{% if card_research %}{{ card_research.venue }}{% else %}{{ include.project.card_label | default: 'Engineering project' }}{% endif %}</p>
   <h3><a href="{{ include.project.url | relative_url }}">{{ include.project.card_title | default: include.project.title }}</a></h3>
-  <p>{{ include.project.card_summary | default: include.project.excerpt }}</p>
-  <a class="text-link" href="{{ include.project.url | relative_url }}">Details <span aria-hidden="true">→</span></a>
+  <p>{{ include.project.card_summary | default: card_research.summary | default: include.project.excerpt }}</p>
+  <ul class="project-topic-labels" aria-label="Project topics">
+    {% for topic in site.data.project_topics %}{% if include.project.topics contains topic.id %}<li data-topic="{{ topic.id }}">{{ topic.label }}</li>{% endif %}{% endfor %}
+  </ul>
+  <div class="project-card-links">
+    <a class="text-link" href="{{ include.project.url | relative_url }}">Project details <span aria-hidden="true">→</span></a>
+    {% if card_research.paper %}<a class="text-link" href="{{ card_research.paper }}">{% if card_research.paper contains 'arxiv.org' %}arXiv{% else %}Paper{% endif %} <span aria-hidden="true">↗</span></a>{% endif %}
+  </div>
 </article>

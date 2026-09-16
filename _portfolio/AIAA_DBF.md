@@ -3,7 +3,7 @@ card_video_alt: "Flight test for the AIAA Design Build Fly glider project."
 card_video: /assets/projects/glider.mp4
 card_image: /assets/projects/glider.jpg
 home_order: 5
-topics: [aerial, control, design]
+topics: [robotics, control]
 card_title: "Autonomous glider landing"
 card_label: "AIAA Design / Build / Fly"
 card_summary: "Landing control for a glider launched from a mothership at 100 m altitude."

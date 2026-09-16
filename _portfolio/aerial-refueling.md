@@ -1,6 +1,10 @@
 ---
 title: "Uncertainty-Aware Vision-Based Autonomous Aerial Refueling"
 research_id: aerial-refueling
+home_order: -4
+topics: [robotics, control, learning, estimation]
+card_title: "Autonomous aerial refueling"
+card_summary: "Learned visual keypoints, EKF sensor fusion, and uncertainty-aware MPC for probe-and-drogue docking."
 permalink: /portfolio/aerial-refueling/
 excerpt: "Vision-based docking with uncertainty-aware planning margins."
 order: -3

@@ -1,6 +1,6 @@
 ---
 home_order: 9
-topics: [aerial, design, teaching]
+topics: [robotics]
 card_image: /assets/projects/quadrotor-seminars.jpg
 card_video: /assets/projects/quadrotor-seminars.mp4
 card_video_alt: "Quadrotor flight demonstration from the build and fly seminars."

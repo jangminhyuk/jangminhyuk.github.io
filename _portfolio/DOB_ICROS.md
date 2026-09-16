@@ -1,5 +1,10 @@
 ---
 research_id: disturbance-observer
+home_order: 13
+topics: [control]
+card_title: "Disturbance-observer stability under model uncertainty"
+card_summary: "Stability conditions when a disturbance observer's nominal model and the true system have different orders."
+card_image_alt: "Block diagram of a disturbance observer with an outer-loop controller, true system, and nominal model."
 title: "Stability Analysis of Disturbance Observer under Model Uncertainty with Different System Degrees between True and Nominal Systems"
 excerpt: "Presented at Institute of Control, Robotics and Systems (ICROS), 2024"
 collection: portfolio

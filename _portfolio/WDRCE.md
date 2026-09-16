@@ -1,5 +1,10 @@
 ---
 research_id: wdrce
+home_order: 12
+topics: [control, estimation]
+card_title: "Distributionally robust control & state estimation"
+card_summary: "Joint control and Kalman filtering for partially observed systems with uncertain disturbance and measurement distributions."
+card_image_alt: "Total cost surfaces comparing Wasserstein distributionally robust control and estimation with baseline methods."
 title: "Distributionally Robust Control and State Estimation for Linear Stochastic Systems"
 excerpt: "Wasserstein Distributionally Robust Control and State Estimation (WDR-CE)"
 collection: portfolio
