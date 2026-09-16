@@ -3,7 +3,7 @@ card_video_alt: "Quadrotor hovering with MPPI control in MuJoCo simulation."
 card_video: /assets/projects/mppi.mp4
 card_image: /assets/projects/mppi.jpg
 home_order: 4
-featured_engineering: true
+topics: [aerial, control]
 card_title: "Adaptive tuning for MPPI control"
 card_label: "Sampling-based control"
 card_summary: "Automatic inverse-temperature tuning for model predictive path integral control."

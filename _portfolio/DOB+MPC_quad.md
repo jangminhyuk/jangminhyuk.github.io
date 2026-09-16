@@ -1,4 +1,9 @@
 ---
+home_order: 7
+topics: [aerial, control]
+card_image: /assets/projects/quadrotor-delivery.jpg
+card_video: /assets/projects/quadrotor-delivery.mp4
+card_video_alt: "Quadrotor-delivery simulation with disturbance-observer and model predictive control."
 card_title: "Robust control for quadrotor delivery"
 card_label: "Model predictive control"
 card_summary: "Combining disturbance observers and MPC to account for unmodeled quadrotor dynamics."

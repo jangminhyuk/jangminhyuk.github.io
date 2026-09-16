@@ -1,0 +1,8 @@
+- id: aerial
+  label: Aerial robotics
+- id: control
+  label: Planning & control
+- id: design
+  label: Robot design
+- id: teaching
+  label: Teaching

@@ -16,7 +16,7 @@
   }
   function update() {
     videos.forEach(video => {
-      if (enabled && visible.has(video) && !document.hidden && !manuallyPaused.has(video)) {
+      if (enabled && visible.has(video) && !document.hidden && !video.closest('[hidden]') && !manuallyPaused.has(video)) {
         video.play().catch(() => {});
       } else {
         pause(video);
@@ -34,6 +34,23 @@
       else manuallyPaused.add(video);
     });
     video.addEventListener('play', () => manuallyPaused.delete(video));
+  });
+  document.querySelectorAll('[data-project-browser]').forEach(browser => {
+    const filters = browser.querySelector('.project-filters');
+    const buttons = [...browser.querySelectorAll('[data-project-filter]')];
+    const cards = [...browser.querySelectorAll('[data-project-topics]')];
+    const count = browser.querySelector('[data-project-count]');
+    buttons.forEach(button => button.addEventListener('click', () => {
+      const topic = button.dataset.projectFilter;
+      buttons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+      cards.forEach(card => {
+        card.hidden = topic !== 'all' && !card.dataset.projectTopics.split(' ').includes(topic);
+      });
+      const matching = cards.filter(card => !card.hidden).length;
+      count.textContent = topic === 'all' ? `${cards.length} projects` : `${matching} of ${cards.length} projects`;
+      update();
+    }));
+    filters.hidden = false;
   });
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(entries => {

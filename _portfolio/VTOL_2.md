@@ -1,4 +1,7 @@
 ---
+home_order: 8
+topics: [aerial, control, design]
+card_image: /assets/projects/vtol-platform.jpg
 card_title: "VTOL: competition platform"
 card_label: "Aircraft development"
 card_summary: "Design, integration, and autonomous flight testing with Team Bulnabi."

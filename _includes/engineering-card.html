@@ -1,4 +1,4 @@
-<article class="engineering-card">
+<article class="engineering-card" data-project-topics="{{ include.project.topics | join: ' ' | escape }}">
   {% if include.project.card_image %}{% assign card_image = include.project.card_image %}{% else %}{% assign card_image = include.project.preview_images | first %}{% endif %}
   {% if include.project.card_video %}
   <div class="engineering-image engineering-image--video">

@@ -2,7 +2,7 @@
 card_video_alt: "Competition VTOL transitioning from hover to fixed-wing flight."
 card_video: /assets/projects/vtol.mp4
 home_order: 2
-featured_engineering: true
+topics: [aerial, control, design]
 card_image: /assets/projects/vtol.jpg
 card_gallery:
   - image: /assets/projects/vtol-aircraft.jpg

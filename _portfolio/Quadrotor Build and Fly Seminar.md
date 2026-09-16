@@ -1,4 +1,9 @@
 ---
+home_order: 9
+topics: [aerial, design, teaching]
+card_image: /assets/projects/quadrotor-seminars.jpg
+card_video: /assets/projects/quadrotor-seminars.mp4
+card_video_alt: "Quadrotor flight demonstration from the build and fly seminars."
 card_title: "Quadrotor build & fly seminars"
 card_label: "Teaching & hardware"
 card_summary: "Hands-on seminars covering assembly, calibration, flight experiments, and log analysis."

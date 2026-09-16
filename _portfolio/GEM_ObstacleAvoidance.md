@@ -2,7 +2,7 @@
 card_video_alt: "GEM e4 driving around an obstacle during an outdoor test."
 card_video: /assets/projects/gem.mp4
 home_order: 1
-featured_engineering: true
+topics: [control]
 card_image: /assets/projects/gem.jpg
 card_gallery:
   - image: /assets/projects/gem-simulation.jpg

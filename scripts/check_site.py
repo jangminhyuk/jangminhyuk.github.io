@@ -35,6 +35,13 @@ def main():
         *root.glob("portfolio/*/index.html"),
     ]
     errors = []
+    homepage_links = set()
+    if (root / "index.html").exists():
+        homepage = Page((root / "index.html").read_text(encoding="utf-8"))
+        homepage_links = {
+            unquote(urlsplit(attrs.get("href", "")).path)
+            for tag, attrs in homepage.tags if tag == "a"
+        }
     for path in pages:
         if not path.exists():
             errors.append(f"Missing page: {path}")
@@ -43,6 +50,9 @@ def main():
         if sum(tag == "h1" for tag, _ in page.tags) != 1:
             errors.append(f"Expected one main heading: {path.relative_to(root)}")
         if path.parent.parent == root / "portfolio":
+            project_url = "/" + path.parent.relative_to(root).as_posix() + "/"
+            if project_url not in homepage_links:
+                errors.append(f"Project missing from homepage: {project_url}")
             expected_title = next(
                 (attrs.get("content", "") for tag, attrs in page.tags
                  if tag == "meta" and attrs.get("property") == "og:title"), ""

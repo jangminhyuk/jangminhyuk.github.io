@@ -5,7 +5,7 @@ Personal website: https://jangminhyuk.github.io/
 - _data/research.yml is the shared publication record. It supplies titles, author lists, status, paper links, and media for both the homepage and /publications/.
 - Set featured: true to show a research entry with its figure or video on the homepage.
 - _portfolio/ contains detail pages. A research_id connects a page to its publication record and keeps it out of the engineering project listing.
-- Engineering projects without a research_id appear at /portfolio/. Use featured_engineering: true and home_order to select and order homepage projects. The card_video and card_image fields specify an inline MP4 and its poster; card_* fields supply the text.
+- All engineering projects without a research_id appear on the homepage and at /portfolio/, ordered by home_order. Assign one or more topics from _data/project_topics.yml to include a project in those filters. The card_video and card_image fields specify an inline MP4 and its poster; card_* fields supply the text.
 - An optional card_gallery adds supporting media to a homepage project. Each entry has image, alt, and caption fields, plus video for a clip.
 - _pages/about.md contains the introduction, background, and homepage sections.
 - The current CV is files/Minhyuk_Jang_CV.pdf.

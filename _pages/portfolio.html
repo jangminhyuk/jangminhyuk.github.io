@@ -4,4 +4,4 @@ title: "Engineering Projects"
 permalink: /portfolio/
 ---
 <header class="index-heading"><h1>Projects</h1><button type="button" class="motion-toggle" hidden aria-pressed="false">Pause videos</button></header>
-<div class="engineering-grid engineering-grid--archive">{% assign projects = site.portfolio | sort: 'order' %}{% for project in projects %}{% unless project.research_id %}{% include engineering-card.html project=project %}{% endunless %}{% endfor %}</div>
+{% include project-browser.html grid_id="archive-project-grid" grid_class="engineering-grid--archive" %}

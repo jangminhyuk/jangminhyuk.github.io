@@ -13,7 +13,7 @@ redirect_from:
     <p class="intro-bio">My research is in robotics, with a focus on robust state estimation, learning-based control, and safe motion planning. I work with Prof. Naira Hovakimyan at the <a href="https://naira.mechse.illinois.edu/">Advanced Controls Research Laboratory</a>.</p>
     <div class="education-brief" aria-label="Education">
       <div><strong>University of Illinois Urbana-Champaign</strong><p>Ph.D. student, Mechanical Science & Engineering · 2025–present <span class="gpa">GPA: 4.0 / 4.0</span></p></div>
-      <div><strong>Seoul National University</strong><p>B.S., Artificial Intelligence & Mechanical Engineering · 2025 <span class="gpa">GPA: 3.99 / 4.0</span></p></div>
+      <div><strong>Seoul National University</strong><p>B.S., Artificial Intelligence & Mechanical Engineering · 2025 <span class="gpa">GPA: 3.99 / 4.0</span></p><p class="education-awards">College of Engineering Outstanding Graduate Award<br>Outstanding B.S. Thesis Presentation Award</p></div>
     </div>
     <div class="intro-actions">
       <a class="text-link intro-cv" href="{{ '/files/Minhyuk_Jang_CV.pdf' | relative_url }}">View CV <span aria-hidden="true">↗</span></a>
@@ -48,11 +48,8 @@ redirect_from:
 </section>
 
 <section id="projects" class="section-block" aria-labelledby="projects-title">
-  <div class="section-heading"><h2 id="projects-title">Projects</h2><div class="section-actions"><button type="button" class="motion-toggle" hidden aria-pressed="false">Pause videos</button><a class="text-link" href="{{ '/portfolio/' | relative_url }}">All projects <span aria-hidden="true">↗</span></a></div></div>
-  <div class="engineering-grid engineering-grid--featured">
-    {% assign featured_projects = site.portfolio | where: 'featured_engineering', true | sort: 'home_order' %}
-    {% for project in featured_projects %}{% include engineering-card.html project=project show_gallery=true %}{% endfor %}
-  </div>
+  <div class="section-heading"><h2 id="projects-title">Projects</h2><button type="button" class="motion-toggle" hidden aria-pressed="false">Pause videos</button></div>
+  {% include project-browser.html grid_id="home-project-grid" grid_class="engineering-grid--featured" show_gallery=true %}
 </section>
 
 <section id="publications" class="section-block" aria-labelledby="publications-title">
@@ -76,7 +73,7 @@ redirect_from:
   <div class="section-heading"><h2 id="background-title">Experience & service</h2><a class="text-link" href="{{ '/files/Minhyuk_Jang_CV.pdf' | relative_url }}">Full CV <span aria-hidden="true">↗</span></a></div>
   <div class="background-grid">
     <div><h3>Research</h3><div class="background-entry"><span class="entry-date">2025 — Present</span><h4>Advanced Controls Research Laboratory</h4><p>Research Assistant · UIUC</p></div><div class="background-entry"><span class="entry-date">2023 — 2025</span><h4>Learning and Decision Systems Lab</h4><p>Research Intern · Seoul National University</p></div><div class="background-entry"><span class="entry-date">2024</span><h4>NEARTHLAB</h4><p>Aerospace Engineering Intern · GNC Team</p></div></div>
-    <div><h3>Teaching & service</h3><div class="background-entry"><span class="entry-date">2026</span><h4>TAM 210/211 — Statics</h4><p>Teaching Assistant · UIUC</p></div><div class="background-entry"><h4>Reviewer</h4><p>IEEE Transactions on Signal Processing<br>IEEE Transactions on Control of Network Systems</p></div><div class="background-entry"><span class="entry-date">2023 — 2025</span><h4>Bulnabi — SNU Drone Club</h4><p>Team Leader · Quadrotor build/fly seminars</p></div></div>
+    <div><h3>Teaching & service</h3><div class="background-entry"><span class="entry-date">Spring & Fall 2026</span><h4>TAM 210/211 — Statics</h4><p>Teaching Assistant · UIUC</p></div><div class="background-entry"><h4>Reviewer</h4><p>IEEE Transactions on Signal Processing<br>IEEE Transactions on Control of Network Systems</p></div><div class="background-entry"><span class="entry-date">2023 — 2025</span><h4>Bulnabi — SNU Drone Club</h4><p>Team Leader · Quadrotor build/fly seminars<br>Korea Robot Aircraft Competition · Grand Award, 2024</p></div></div>
   </div>
 </section>
 <section class="fpv-section" aria-labelledby="fpv-title">

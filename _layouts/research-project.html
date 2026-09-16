@@ -17,6 +17,6 @@ layout: research-site
     {% include research-links.html item=research hide_project=true %}
     {% endif %}
   </header>
-  {% if research.image %}{% include research-media.html item=research %}{% endif %}
+  {% if research.image and page.hide_research_media != true %}{% include research-media.html item=research %}{% endif %}
   <div class="prose">{{ content }}</div>
 </article>
