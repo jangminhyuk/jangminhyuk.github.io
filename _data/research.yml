@@ -11,6 +11,7 @@
   alt: "Four simulated aerial refueling approaches, showing a receiver aircraft aligning with a moving drogue."
   caption: "Vision-based docking · FlightGear / JSBSim simulation"
   project: /portfolio/aerial-refueling/
+  website: https://aar-refueling.pages.dev/
   featured: true
 
 - id: safe-flow-expansion
